@@ -22,7 +22,6 @@ st.sidebar.header("🔍 Filtros")
 # Filtro de Ano
 df['Date'] = pd.to_datetime(df['Date'])
 anos_disponiveis = sorted(df['Date'].dt.year.unique()) #sorted para organizar os anos em ordem crescente
-df['Date'] = df['Date'].dt.date
 anos_selecionados = st.sidebar.multiselect("Ano", anos_disponiveis, default=anos_disponiveis) #multiselect permite selecionar múltiplas opções
 
 # Filtro de Jogo
@@ -109,7 +108,7 @@ else:
     salario_medio, salario_mediano, salario_maximo, total_registros, cargo_mais_comum = 0, 0, 0, "Nenhum dado encontrado"
 
 col1, col2 = st.columns(2)
-col1.metric("Maior Freqência de Colocação", f"{ganho_medio}")
+col1.metric("Maior Frequência de Colocação", f"{ganho_medio}")
 col2.metric("Quantidade de pódios", f"{quantidade}")
 
 col3, col4, col5 = st.columns(3)
@@ -145,13 +144,16 @@ with col_graf2:
         grafico_hist = px.histogram(
             df_filtrado,
             x='Prize_Clean',
-            nbins=50,
+            nbins=75,
             color = 'Game',
             title="Distribuição de premiações de todos os jogos",
-            labels={'Prize_Clean': 'Valor da premiação(USD)', 'Game': 'Jogo'}
+            labels={'Prize_Clean': 'Valor da premiação(USD)', 'Game': 'Jogo', 'count' : 'Quantidade'}
         )
-        grafico_hist.update_yaxes(title_text="Contagem")
+        grafico_hist.update_yaxes(title_text="Quantidade")
         grafico_hist.update_layout(title_x=0.1)
+        grafico_hist.update_traces(
+            hovertemplate="Faixa de Valor: %{x}<br>Quantidade: %{y}"
+        )
         st.plotly_chart(grafico_hist, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico de distribuição.")
@@ -164,13 +166,17 @@ with col_graf3[0]:
         jogo_ganho_max = jogo_ganho_max.sort_values(by='Cumulative_Prize', ascending=False)
         grafico_remoto = px.pie(
             jogo_ganho_max,
-            names='Jogo',
-            values='Ganhos Totais',
+            names='Game',
+            values='Cumulative_Prize',
             title='Proporção dos ganhos totais',
-            hole=0.5
+            hole=0.5,
+            labels={
+                'Game': 'Jogo', 
+                'Cumulative_Prize': 'Premiação Máxima Acumulada'
+            }
         )
         grafico_remoto.update_traces(textinfo='percent+label', pull=[0.05, 0, 0, 0])
-        grafico_remoto.update_layout(title_x=0.5)
+        grafico_remoto.update_layout(title_x=0.4)
         st.plotly_chart(grafico_remoto, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico dos tipos de trabalho.")
@@ -215,4 +221,4 @@ df_filtrado = df_filtrado.rename(columns={
     'Result': 'Resultado'
 })
 
-st.dataframe(df_filtrado)
+st.dataframe(df_filtrado, column_config={"Data": st.column_config.DateColumn(format="DD/MM/YYYY")})
