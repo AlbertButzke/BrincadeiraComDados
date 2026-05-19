@@ -21,6 +21,7 @@ st.sidebar.header("🔍 Filtros")
 
 # Filtro de Ano
 df['Date'] = pd.to_datetime(df['Date'])
+df['Date'] = df['Date'].dt.date
 anos_disponiveis = sorted(df['Date'].dt.year.unique()) #sorted para organizar os anos em ordem crescente
 anos_selecionados = st.sidebar.multiselect("Ano", anos_disponiveis, default=anos_disponiveis) #multiselect permite selecionar múltiplas opções
 
@@ -161,8 +162,8 @@ with col_graf3[0]:
         jogo_ganho_max = jogo_ganho_max.sort_values(by='Cumulative_Prize', ascending=False)
         grafico_remoto = px.pie(
             jogo_ganho_max,
-            names='Game',
-            values='Cumulative_Prize',
+            names='Jogo',
+            values='Ganhos Totais',
             title='Proporção dos ganhos totais',
             hole=0.5
         )
