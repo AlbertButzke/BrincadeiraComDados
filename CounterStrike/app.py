@@ -21,8 +21,8 @@ st.sidebar.header("🔍 Filtros")
 
 # Filtro de Ano
 df['Date'] = pd.to_datetime(df['Date'])
-df['Date'] = df['Date'].dt.date
 anos_disponiveis = sorted(df['Date'].dt.year.unique()) #sorted para organizar os anos em ordem crescente
+df['Date'] = df['Date'].dt.date
 anos_selecionados = st.sidebar.multiselect("Ano", anos_disponiveis, default=anos_disponiveis) #multiselect permite selecionar múltiplas opções
 
 # Filtro de Jogo
@@ -146,9 +146,11 @@ with col_graf2:
             df_filtrado,
             x='Prize_Clean',
             nbins=50,
+            color = 'Game',
             title="Distribuição de premiações de todos os jogos",
-            labels={'Prize_Clean': 'Valor da premiação(USD)', 'count': 'Contagem'}
+            labels={'Prize_Clean': 'Valor da premiação(USD)', 'Game': 'Jogo'}
         )
+        grafico_hist.update_yaxes(title_text="Contagem")
         grafico_hist.update_layout(title_x=0.1)
         st.plotly_chart(grafico_hist, use_container_width=True)
     else:
