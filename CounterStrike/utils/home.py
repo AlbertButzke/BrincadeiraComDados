@@ -4,13 +4,16 @@ import plotly.express as px
 
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
+# Recupera o DataFrame compartilhado pelo app.py
+if 'df_completo' in st.session_state:
+    df = st.session_state['df_completo']
+else:
+    # Caso alguém recarregue direto nesta página por engano
+    df = pd.read_csv("liquid_data.csv")
+    df['Date'] = pd.to_datetime(df['Date'])
+
 st.title("🏆 Dashboard Team Liquid - Visão Geral")
 
-# --- Carregamento dos dados ---
-url = "https://raw.githubusercontent.com/AlbertButzke/BrincadeiraComDados/main/CounterStrike/liquid_data.csv"
-df = pd.read_csv(url, index_col=0)
-
-df.to_csv("liquid_data.csv", index=False)  # Salva uma cópia local dos dados
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
