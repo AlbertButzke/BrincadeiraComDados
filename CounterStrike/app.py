@@ -147,7 +147,8 @@ with col_graf2:
             nbins=75,
             color = 'Game',
             title="Distribuição de premiações de todos os jogos",
-            labels={'Prize_Clean': 'Valor da premiação(USD)', 'Game': 'Jogo', 'count' : 'Quantidade'}
+            labels={'Prize_Clean': 'Valor da premiação(USD)', 'Game': 'Jogo', 'count' : 'Quantidade'},
+            range_x=[0, df_filtrado['Prize_Clean'].max()]
         )
         grafico_hist.update_yaxes(title_text="Quantidade")
         grafico_hist.update_layout(title_x=0.1)
