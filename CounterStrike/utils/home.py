@@ -119,6 +119,64 @@ st.markdown("---")
 
 # --- Análises Visuais com Plotly ---
 st.subheader("Gráficos")
+df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)]
+with st.container():
+    if not df_filtrado.empty:
+        df_filtrado = df_filtrado.sort_values(by="Date")
+        grafico_acumulativos = px.line(
+            df_filtrado,
+            x='Date',
+            y='Cumulative_Prize',
+            color='Game',
+            markers=True,
+            title="Evolução dos Ganhos Acumulados por Jogo",
+            hover_data={
+                'Tournament': True, 
+                'Game': True,
+                'Date': '|%d/%m/%Y', 
+                'Cumulative_Prize': ':$,.2f'},
+            labels={'Cumulative_Prize': 'Premiação Acumulada ($)', 'Date': 'Data'}
+        )
+        grafico_acumulativos.update_traces(
+            mode="markers+lines",
+            hovertemplate=(
+                "<b>Jogo:</b> %{customdata[1]}<br>"
+                "<b>Torneio:</b> %{customdata[0]}<br>"
+                "<b>Data:</b> %{x|%d/%m/%Y}<br>"
+                "<b>Total Acumulado:</b> %{y:$,.2f}<extra></extra>" 
+            )
+        )
+        ano_min = min(anos_selecionados)
+        ano_max = max(anos_selecionados)
+        grafico_acumulativos.update_xaxes(
+            type='date',
+            range=[f"{ano_min}-01-01", f"{ano_max}-12-31"],
+            
+            # Força o intervalo dos ticks a ser a cada 12 meses (M12)
+            dtick="M12",
+            
+            # Mostra apenas o Ano (Ex: 2018) em vez de "Jan 2018"
+            tickformat="%Y",
+            
+            showgrid=False,
+            showline=True,
+            linewidth=1.5,
+            linecolor='black',
+            tickangle=0
+        )
+        grafico_acumulativos.update_layout(
+            plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='rgba(0,0,0,0)',
+            margin=dict(l=40, r=20, t=50, b=40),
+            xaxis_title="",
+            yaxis_title="",
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5, title_text="")
+        )
+        grafico_acumulativos.update_yaxes(showgrid=True, gridcolor='lightgray', showline=True, linewidth=1.5, linecolor='black')
+
+        st.plotly_chart(grafico_acumulativos, use_container_width=True)
+    else:
+        st.warning("Nenhum dado para exibir no gráfico de ganhos acomulativos.")
 
 col_graf1, col_graf2 = st.columns(2)
 
