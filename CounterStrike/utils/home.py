@@ -301,6 +301,7 @@ cols.remove('Place')
 cols.remove('Place_Int')
 cols.remove('Tier')
 cols.remove('Cumulative_Prize')
+cols.remove('Year')
 
 cols.insert(2, 'Place_Int')
 cols.insert(len(cols), 'Place')
