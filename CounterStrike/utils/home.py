@@ -180,7 +180,103 @@ with col_graf3[0]:
         st.plotly_chart(grafico_remoto, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico dos tipos de trabalho.")
+
+
+st.title("🏅 Pódios da Team Liquid no CS, DotA, LoL e R6")
+df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)]
+if not df_filtrado.empty:
+    # Garante que temos uma coluna de Ano para o eixo X
+    df_filtrado['Year'] = df_filtrado['Date'].dt.year
+    
+    cor_map = {'1': '#FFD700', '2': '#C0C0C0', '3': '#CD7F32'}
+    labels_map = {'1': '1º Lugar', '2': '2º Lugar', '3': '3º Lugar'}
+
+    # 2. Função para criar o gráfico Plotly
+    def criar_grafico_interativo(df, jogo, titulo, lista_anos):
+        df_game = df[(df['Game'] == jogo) & (df['Place_Int'] <= 3)].copy()
         
+        if df_game.empty:
+            df_counts = pd.DataFrame(columns=['Year', 'Podium', 'Quantidade'])
+        
+        else:
+            # Agrupamos os dados para o Plotly contar as ocorrências
+            df_counts = df_game.groupby(['Year', 'Place_Int']).size().reset_index(name='Quantidade')
+            df_counts['Podium'] = df_counts['Place_Int'].astype(int).astype(str)
+
+            fig = px.bar(
+                df_counts, 
+                x='Year', 
+                y='Quantidade', 
+                color='Podium',
+                title=titulo,
+                color_discrete_map=cor_map,
+                barmode='group', # Colunas lado a lado por ano
+                category_orders={"Podium": ['1', '2', '3']}, # Força a ordem da legenda
+                labels={
+                    'Year': 'Ano'
+                }
+            )
+
+            fig.update_xaxes(
+                type='category',
+                categoryorder='array',
+                categoryarray= lista_anos,
+                tickvals=lista_anos,
+                range=[-0.5, len(lista_anos) - 0.5],
+                showgrid=False, 
+                showline=True, 
+                linewidth=1.5, 
+                linecolor='black', 
+                tickangle=0
+            )
+            fig.for_each_trace(lambda t: t.update(
+                                                name = labels_map.get(t.name, t.name)
+                                                ))
+
+            # Ajustes de layout para ficar limpo no Streamlit
+            fig.update_layout(
+                margin=dict(l=20, r=20, t=40, b=20),
+                xaxis_title="",
+                yaxis_title="",
+                plot_bgcolor='rgba(0,0,0,0)', # Fundo 100% transparente
+                paper_bgcolor='rgba(0,0,0,0)',
+                legend=dict(
+                    orientation="h", 
+                    yanchor="bottom", 
+                    y=1.02, 
+                    xanchor="center", 
+                    x=0.5,
+                    title_text="" # Remove a palavra "Place_Str" da legenda
+                ),
+                font=dict(color='black') # Texto preto nítido
+            )
+            
+            fig.update_yaxes(showgrid=False, showline=True, linewidth=1.5, linecolor='black')
+            
+            return fig
+
+    # 3. Exibição em Grid
+    col_a, col_b = st.columns(2)
+    col_c, col_d = st.columns(2)
+
+    config = [
+        ("CS:GO/CS2", "CS:GO/CS2", col_a),
+        ("Dota 2", "Dota 2", col_b),
+        ("LoL", "League of Legends", col_c),
+        ("R6", "Rainbow Six Siege", col_d)
+    ]
+
+    for game_id, nome, col in config:
+        with col:
+            figura = criar_grafico_interativo(df_filtrado, game_id, nome, anos_selecionados)
+            if figura:
+                st.plotly_chart(figura, use_container_width=True)
+            else:
+                st.info(f"Sem pódios para {game_id}")
+
+else:
+    st.warning("O DataFrame filtrado está vazio.")
+     
 # with col_graf4:
 #     if not df_filtrado.empty:
 #         df_ds = df_filtrado[df_filtrado['cargo'] == 'Data Scientist']
