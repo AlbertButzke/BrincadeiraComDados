@@ -66,8 +66,8 @@ faixa_selecionada = st.sidebar.select_slider(
 
 
 # Filtro por Tier
-# tier_disponiveis = sorted(df['Tier'].unique())
-# tier_selecionados = st.sidebar.multiselect("Tier", tier_disponiveis, default=tier_disponiveis)
+tier_disponiveis = sorted(df['Tier'].unique())
+tier_selecionados = st.sidebar.pills("Tier", tier_disponiveis, default=tier_disponiveis)
 
 # --- Filtragem do DataFrame ---
 # O dataframe principal é filtrado com base nas seleções feitas na barra lateral.
@@ -351,6 +351,7 @@ else:
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
 
+
 configuracao_colunas = {
     "Game": st.column_config.TextColumn("💻 Jogo", alignment="center"),
     "Place_Int": st.column_config.NumberColumn("🔢 Posição (Nº)", format="%d", alignment="center"),
@@ -360,15 +361,13 @@ configuracao_colunas = {
     "Result": st.column_config.TextColumn("📊 Resultado Final", alignment="center"),
     "Tournament_Link": st.column_config.LinkColumn(
         "🏆 Torneio",
-        display_text=r"([^/]+/[^/]+)$" 
+        display_text=df_filtrado['Tournament']
     )
 }
 
-df_filtrado_render = df_filtrado.copy()
-df_filtrado_render['Tournament_Link'] = df_filtrado_render['Tournament_Link'].str.replace('_', ' ').str.replace('/', ' - ')
 
 st.dataframe(
-    df_filtrado_render,
+    df_filtrado,
     hide_index=True,
     
     # Define a ordem visual exata simplesmente listando as colunas aqui!
