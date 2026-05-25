@@ -140,7 +140,7 @@ with st.container():
             color='Game',
             markers=True,
             title="Evolução dos Ganhos Acumulados por Jogo",
-            custom_data=['Tournament', 'Game', 'Tournament_Link', 'original_index'],
+            custom_data=['Tournament', 'Game', 'Tournament_Link', 'original_index', 'Cumulative_Prize'],
             color_discrete_sequence=px.colors.qualitative.Safe,
             labels={'Cumulative_Prize': 'Premiação Acumulada ($)', 'Date': 'Data'}
         )
