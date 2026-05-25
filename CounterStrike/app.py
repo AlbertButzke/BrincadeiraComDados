@@ -22,11 +22,11 @@ st.sidebar.header("🔍 Filtros")
 # Filtro de Ano
 df['Date'] = pd.to_datetime(df['Date'])
 anos_disponiveis = sorted(df['Date'].dt.year.unique()) #sorted para organizar os anos em ordem crescente
-anos_selecionados = st.sidebar.multiselect("Ano", anos_disponiveis, default=anos_disponiveis) #multiselect permite selecionar múltiplas opções
+anos_selecionados = st.sidebar.pills("Ano", anos_disponiveis, default=anos_disponiveis, selection_mode="multi") #multiselect permite selecionar múltiplas opções
 
 # Filtro de Jogo
 jogos_disponiveis = sorted(df['Game'].unique())
-jogos_selecionadas = st.sidebar.multiselect("Jogo", jogos_disponiveis, default=jogos_disponiveis)
+jogos_selecionadas = st.sidebar.pills("Jogo", jogos_disponiveis, default=jogos_disponiveis, selection_mode="multi")
 
 # Filtro por Classificação
 df['Place_Int'] = df['Place'].str.extract('(\d+)').astype(float)
@@ -38,10 +38,6 @@ alcance_colocacao = st.sidebar.slider(
     max_value=max_pos,
     value=(min_pos, max_pos) # Valor inicial (todo o alcance)
 )
-df_filtrado = df[
-    (df['Place_Int'] >= alcance_colocacao[0]) & 
-    (df['Place_Int'] <= alcance_colocacao[1])
-]
 
 # Filtro por valor de premiação
 # min_premiacao = float(df['Prize_Clean'].min())
@@ -56,18 +52,18 @@ df_filtrado = df[
 #     (df['Prize_Clean'] >= alcance_premiacao[0]) & 
 #     (df['Prize_Clean'] <= alcance_premiacao[1])
 # ]
-marcos = [0, 500, 1000, 5000, 10000, 50000, 100000, 250000, 500000, 1000000, 2000000, float(df['Prize_Clean'].max())]
+marcos = [0, 500, 1000, 5000, 10000, 50000, 100000, 250000, 500000, 1000000, 2000000]
+max_premio = float(df['Prize_Clean'].max())
+if max_premio > marcos[-1]: marcos.append(max_premio)
+marcos = sorted(list(set(marcos)))
+
 faixa_selecionada = st.sidebar.select_slider(
     "Selecione a Faixa de Premiação",
     options=marcos,
-    value=(0, float(df['Prize_Clean'].max())),  # Valor inicial (do mínimo ao máximo)
-    format_func=lambda x: f"US$ {x:,}" if x >= 1000 else f"US$ {x}"
+    value=(marcos[0], marcos[-1]),  # Valor inicial (do mínimo ao máximo)
+    format_func=lambda x: f"US$ {int(x):,}".replace(",", ".")
 )
-df_filtrado = df[
-    (df['Prize_Clean'] >= faixa_selecionada[0]) & 
-    (df['Prize_Clean'] <= faixa_selecionada[1])
-]
-st.sidebar.info(f"Torneios encontrados: {len(df_filtrado)}")
+
 
 # Filtro por Tier
 # tier_disponiveis = sorted(df['Tier'].unique())
@@ -80,12 +76,13 @@ df_filtrado = df[
     (df['Game'].isin(jogos_selecionadas)) &
     # (df['Place'].isin(classificacao_selecionados))
     (df['Place_Int'] >= alcance_colocacao[0]) & 
-    (df['Place_Int'] <= alcance_colocacao[1]) 
-    # (df['Tier'].isin(tier_selecionados))
-    # (df['Place_Int'] >= alcance_premiacao[0]) & 
-    # (df['Place_Int'] <= alcance_premiacao[1]) 
-]
+    (df['Place_Int'] <= alcance_colocacao[1]) &
+    (df['Prize_Clean'] >= faixa_selecionada[0]) & 
+    (df['Prize_Clean'] <= faixa_selecionada[1])
+].copy()
+df_filtrado = df_filtrado.sort_values('Date').reset_index(drop=True)
 df_filtrado = df_filtrado.drop(columns=['Prize'])
+st.sidebar.info(f"Torneios encontrados: {len(df_filtrado)}")
 
 # --- Conteúdo Principal ---
 st.title("🎲 Dashboard de Ganhos da Team Liquid no CS, DotA, LoL e R6")
@@ -107,8 +104,6 @@ if not df_filtrado.empty:
 else:
     salario_medio, salario_mediano, salario_maximo, total_registros, cargo_mais_comum = 0, 0, 0, "Nenhum dado encontrado"
 
-
-
 col1, col2 = st.columns(2)
 col1.metric("Maior Frequência de Colocação", f"{ganho_medio}")
 col2.metric("Quantidade de pódios", f"{quantidade}")
@@ -122,8 +117,7 @@ st.markdown("---")
 
 # --- Análises Visuais com Plotly ---
 st.subheader("Gráficos")
-
-df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)]
+df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)].copy()
 with st.container():
     if not df_filtrado.empty:
         df_filtrado = df_filtrado.sort_values(by="Date")
@@ -181,7 +175,6 @@ with st.container():
         st.plotly_chart(grafico_acumulativos, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico de ganhos acomulativos.")
-
 
 col_graf1, col_graf2 = st.columns(2)
 
@@ -246,7 +239,7 @@ with col_graf3[0]:
 
 
 st.title("🏅 Pódios da Team Liquid no CS, DotA, LoL e R6")
-df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)]
+df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)].copy()
 if not df_filtrado.empty:
     # Garante que temos uma coluna de Ano para o eixo X
     df_filtrado['Year'] = df_filtrado['Date'].dt.year
@@ -255,8 +248,8 @@ if not df_filtrado.empty:
     labels_map = {'1': '1º Lugar', '2': '2º Lugar', '3': '3º Lugar'}
 
     # 2. Função para criar o gráfico Plotly
-    def criar_grafico_interativo(df, jogo, titulo, lista_anos):
-        df_game = df[(df['Game'] == jogo) & (df['Place_Int'] <= 3)].copy()
+    def criar_grafico_interativo(df_interno, jogo, titulo, lista_anos):
+        df_game = df_interno[(df_interno['Game'] == jogo) & (df_interno['Place_Int'] <= 3)].copy()
         
         if df_game.empty:
             df_counts = pd.DataFrame(columns=['Year', 'Podium', 'Quantidade'])
@@ -284,7 +277,7 @@ if not df_filtrado.empty:
                 type='category',
                 categoryorder='array',
                 categoryarray= lista_anos,
-                tickvals=lista_anos,
+                # tickvals=lista_anos,
                 range=[-0.5, len(lista_anos) - 0.5],
                 showgrid=False, 
                 showline=True, 
@@ -331,7 +324,7 @@ if not df_filtrado.empty:
 
     for game_id, nome, col in config:
         with col:
-            figura = criar_grafico_interativo(df_filtrado, game_id, nome, anos_selecionados)
+            figura = criar_grafico_interativo(df_filtrado, game_id, nome, sorted(anos_selecionados))
             if figura:
                 st.plotly_chart(figura, use_container_width=True)
             else:
@@ -358,27 +351,22 @@ else:
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
 
-cols = list(df_filtrado.columns)
-# Remove as colunas das posições atuais
-cols.remove('Place')
-cols.remove('Place_Int')
-cols.remove('Tier')
-cols.remove('Cumulative_Prize')
-cols.remove('Year')
+configuracao_colunas = {
+    "Game": st.column_config.TextColumn("💻 Jogo", alignment="center"),
+    "Place_Int": st.column_config.NumberColumn("🔢 Posição (Nº)", format="%d", alignment="center"),
+    "Place": st.column_config.TextColumn("🏅 Colocação", alignment="center"),
+    "Date": st.column_config.DateColumn("📅 Data", format="DD/MM/YYYY", alignment="center"),
+    "Prize_Clean": st.column_config.NumberColumn("💰 Premiação (US$)", format="%,.0f", alignment="center"),
+    "Result": st.column_config.TextColumn("📊 Resultado Final", alignment="center")
+}
 
-cols.insert(2, 'Place_Int')
-cols.insert(len(cols), 'Place')
-
-
-df_filtrado = df_filtrado[cols]
-
-df_filtrado = df_filtrado.rename(columns={
-    'Place': 'Colocação Original',
-    'Place_Int': 'Posição Numérica',
-    'Prize_Clean': 'Premiação (USD)',
-    'Date': 'Data',
-    'Tournamente': 'Torneio',
-    'Result': 'Resultado'
-})
-
-st.dataframe(df_filtrado, column_config={"Data": st.column_config.DateColumn(format="DD/MM/YYYY")})
+st.dataframe(
+    df_filtrado,
+    hide_index=True,
+    
+    # Define a ordem visual exata simplesmente listando as colunas aqui!
+    column_order=['Date', 'Game', 'Place_Int', 'Place', 'Prize_Clean', 'Result'],
+    
+    # Customiza o cabeçalho e formato de cada coluna
+    column_config=configuracao_colunas
+)
