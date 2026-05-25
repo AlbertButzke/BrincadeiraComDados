@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from streamlit_plotly_events import plotly_events
 
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
@@ -123,42 +124,40 @@ st.subheader("Gráficos")
 df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)].copy()
 with st.container():
     if not df_filtrado.empty:
-        df_filtrado = df_filtrado.sort_values(by="Date")
+        # Criamos uma cópia e ordenamos por data
+        df_grafico = df_filtrado.sort_values(by="Date").copy()
+        df_grafico['original_index'] = df_grafico.index 
+
         grafico_acumulativos = px.line(
-            df_filtrado,
+            df_grafico,
             x='Date',
             y='Cumulative_Prize',
             color='Game',
             markers=True,
             title="Evolução dos Ganhos Acumulados por Jogo",
-            hover_data={
-                'Tournament': True, 
-                'Game': True,
-                'Date': '|%d/%m/%Y', 
-                'Cumulative_Prize': ':$,.2f'},
+            custom_data=['Tournament', 'Game', 'Tournament_Link', 'original_index'],
+            color_discrete_sequence=px.colors.qualitative.Safe,
             labels={'Cumulative_Prize': 'Premiação Acumulada ($)', 'Date': 'Data'}
         )
+        
         grafico_acumulativos.update_traces(
             mode="markers+lines",
             hovertemplate=(
                 "<b>Jogo:</b> %{customdata[1]}<br>"
                 "<b>Torneio:</b> %{customdata[0]}<br>"
                 "<b>Data:</b> %{x|%d/%m/%Y}<br>"
-                "<b>Total Acumulado:</b> %{y:$,.2f}<extra></extra>" 
+                "<b>Total Acumulado:</b> %{y:$,.2f}<br><br>"
+                "<i>💡 Clique no ponto para ver os detalhes abaixo</i><extra></extra>" 
             )
         )
+        
         ano_min = min(anos_selecionados)
         ano_max = max(anos_selecionados)
         grafico_acumulativos.update_xaxes(
             type='date',
             range=[f"{ano_min}-01-01", f"{ano_max}-12-31"],
-            
-            # Força o intervalo dos ticks a ser a cada 12 meses (M12)
             dtick="M12",
-            
-            # Mostra apenas o Ano (Ex: 2018) em vez de "Jan 2018"
             tickformat="%Y",
-            
             showgrid=False,
             showline=True,
             linewidth=1.5,
@@ -171,13 +170,45 @@ with st.container():
             margin=dict(l=40, r=20, t=50, b=40),
             xaxis_title="",
             yaxis_title="",
+            hovermode="closest",
             legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5, title_text="")
         )
         grafico_acumulativos.update_yaxes(showgrid=True, gridcolor='lightgray', showline=True, linewidth=1.5, linecolor='black')
 
-        st.plotly_chart(grafico_acumulativos, use_container_width=True)
+        # Captura os cliques nos pontos do gráfico
+        click_select = plotly_events(grafico_acumulativos, click_event=True, select_event=False, override_height=450)
+
+        # 🌟 MONITORAMENTO INTELIGENTE DE CLIQUE COMPATÍVEL
+        # Se o usuário clicar, guardamos as informações em um container de destaque
+        ponto_focado = None
+        
+        if click_select:
+            ponto_clicado = click_select[0]
+            ponto_index = ponto_clicado['pointNumber']
+            curve_index = ponto_clicado['curveNumber']
+            
+            jogo_da_curva = grafico_acumulativos.data[curve_index].name
+            df_filtrado_jogo = df_grafico[df_grafico['Game'] == jogo_da_curva]
+            
+            if ponto_index < len(df_filtrado_jogo):
+                ponto_focado = df_filtrado_jogo.iloc[ponto_index]
+
+        # Se houver um ponto clicado, exibe um painel de destaque lindíssimo antes da tabela
+        if ponto_focado is not None:
+            st.info(f"🔍 **Resultado focado pelo Gráfico:** {ponto_focado['Tournament']} ({ponto_focado['Game']})")
+            
+            # Cria colunas de métricas rápidas sobre o ponto clicado
+            met_col1, met_col2, met_col3 = st.columns(3)
+            with met_col1:
+                st.metric("🏅 Colocação", str(ponto_focado['Place']))
+            with met_col2:
+                st.metric("💰 Premiação Individual", f"US$ {ponto_focado['Prize_Clean']:,.0f}")
+            with met_col3:
+                if ponto_focado['Tournament_Link']:
+                    st.link_button("Abrir Liquipedia ↗️", ponto_focado['Tournament_Link'], use_container_width=True)
+
     else:
-        st.warning("Nenhum dado para exibir no gráfico de ganhos acomulativos.")
+        st.warning("Nenhum dado para exibir no gráfico de ganhos acumulativos.")
 
 col_graf1, col_graf2 = st.columns(2)
 
