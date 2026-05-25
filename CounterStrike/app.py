@@ -126,6 +126,11 @@ with st.container():
     if not df_filtrado.empty:
         # Criamos uma cópia e ordenamos por data
         df_grafico = df_filtrado.sort_values(by="Date").copy()
+
+        df_grafico['Prize_Clean'] = pd.to_numeric(df_grafico['Prize_Clean'], errors='coerce').fillna(0)
+        
+        df_grafico['Cumulative_Prize'] = df_grafico.groupby('Game')['Prize_Clean'].cumsum()
+
         df_grafico['original_index'] = df_grafico.index 
 
         grafico_acumulativos = px.line(
