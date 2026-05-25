@@ -250,6 +250,14 @@ if not df_filtrado.empty:
     cor_map = {'1': '#FFD700', '2': '#C0C0C0', '3': '#CD7F32'}
     labels_map = {'1': '1º Lugar', '2': '2º Lugar', '3': '3º Lugar'}
 
+    df_podios_geral = df_filtrado[df_filtrado['Place_Int'].isin([1, 2, 3])]
+    
+    if not df_podios_geral.empty:
+        max_por_barra = df_podios_geral.groupby(['Year', 'Game', 'Place_Int']).size()
+        max_y_global = int(max_por_barra.max()) + 0.5
+    else:
+        max_y_global = 4.5
+
     # 2. Função para criar o gráfico Plotly
     def criar_grafico_interativo(df_interno, jogo, titulo, lista_anos):
         df_game = df_interno[(df_interno['Game'] == jogo) & (df_interno['Place_Int'] <= 3)].copy()
@@ -310,7 +318,17 @@ if not df_filtrado.empty:
                 font=dict(color='black') # Texto preto nítido
             )
             
-            fig.update_yaxes(showgrid=False, showline=True, linewidth=1.5, linecolor='black')
+            intervalo_ticks = 1 if max_y_global <= 10 else 2
+
+            fig.update_yaxes(
+                showgrid=False, 
+                showline=True, 
+                linewidth=1.5, 
+                linecolor='black',
+                range=[0, max_y_global],       # <--- Força todos os gráficos a usarem o mesmo teto numérico
+                dtick=intervalo_ticks,         # <--- Garante que os passos sejam sempre inteiros (1, 2, 3...) eliminando decimais
+                tickformat="d"                 # <--- Força a formatação de exibição estritamente como número Inteiro
+            )
             
             return fig
 
