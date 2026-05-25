@@ -358,15 +358,21 @@ configuracao_colunas = {
     "Date": st.column_config.DateColumn("📅 Data", format="DD/MM/YYYY", alignment="center"),
     "Prize_Clean": st.column_config.NumberColumn("💰 Premiação (US$)", format="%,.0f", alignment="center"),
     "Result": st.column_config.TextColumn("📊 Resultado Final", alignment="center"),
-    "Tournament": st.column_config.TextColumn("🏆 Torneio", alignment="center"),
+    "Tournament_Link": st.column_config.LinkColumn(
+        "🏆 Torneio",
+        display_text=r"([^/]+/[^/]+)$" 
+    )
 }
 
+df_filtrado_render = df_filtrado.copy()
+df_filtrado_render['Tournament_Link'] = df_filtrado_render['Tournament_Link'].str.replace('_', ' ').str.replace('/', ' - ')
+
 st.dataframe(
-    df_filtrado,
+    df_filtrado_render,
     hide_index=True,
     
     # Define a ordem visual exata simplesmente listando as colunas aqui!
-    column_order=['Date', 'Game', 'Tournament', 'Place_Int', 'Place', 'Prize_Clean', 'Result'],
+    column_order=['Date', 'Game', 'Tournament_Link', 'Place_Int', 'Place', 'Prize_Clean', 'Result'],
     
     # Customiza o cabeçalho e formato de cada coluna
     column_config=configuracao_colunas
