@@ -59,8 +59,15 @@ faixa_selecionada = st.sidebar.select_slider(
 
 
 # Filtro por Tier
-tier_disponiveis = sorted(df['Tier'].unique())
-tier_selecionados = st.sidebar.pills("Tier", tier_disponiveis, default=tier_disponiveis, selection_mode="multi")
+ordem_tiers = ["S-Tier", "A-Tier", "Tier 1", "B-Tier", "Tier 2", "C-Tier", "Tier 3", "D-Tier", "Qualifer", "Monthly", "Weekly"]
+tiers_existentes = df['Tier'].unique()
+tier_disponiveis = [t for t in ordem_tiers if t in tiers_existentes]
+tier_disponiveis += [t for t in tiers_existentes if t not in ordem_tiers]
+
+tier_selecionados = st.sidebar.pills("Tier", 
+                                     tier_disponiveis, 
+                                     default=tier_disponiveis, 
+                                     selection_mode="multi")
 
 # --- Filtragem do DataFrame ---
 # O dataframe principal é filtrado com base nas seleções feitas na barra lateral.
@@ -312,10 +319,10 @@ if not df_filtrado.empty:
     col_c, col_d = st.columns(2)
 
     config = [
-        ("CS:GO/CS2", "CS:GO/CS2", col_a),
+        ("Counter-Strike", "Counter-Strike", col_a),
         ("Dota 2", "Dota 2", col_b),
-        ("LoL", "League of Legends", col_c),
-        ("R6", "Rainbow Six Siege", col_d)
+        ("League of Legends", "League of Legends", col_c),
+        ("Rainbow Six", "Rainbow Six Siege", col_d)
     ]
 
     for game_id, nome, col in config:
