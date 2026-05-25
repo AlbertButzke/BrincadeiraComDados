@@ -356,23 +356,28 @@ st.subheader("Dados Detalhados")
 
 df_filtrado_render = df_filtrado.copy()
 
-df_filtrado_render['Torneio_Formatado'] = df_filtrado_render.apply(
-    lambda row: f'<a href="{row["Tournament_Link"]}" target="_blank">{row["Tournament"]}</a>' 
-    if pd.notna(row['Tournament_Link']) and str(row['Tournament_Link']).strip() != '' 
-    else row['Tournament'], 
-    axis=1
+df_filtrado_render['Tournament'] = df_filtrado_render['Tournament'].fillna('Torneio Desconhecido')
+df_filtrado_render['Tournament_Link'] = df_filtrado_render['Tournament_Link'].fillna('')
+
+df_filtrado_render['Tournament_Combined'] = (
+    df_filtrado_render['Tournament'] + "#" + df_filtrado_render['Tournament_Link']
 )
 
 
 
 configuracao_colunas = {
-    "Game": st.column_config.TextColumn("💻 Jogo", alignment="center"),
+    "Game": st.column_config.TextColumn("💻 Jogo", alignment="left"),
     "Place_Int": st.column_config.NumberColumn("🔢 Posição (Nº)", format="%d", alignment="center"),
     "Place": st.column_config.TextColumn("🏅 Colocação", alignment="center"),
     "Date": st.column_config.DateColumn("📅 Data", format="DD/MM/YYYY", alignment="center"),
     "Prize_Clean": st.column_config.NumberColumn("💰 Premiação (US$)", format="%,.0f", alignment="center"),
     "Result": st.column_config.TextColumn("⚔️ Placar Final", alignment="center"),
-    "Torneio_Formatado": st.column_config.TextColumn("🏆 Torneio", alignment="left")
+    "Tournament_Combined": st.column_config.LinkColumn(
+        "🏆 Torneio", 
+        alignment="center",
+        display_text=r"^([^#]+)"
+    ),
+    "Tier": st.column_config.TextColumn("📊 Tier ", alignment="center")
 }
 
 
@@ -381,9 +386,7 @@ st.dataframe(
     hide_index=True,
     use_container_width=True,
     
-    # Define a ordem visual exata simplesmente listando as colunas aqui!
-    column_order=['Date', 'Game', 'Torneio_Formatado', 'Place_Int', 'Place', 'Prize_Clean', 'Result'],
+    column_order=['Date', 'Game', 'Tournament_Combined', 'Place_Int', 'Tier', 'Place', 'Prize_Clean', 'Result'],
     
-    # Customiza o cabeçalho e formato de cada coluna
     column_config=configuracao_colunas
 )
