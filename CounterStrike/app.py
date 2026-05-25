@@ -151,7 +151,7 @@ with st.container():
                 "<b>Jogo:</b> %{customdata[1]}<br>"
                 "<b>Torneio:</b> %{customdata[0]}<br>"
                 "<b>Data:</b> %{x|%d/%m/%Y}<br>"
-                "<b>Total Acumulado:</b> %{y:$,.2f}<br><br>"
+                "<b>Total Acumulado:</b> %{customdata[4]:$,.2f}<br><br>"
                 "<i>💡 Clique no ponto para ver os detalhes abaixo</i><extra></extra>" 
             )
         )
