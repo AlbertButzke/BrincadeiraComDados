@@ -136,7 +136,7 @@ with st.container():
         grafico_acumulativos = px.line(
             df_grafico,
             x='Date',
-            y='Cumulative_Prize',
+            y="Cumulative_Prize",
             color='Game',
             markers=True,
             title="Evolução dos Ganhos Acumulados por Jogo",
