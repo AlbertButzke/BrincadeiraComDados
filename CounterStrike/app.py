@@ -30,8 +30,14 @@ jogos_selecionadas = st.sidebar.pills("Jogo", jogos_disponiveis, default=jogos_d
 
 # Filtro por Classificação
 df['Place_Int'] = df['Place'].str.extract('(\d+)').astype(float)
-min_pos = int(df['Place_Int'].min())
-max_pos = int(df['Place_Int'].max())
+df_com_numeros = df.dropna(subset=['Place_Int'])
+
+if not df_com_numeros.empty:
+    min_pos = int(df_com_numeros['Place_Int'].min())
+    max_pos = int(df_com_numeros['Place_Int'].max())
+else:
+    min_pos = 1
+    max_pos = 10
 alcance_colocacao = st.sidebar.slider(
     "Filtrar por Colocação (Ex: 1º ao 10º)",
     min_value=min_pos,
@@ -39,19 +45,6 @@ alcance_colocacao = st.sidebar.slider(
     value=(min_pos, max_pos) # Valor inicial (todo o alcance)
 )
 
-# Filtro por valor de premiação
-# min_premiacao = float(df['Prize_Clean'].min())
-# max_premiacao = float(df['Prize_Clean'].max())
-# alcance_premiacao = st.sidebar.slider(
-#     "Filtrar por Valor de Premiação",
-#     min_value=min_premiacao,
-#     max_value=max_premiacao,
-#     value=(min_premiacao, max_premiacao) # Valor inicial (todo o alcance)
-# )
-# df_filtrado = df[
-#     (df['Prize_Clean'] >= alcance_premiacao[0]) & 
-#     (df['Prize_Clean'] <= alcance_premiacao[1])
-# ]
 marcos = [0, 500, 1000, 5000, 10000, 50000, 100000, 250000, 500000, 1000000, 2000000]
 max_premio = float(df['Prize_Clean'].max())
 if max_premio > marcos[-1]: marcos.append(max_premio)
@@ -67,18 +60,21 @@ faixa_selecionada = st.sidebar.select_slider(
 
 # Filtro por Tier
 tier_disponiveis = sorted(df['Tier'].unique())
-tier_selecionados = st.sidebar.pills("Tier", tier_disponiveis, default=tier_disponiveis)
+tier_selecionados = st.sidebar.pills("Tier", tier_disponiveis, default=tier_disponiveis, selection_mode="multi")
 
 # --- Filtragem do DataFrame ---
 # O dataframe principal é filtrado com base nas seleções feitas na barra lateral.
+condicao_colocacao = (
+    ((df['Place_Int'] >= alcance_colocacao[0]) & (df['Place_Int'] <= alcance_colocacao[1])) | 
+    (df['Place_Int'].isna())
+)
 df_filtrado = df[
     (df['Date'].dt.year.isin(anos_selecionados)) &
     (df['Game'].isin(jogos_selecionadas)) &
-    # (df['Place'].isin(classificacao_selecionados))
-    (df['Place_Int'] >= alcance_colocacao[0]) & 
-    (df['Place_Int'] <= alcance_colocacao[1]) &
+    condicao_colocacao &
     (df['Prize_Clean'] >= faixa_selecionada[0]) & 
-    (df['Prize_Clean'] <= faixa_selecionada[1])
+    (df['Prize_Clean'] <= faixa_selecionada[1]) &
+    (df['Tier'].isin(tier_selecionados))
 ].copy()
 df_filtrado = df_filtrado.sort_values('Date').reset_index(drop=True)
 df_filtrado = df_filtrado.drop(columns=['Prize'])

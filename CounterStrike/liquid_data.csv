@@ -133,8 +133,8 @@
 609,2019-06-02,1st,S-Tier,DreamHack Masters Dallas 2019,2 : 1,100000.0,https://liquipedia.net/counterstrike/DreamHack/2019/Dallas,Counter-Strike,100000.0,2459186.73
 610,2019-06-17,1st,B-Tier,GG.Bet Cologne Invitational,2 : 0,,https://liquipedia.net/counterstrike/GG.Bet_Cologne_Invitational,Counter-Strike,0.0,2459186.73
 611,2019-06-23,1st,S-Tier,ESL Pro League Season 9 - Finals,3 : 1,250000.0,https://liquipedia.net/counterstrike/ESL/Pro_League/Season_9/Finals,Counter-Strike,250000.0,2709186.73
-612,2019-07-07,1st,S-Tier,ESL One: Cologne 2019,3 : 1,125000.0,https://liquipedia.net/counterstrike/ESL/One/2019/Cologne,Counter-Strike,125000.0,2834186.73
-613,2019-07-07,1st,Points,Intel Grand Slam Season 2,custom,1000000.0,https://liquipedia.net/counterstrike/Intel/Grand_Slam/2,Counter-Strike,1000000.0,3834186.73
+612,2019-07-07,1st,Points,Intel Grand Slam Season 2,custom,1000000.0,https://liquipedia.net/counterstrike/Intel/Grand_Slam/2,Counter-Strike,1000000.0,3709186.73
+613,2019-07-07,1st,S-Tier,ESL One: Cologne 2019,3 : 1,125000.0,https://liquipedia.net/counterstrike/ESL/One/2019/Cologne,Counter-Strike,125000.0,3834186.73
 614,2019-07-14,1st,A-Tier,BLAST Pro Series: Los Angeles 2019,2 : 0,125000.0,https://liquipedia.net/counterstrike/BLAST/Pro_Series/2019/Los_Angeles,Counter-Strike,125000.0,3959186.73
 615,2019-07-21,1st,S-Tier,Intel Extreme Masters XIV - Chicago,3 : 0,125000.0,https://liquipedia.net/counterstrike/Intel_Extreme_Masters/Season_XIV/Chicago,Counter-Strike,125000.0,4084186.73
 616,2019-09-06,5th - 8th,S-Tier,StarLadder Berlin Major 2019,0 : 2,35000.0,https://liquipedia.net/counterstrike/StarLadder/2019/Major,Counter-Strike,35000.0,4119186.73
@@ -271,437 +271,437 @@
 747,2026-05-13,9th - 12th,S-Tier,Intel Extreme Masters Atlanta 2026,0 : 2,5000.0,https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Atlanta,Counter-Strike,5000.0,6605538.47
 748,2026-05-21,9th - 12th,S-Tier,CS Asia Championships 2026,1 : 2,4000.0,https://liquipedia.net/counterstrike/CS_Asia_Championships/2026,Counter-Strike,4000.0,6609538.47
 0,2013-02-10,1st,Tier 3,BeyondTheSummit Weekend Cup,2 : 1,500.0,https://liquipedia.net/dota2/BeyondTheSummit_Weekend_Cup,Dota 2,500.0,500.0
-223,2013-02-10,1st,Tier 3,BeyondTheSummit Weekend Cup,2 : 1,500.0,https://liquipedia.net/dota2/BeyondTheSummit_Weekend_Cup,Dota 2,500.0,1000.0
-1,2013-02-24,1st,Monthly,Bigpoint Battle #1,2 : 0,1979.0,https://liquipedia.net/dota2/Bigpoint_Battle/1,Dota 2,1979.0,2979.0
-224,2013-02-24,1st,Monthly,Bigpoint Battle #1,2 : 0,1979.0,https://liquipedia.net/dota2/Bigpoint_Battle/1,Dota 2,1979.0,4958.0
-2,2013-02-28,3rd - 4th,Monthly,EIZO Cup #1,0 : 2,,https://liquipedia.net/dota2/EIZO_Cup/1,Dota 2,0.0,4958.0
-225,2013-02-28,3rd - 4th,Monthly,EIZO Cup #1,0 : 2,,https://liquipedia.net/dota2/EIZO_Cup/1,Dota 2,0.0,4958.0
-3,2013-03-03,3rd,Tier 3,DotaHut Invitational,0 : 2,300.0,https://liquipedia.net/dota2/DotaHut_Invitational,Dota 2,300.0,5258.0
-226,2013-03-03,3rd,Tier 3,DotaHut Invitational,0 : 2,300.0,https://liquipedia.net/dota2/DotaHut_Invitational,Dota 2,300.0,5558.0
-4,2013-03-11,4th,Tier 1,The Defense Season 3,0 : 2,1500.0,https://liquipedia.net/dota2/The_Defense/Season_3,Dota 2,1500.0,7058.0
-227,2013-03-11,4th,Tier 1,The Defense Season 3,0 : 2,1500.0,https://liquipedia.net/dota2/The_Defense/Season_3,Dota 2,1500.0,8558.0
-5,2013-03-15,2nd,Monthly,Bigpoint Battle #2,1 : 2,654.0,https://liquipedia.net/dota2/Bigpoint_Battle/2,Dota 2,654.0,9212.0
-228,2013-03-15,2nd,Monthly,Bigpoint Battle #2,1 : 2,654.0,https://liquipedia.net/dota2/Bigpoint_Battle/2,Dota 2,654.0,9866.0
-6,2013-03-19,13th - 16th,Tier 1,EMS One Spring Season,0/-/3,2000.0,https://liquipedia.net/dota2/ESL_Major_Series_One/Spring/Main_Event,Dota 2,2000.0,11866.0
-229,2013-03-19,13th - 16th,Tier 1,EMS One Spring Season,0/-/3,2000.0,https://liquipedia.net/dota2/ESL_Major_Series_One/Spring/Main_Event,Dota 2,2000.0,13866.0
-7,2013-03-28,2nd,Monthly,EIZO Cup #2,0 : 2,642.0,https://liquipedia.net/dota2/EIZO_Cup/2,Dota 2,642.0,14508.0
-230,2013-03-28,2nd,Monthly,EIZO Cup #2,0 : 2,642.0,https://liquipedia.net/dota2/EIZO_Cup/2,Dota 2,642.0,15150.0
-8,2013-03-31,4th,Tier 2,Ritmix Russian Dota 2 League,0 : 2,,https://liquipedia.net/dota2/Ritmix_Russian_DOTA_2_League,Dota 2,0.0,15150.0
-231,2013-03-31,4th,Tier 2,Ritmix Russian Dota 2 League,0 : 2,,https://liquipedia.net/dota2/Ritmix_Russian_DOTA_2_League,Dota 2,0.0,15150.0
-9,2013-04-10,1st,Tier 1,RaidCall Dota 2 League Season 2,3 : 1,5000.0,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_2,Dota 2,5000.0,20150.0
-232,2013-04-10,1st,Tier 1,RaidCall Dota 2 League Season 2,3 : 1,5000.0,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_2,Dota 2,5000.0,25150.0
-10,2013-04-13,3rd - 4th,Tier 2,DreamHack Invitational 2013,0 : 2,1000.0,https://liquipedia.net/dota2/DreamHack/2013/Invitational,Dota 2,1000.0,26150.0
-233,2013-04-13,3rd - 4th,Tier 2,DreamHack Invitational 2013,0 : 2,1000.0,https://liquipedia.net/dota2/DreamHack/2013/Invitational,Dota 2,1000.0,27150.0
-11,2013-04-16,5th - 8th,Tier 3,joinDOTA Masters XIII,0 : 1,,https://liquipedia.net/dota2/JoinDOTA_Masters/XIII,Dota 2,0.0,27150.0
-234,2013-04-16,5th - 8th,Tier 3,joinDOTA Masters XIII,0 : 1,,https://liquipedia.net/dota2/JoinDOTA_Masters/XIII,Dota 2,0.0,27150.0
-12,2013-04-28,2nd,Tier 1,The Premier League Season 4,0 : 3,3000.0,https://liquipedia.net/dota2/The_Premier_League/Season_4,Dota 2,3000.0,30150.0
-235,2013-04-28,2nd,Tier 1,The Premier League Season 4,0 : 3,3000.0,https://liquipedia.net/dota2/The_Premier_League/Season_4,Dota 2,3000.0,33150.0
-13,2013-04-29,2nd,Qualifier,G-1 Champions League Season 5 Western Qualifier,2 : 0,,https://liquipedia.net/dota2/G-1_Champions_League_Season_5/Western_Qualifiers,Dota 2,0.0,33150.0
-236,2013-04-29,2nd,Qualifier,G-1 Champions League Season 5 Western Qualifier,2 : 0,,https://liquipedia.net/dota2/G-1_Champions_League_Season_5/Western_Qualifiers,Dota 2,0.0,33150.0
-14,2013-05-12,3rd - 4th,Monthly,Bigpoint Battle #4,1 : 2,,https://liquipedia.net/dota2/Bigpoint_Battle/4,Dota 2,0.0,33150.0
-237,2013-05-12,3rd - 4th,Monthly,Bigpoint Battle #4,1 : 2,,https://liquipedia.net/dota2/Bigpoint_Battle/4,Dota 2,0.0,33150.0
-15,2013-05-13,4th,Tier 2,WePlay Dota2 League Season 1,0 : 2,,https://liquipedia.net/dota2/WePlay_Dota2_League/1,Dota 2,0.0,33150.0
-238,2013-05-13,4th,Tier 2,WePlay Dota2 League Season 1,0 : 2,,https://liquipedia.net/dota2/WePlay_Dota2_League/1,Dota 2,0.0,33150.0
-16,2013-05-19,1st,Tier 2,Curse Dota 2 Invitational,3 : 0,5000.0,https://liquipedia.net/dota2/Curse_Dota_2_Invitational,Dota 2,5000.0,38150.0
-239,2013-05-19,1st,Tier 2,Curse Dota 2 Invitational,3 : 0,5000.0,https://liquipedia.net/dota2/Curse_Dota_2_Invitational,Dota 2,5000.0,43150.0
-17,2013-05-25,5th - 6th,Tier 1,G-1 Champions League Season 5,1/-/4,1631.0,https://liquipedia.net/dota2/G-1_Champions_League_Season_5,Dota 2,1631.0,44781.0
-240,2013-05-25,5th - 6th,Tier 1,G-1 Champions League Season 5,1/-/4,1631.0,https://liquipedia.net/dota2/G-1_Champions_League_Season_5,Dota 2,1631.0,46412.0
-18,2013-06-16,5th - 8th,Tier 1,DreamHack Summer 2013,1 : 2,1547.0,https://liquipedia.net/dota2/DreamHack/2013/Summer,Dota 2,1547.0,47959.0
-241,2013-06-16,5th - 8th,Tier 1,DreamHack Summer 2013,1 : 2,1547.0,https://liquipedia.net/dota2/DreamHack/2013/Summer,Dota 2,1547.0,49506.0
-19,2013-07-07,1st,Tier 2,American Dota League Season 1,3 : 0,5000.0,https://liquipedia.net/dota2/American_Dota_League/Season_1,Dota 2,5000.0,54506.0
-242,2013-07-07,1st,Tier 2,American Dota League Season 1,3 : 0,5000.0,https://liquipedia.net/dota2/American_Dota_League/Season_1,Dota 2,5000.0,59506.0
-20,2013-07-11,5th - 6th,Tier 1,RaidCall Dota 2 League Season 3,0 : 2,,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_3,Dota 2,0.0,59506.0
-243,2013-07-11,5th - 6th,Tier 1,RaidCall Dota 2 League Season 3,0 : 2,,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_3,Dota 2,0.0,59506.0
-21,2013-07-22,4th,Tier 1,The Defense Season 4,0 : 2,2000.0,https://liquipedia.net/dota2/The_Defense/Season_4,Dota 2,2000.0,61506.0
-244,2013-07-22,4th,Tier 1,The Defense Season 4,0 : 2,2000.0,https://liquipedia.net/dota2/The_Defense/Season_4,Dota 2,2000.0,63506.0
-22,2013-08-09,7th - 8th,Tier 1,The International 2013,0 : 1,43116.0,https://liquipedia.net/dota2/The_International/2013,Dota 2,43116.0,106622.0
-23,2013-11-03,3rd,Tier 1,WePlay Dota2 League Season 2,1 : 3,4000.0,https://liquipedia.net/dota2/WePlay_Dota2_League/2,Dota 2,4000.0,110622.0
-245,2013-11-03,3rd,Tier 1,WePlay Dota2 League Season 2,1 : 3,4000.0,https://liquipedia.net/dota2/WePlay_Dota2_League/2,Dota 2,4000.0,114622.0
-24,2013-11-17,3rd,Qualifier,Dota 2 League Season 4 - Western Division,1 : 3,,https://liquipedia.net/dota2/Dota_2_League/Season_4/Western_Division,Dota 2,0.0,114622.0
-246,2013-11-17,3rd,Qualifier,Dota 2 League Season 4 - Western Division,1 : 3,,https://liquipedia.net/dota2/Dota_2_League/Season_4/Western_Division,Dota 2,0.0,114622.0
-25,2013-11-23,5th - 9th,Tier 1,MLG Championship Columbus,3/-/5,2739.0,https://liquipedia.net/dota2/MLG/2013/Fall_Season/Championship,Dota 2,2739.0,117361.0
-247,2013-11-23,5th - 9th,Tier 1,MLG Championship Columbus,3/-/5,2739.0,https://liquipedia.net/dota2/MLG/2013/Fall_Season/Championship,Dota 2,2739.0,120100.0
-26,2013-11-25,7th,Showmatch,Nexon Invitational Super Match,2/-/2,7000.0,https://liquipedia.net/dota2/Nexon_Invitational_Super_Match,Dota 2,7000.0,127100.0
-248,2013-11-25,7th,Showmatch,Nexon Invitational Super Match,2/-/2,7000.0,https://liquipedia.net/dota2/Nexon_Invitational_Super_Match,Dota 2,7000.0,134100.0
-27,2013-11-29,4th,Tier 1,DreamLeague Kick-Off Season,0 : 3,2500.0,https://liquipedia.net/dota2/DreamLeague/Kick-Off_Season,Dota 2,2500.0,136600.0
-249,2013-11-29,4th,Tier 1,DreamLeague Kick-Off Season,0 : 3,2500.0,https://liquipedia.net/dota2/DreamLeague/Kick-Off_Season,Dota 2,2500.0,139100.0
-28,2013-12-16,4th,Tier 1,Dota 2 Champions League Season 1,1 : 3,3000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/1,Dota 2,3000.0,142100.0
-250,2013-12-16,4th,Tier 1,Dota 2 Champions League Season 1,1 : 3,3000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/1,Dota 2,3000.0,145100.0
-29,2013-12-22,5th - 8th,Monthly,Bigpoint Battle #11,0 : 1,,https://liquipedia.net/dota2/Bigpoint_Battle/11,Dota 2,0.0,145100.0
-251,2013-12-22,5th - 8th,Monthly,Bigpoint Battle #11,0 : 1,,https://liquipedia.net/dota2/Bigpoint_Battle/11,Dota 2,0.0,145100.0
-30,2014-01-05,5th - 8th,Tier 2,Pinnacle Pro-Am,0 : 2,,https://liquipedia.net/dota2/Pinnacle_Pro-Am_Cup,Dota 2,0.0,145100.0
-252,2014-01-05,5th - 8th,Tier 2,Pinnacle Pro-Am,0 : 2,,https://liquipedia.net/dota2/Pinnacle_Pro-Am_Cup,Dota 2,0.0,145100.0
-31,2014-02-04,3rd,Tier 2,Electronic Sports Prime Shock Therapy Cup,0 : 2,1000.0,https://liquipedia.net/dota2/Electronic_Sports_Prime/Shock_Therapy_Cup,Dota 2,1000.0,146100.0
-253,2014-02-04,3rd,Tier 2,Electronic Sports Prime Shock Therapy Cup,0 : 2,1000.0,https://liquipedia.net/dota2/Electronic_Sports_Prime/Shock_Therapy_Cup,Dota 2,1000.0,147100.0
-32,2014-02-28,L,Showmatch,BountyHunter Series #2,0 : 3,,https://liquipedia.net/dota2/BountyHunter_Series/2,Dota 2,0.0,147100.0
-254,2014-02-28,L,Showmatch,BountyHunter Series #2,0 : 3,,https://liquipedia.net/dota2/BountyHunter_Series/2,Dota 2,0.0,147100.0
-33,2014-03-05,7th - 10th,Tier 1,Dota 2 Champions League Season 2,5/-/5,,https://liquipedia.net/dota2/Dota_2_Champions_League/2,Dota 2,0.0,147100.0
-255,2014-03-05,7th - 10th,Tier 1,Dota 2 Champions League Season 2,5/-/5,,https://liquipedia.net/dota2/Dota_2_Champions_League/2,Dota 2,0.0,147100.0
-34,2014-03-09,3rd,Tier 2,Monster Energy Invitational,0 : 2,2000.0,https://liquipedia.net/dota2/Monster_Energy_Invitational,Dota 2,2000.0,149100.0
-256,2014-03-09,3rd,Tier 2,Monster Energy Invitational,0 : 2,2000.0,https://liquipedia.net/dota2/Monster_Energy_Invitational,Dota 2,2000.0,151100.0
-35,2014-03-18,5th - 6th,Tier 2,XMG Captains Draft Invitational,0/-/5,,https://liquipedia.net/dota2/Captains_Draft/1,Dota 2,0.0,151100.0
-257,2014-03-18,5th - 6th,Tier 2,XMG Captains Draft Invitational,0/-/5,,https://liquipedia.net/dota2/Captains_Draft/1,Dota 2,0.0,151100.0
-36,2014-04-02,2nd,Qualifier,StarLadder StarSeries Season 9: America,1 : 2,,https://liquipedia.net/dota2/StarLadder/StarSeries/Season_9/America,Dota 2,0.0,151100.0
-258,2014-04-02,2nd,Qualifier,StarLadder StarSeries Season 9: America,1 : 2,,https://liquipedia.net/dota2/StarLadder/StarSeries/Season_9/America,Dota 2,0.0,151100.0
-37,2014-04-05,2nd,Tier 2,MLG T.K.O. America,1 : 3,8500.0,https://liquipedia.net/dota2/MLG_T.K.O._Tournament/America,Dota 2,8500.0,159600.0
-259,2014-04-05,2nd,Tier 2,MLG T.K.O. America,1 : 3,8500.0,https://liquipedia.net/dota2/MLG_T.K.O._Tournament/America,Dota 2,8500.0,168100.0
-38,2014-04-13,2nd,Tier 3,joinDOTA League Season 1 America,0 : 2,663.0,https://liquipedia.net/dota2/JoinDOTA_League/Season_1/America,Dota 2,663.0,168763.0
-260,2014-04-13,2nd,Tier 3,joinDOTA League Season 1 America,0 : 2,663.0,https://liquipedia.net/dota2/JoinDOTA_League/Season_1/America,Dota 2,663.0,169426.0
-39,2014-04-22,5th - 8th,Tier 2,Fragbite Masters 2014 Spring,1 : 2,,https://liquipedia.net/dota2/Fragbite_Masters_2014,Dota 2,0.0,169426.0
-261,2014-04-22,5th - 8th,Tier 2,Fragbite Masters 2014 Spring,1 : 2,,https://liquipedia.net/dota2/Fragbite_Masters_2014,Dota 2,0.0,169426.0
-40,2014-05-04,2nd,Qualifier,ESL One Frankfurt - American Qualifiers,1 : 3,,https://liquipedia.net/dota2/ESL_One/Frankfurt/2014/Qualifiers/America,Dota 2,0.0,169426.0
-262,2014-05-04,2nd,Qualifier,ESL One Frankfurt - American Qualifiers,1 : 3,,https://liquipedia.net/dota2/ESL_One/Frankfurt/2014/Qualifiers/America,Dota 2,0.0,169426.0
-41,2014-05-10,4th,Qualifier,The Summit 1 American Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/1/American_Qualifiers,Dota 2,0.0,169426.0
-263,2014-05-10,4th,Qualifier,The Summit 1 American Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/1/American_Qualifiers,Dota 2,0.0,169426.0
-42,2014-05-11,7th - 11th,Tier 1,DreamLeague Season 1,5/-/9,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_1,Dota 2,8000.0,177426.0
-264,2014-05-11,7th - 11th,Tier 1,DreamLeague Season 1,5/-/9,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_1,Dota 2,8000.0,185426.0
-43,2014-05-16,2nd,Qualifier,The International 2014: Americas Qualifiers,2 : 3,,https://liquipedia.net/dota2/The_International/2014/Americas_Qualifiers,Dota 2,0.0,185426.0
-44,2014-05-23,3rd - 4th,Monthly,GIGABYTE Challenge #4,0 : 1,,https://liquipedia.net/dota2/GIGABYTE_Challenge/4,Dota 2,0.0,185426.0
-265,2014-05-23,3rd - 4th,Monthly,GIGABYTE Challenge #4,0 : 1,,https://liquipedia.net/dota2/GIGABYTE_Challenge/4,Dota 2,0.0,185426.0
-45,2014-05-28,7th - 8th,Tier 1,HyperX D2L Western Challenge,1/-/6,,https://liquipedia.net/dota2/Dota_2_League/Western_Challenge,Dota 2,0.0,185426.0
-266,2014-05-28,7th - 8th,Tier 1,HyperX D2L Western Challenge,1/-/6,,https://liquipedia.net/dota2/Dota_2_League/Western_Challenge,Dota 2,0.0,185426.0
-46,2014-06-03,2nd,Tier 2,American Dota League Season 2,1 : 3,2000.0,https://liquipedia.net/dota2/American_Dota_League/Season_2,Dota 2,2000.0,187426.0
-267,2014-06-03,2nd,Tier 2,American Dota League Season 2,1 : 3,2000.0,https://liquipedia.net/dota2/American_Dota_League/Season_2,Dota 2,2000.0,189426.0
-47,2014-07-13,9th - 10th,Tier 1,The International 2014,0 : 2,49158.0,https://liquipedia.net/dota2/The_International/2014,Dota 2,49158.0,238584.0
-48,2015-10-12,4th,Qualifier,The Frankfurt Major 2015 Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Frankfurt_Major/2015/Europe,Dota 2,0.0,238584.0
-268,2015-10-12,4th,Qualifier,The Frankfurt Major 2015 Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Frankfurt_Major/2015/Europe,Dota 2,0.0,238584.0
-49,2015-10-30,4th,Tier 1,Nanyang Dota 2 Championships,0 : 2,17615.0,https://liquipedia.net/dota2/Nanyang_Dota_2_Championships/Season_1,Dota 2,17615.0,256199.0
-269,2015-10-30,4th,Tier 1,Nanyang Dota 2 Championships,0 : 2,17615.0,https://liquipedia.net/dota2/Nanyang_Dota_2_Championships/Season_1,Dota 2,17615.0,273814.0
-50,2015-11-05,1st,Qualifier,The Summit 4 - European Qualifiers,3 : 1,,https://liquipedia.net/dota2/The_Summit/4/European_Qualifiers,Dota 2,0.0,273814.0
-270,2015-11-05,1st,Qualifier,The Summit 4 - European Qualifiers,3 : 1,,https://liquipedia.net/dota2/The_Summit/4/European_Qualifiers,Dota 2,0.0,273814.0
-51,2015-11-12,1st,Tier 2,Dota 2 Champions League Season 6,3 : 1,25000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/6,Dota 2,25000.0,298814.0
-271,2015-11-12,1st,Tier 2,Dota 2 Champions League Season 6,3 : 1,25000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/6,Dota 2,25000.0,323814.0
-52,2015-12-04,5th - 8th,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Qualifier,1/-/2,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS,Dota 2,0.0,323814.0
-272,2015-12-04,5th - 8th,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Qualifier,1/-/2,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS,Dota 2,0.0,323814.0
-53,2015-12-06,1st,Tier 1,The Defense Season 5,3 : 1,39293.0,https://liquipedia.net/dota2/The_Defense/Season_5,Dota 2,39293.0,363107.0
-273,2015-12-06,1st,Tier 1,The Defense Season 5,3 : 1,39293.0,https://liquipedia.net/dota2/The_Defense/Season_5,Dota 2,39293.0,402400.0
-54,2015-12-07,1st - 2nd,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Last Chance Qualifier,W : FF,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS/Last_Chance_Qualifier,Dota 2,0.0,402400.0
-274,2015-12-07,1st - 2nd,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Last Chance Qualifier,W : FF,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS/Last_Chance_Qualifier,Dota 2,0.0,402400.0
-55,2015-12-12,5th - 6th,Tier 1,The Summit 4,1 : 2,4020.0,https://liquipedia.net/dota2/The_Summit/4,Dota 2,4020.0,406420.0
-275,2015-12-12,5th - 6th,Tier 1,The Summit 4,1 : 2,4020.0,https://liquipedia.net/dota2/The_Summit/4,Dota 2,4020.0,410440.0
-56,2015-12-20,3rd,Tier 1,World Cyber Arena 2015,3 : 0,77132.0,https://liquipedia.net/dota2/World_Cyber_Arena/2015,Dota 2,77132.0,487572.0
-276,2015-12-20,3rd,Tier 1,World Cyber Arena 2015,3 : 0,77132.0,https://liquipedia.net/dota2/World_Cyber_Arena/2015,Dota 2,77132.0,564704.0
-57,2016-01-09,1st,Qualifier,The Shanghai Major 2016 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Shanghai_Major/2016/Europe,Dota 2,0.0,564704.0
-277,2016-01-09,1st,Qualifier,The Shanghai Major 2016 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Shanghai_Major/2016/Europe,Dota 2,0.0,564704.0
-58,2016-01-16,3rd - 4th,Tier 1,StarLadder i-League StarSeries Season 1,0 : 2,30223.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1,Dota 2,30223.0,594927.0
-278,2016-01-16,3rd - 4th,Tier 1,StarLadder i-League StarSeries Season 1,0 : 2,30223.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1,Dota 2,30223.0,625150.0
-59,2016-02-14,5th - 6th,Tier 2,Captains Draft 3.0,0 : 2,6208.0,https://liquipedia.net/dota2/Captains_Draft/3,Dota 2,6208.0,631358.0
-279,2016-02-14,5th - 6th,Tier 2,Captains Draft 3.0,0 : 2,6208.0,https://liquipedia.net/dota2/Captains_Draft/3,Dota 2,6208.0,637566.0
-60,2016-02-15,3rd - 12th,Qualifier,Dota Pit League Season 4 European Qualifier,1/4/0,,https://liquipedia.net/dota2/Dota_Pit_League/Season_4/Europe,Dota 2,0.0,637566.0
-280,2016-02-15,3rd - 12th,Qualifier,Dota Pit League Season 4 European Qualifier,1/4/0,,https://liquipedia.net/dota2/Dota_Pit_League/Season_4/Europe,Dota 2,0.0,637566.0
-61,2016-03-06,2nd,Tier 1,The Shanghai Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Shanghai_Major/2016,Dota 2,405000.0,1042566.0
-281,2016-03-06,2nd,Tier 1,The Shanghai Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Shanghai_Major/2016,Dota 2,405000.0,1447566.0
-62,2016-03-20,1st,Qualifier,WePlay Dota 2 League Season 3 EU West Division,13/-/1,,https://liquipedia.net/dota2/WePlay_Dota2_League/3/EU_West,Dota 2,0.0,1447566.0
-282,2016-03-20,1st,Qualifier,WePlay Dota 2 League Season 3 EU West Division,13/-/1,,https://liquipedia.net/dota2/WePlay_Dota2_League/3/EU_West,Dota 2,0.0,1447566.0
-63,2016-04-14,1st,Tier 3,BTS Europe #3,3 : 1,5000.0,https://liquipedia.net/dota2/BTS_Series/Europe/3,Dota 2,5000.0,1452566.0
-283,2016-04-14,1st,Tier 3,BTS Europe #3,3 : 1,5000.0,https://liquipedia.net/dota2/BTS_Series/Europe/3,Dota 2,5000.0,1457566.0
-64,2016-04-24,2nd,Tier 1,ESL One Manila 2016,0 : 3,50000.0,https://liquipedia.net/dota2/ESL_One/Manila/2016,Dota 2,50000.0,1507566.0
-284,2016-04-24,2nd,Tier 1,ESL One Manila 2016,0 : 3,50000.0,https://liquipedia.net/dota2/ESL_One/Manila/2016,Dota 2,50000.0,1557566.0
-65,2016-05-15,1st,Tier 1,EPICENTER 2016,3 : 2,250000.0,https://liquipedia.net/dota2/EPICENTER/2016,Dota 2,250000.0,1807566.0
-285,2016-05-15,1st,Tier 1,EPICENTER 2016,3 : 2,250000.0,https://liquipedia.net/dota2/EPICENTER/2016,Dota 2,250000.0,2057566.0
-66,2016-06-12,2nd,Tier 1,The Manila Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Manila_Major/2016,Dota 2,405000.0,2462566.0
-286,2016-06-12,2nd,Tier 1,The Manila Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Manila_Major/2016,Dota 2,405000.0,2867566.0
-67,2016-06-19,3rd - 4th,Tier 1,ESL One Frankfurt 2016,1 : 2,28309.0,https://liquipedia.net/dota2/ESL_One/Frankfurt/2016,Dota 2,28309.0,2895875.0
-287,2016-06-19,3rd - 4th,Tier 1,ESL One Frankfurt 2016,1 : 2,28309.0,https://liquipedia.net/dota2/ESL_One/Frankfurt/2016,Dota 2,28309.0,2924184.0
-68,2016-07-17,3rd,Tier 1,The Summit 5,1 : 2,13136.0,https://liquipedia.net/dota2/The_Summit/5,Dota 2,13136.0,2937320.0
-288,2016-07-17,3rd,Tier 1,The Summit 5,1 : 2,13136.0,https://liquipedia.net/dota2/The_Summit/5,Dota 2,13136.0,2950456.0
-69,2016-07-19,7th - 8th,Tier 2,Global Grand Masters,FF : W,,https://liquipedia.net/dota2/Global_Grand_Masters,Dota 2,0.0,2950456.0
-289,2016-07-19,7th - 8th,Tier 2,Global Grand Masters,FF : W,,https://liquipedia.net/dota2/Global_Grand_Masters,Dota 2,0.0,2950456.0
-70,2016-08-11,7th - 8th,Tier 1,The International 2016,0 : 2,519262.0,https://liquipedia.net/dota2/The_International/2016,Dota 2,519262.0,3469718.0
-71,2016-10-18,3rd - 4th,Tier 2,FACEIT Invitational,0 : 1,4000.0,https://liquipedia.net/dota2/FACEIT/Invitational/1,Dota 2,4000.0,3473718.0
-72,2016-10-18,3rd,Qualifier,The Summit 6 - European Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/6/European_Qualifiers,Dota 2,0.0,3473718.0
-290,2016-10-18,3rd - 4th,Tier 2,FACEIT Invitational,0 : 1,4000.0,https://liquipedia.net/dota2/FACEIT/Invitational/1,Dota 2,4000.0,3477718.0
-291,2016-10-18,3rd,Qualifier,The Summit 6 - European Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/6/European_Qualifiers,Dota 2,0.0,3477718.0
-73,2016-10-22,3rd,Qualifier,Dota Pit League Season 5 European Qualifier #2,1 : 2,,https://liquipedia.net/dota2/Dota_Pit_League/Season_5/European_Qualifier/2,Dota 2,0.0,3477718.0
-292,2016-10-22,3rd,Qualifier,Dota Pit League Season 5 European Qualifier #2,1 : 2,,https://liquipedia.net/dota2/Dota_Pit_League/Season_5/European_Qualifier/2,Dota 2,0.0,3477718.0
-74,2016-10-30,3rd,Qualifier,The Boston Major 2016: Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Boston_Major/2016/Europe,Dota 2,0.0,3477718.0
-293,2016-10-30,3rd,Qualifier,The Boston Major 2016: Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Boston_Major/2016/Europe,Dota 2,0.0,3477718.0
-75,2016-11-05,5th - 8th,Qualifier,ESL One Genting 2017 European Qualifier,0 : 2,,https://liquipedia.net/dota2/ESL_One/Genting/2017/Europe,Dota 2,0.0,3477718.0
-76,2016-11-05,5th - 6th,Tier 3,Elimination Mode 2.0,0 : 2,,https://liquipedia.net/dota2/Elimination_Mode/2,Dota 2,0.0,3477718.0
-294,2016-11-05,5th - 8th,Qualifier,ESL One Genting 2017 European Qualifier,0 : 2,,https://liquipedia.net/dota2/ESL_One/Genting/2017/Europe,Dota 2,0.0,3477718.0
-295,2016-11-05,5th - 6th,Tier 3,Elimination Mode 2.0,0 : 2,,https://liquipedia.net/dota2/Elimination_Mode/2,Dota 2,0.0,3477718.0
-77,2016-11-08,4th,Tier 2,DreamLeague Season 6 League Play,8/-/6,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_6/League_Play,Dota 2,8000.0,3485718.0
-296,2016-11-08,4th,Tier 2,DreamLeague Season 6 League Play,8/-/6,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_6/League_Play,Dota 2,8000.0,3493718.0
-78,2016-11-26,1st,Tier 2,DreamLeague Season 6,3 : 0,90000.0,https://liquipedia.net/dota2/DreamLeague/Season_6,Dota 2,90000.0,3583718.0
-297,2016-11-26,1st,Tier 2,DreamLeague Season 6,3 : 0,90000.0,https://liquipedia.net/dota2/DreamLeague/Season_6,Dota 2,90000.0,3673718.0
-79,2016-12-20,3rd - 4th,Tier 3,WellPlay Invitational #6,1 : 2,,https://liquipedia.net/dota2/WellPlay_Invitational/6,Dota 2,0.0,3673718.0
-298,2016-12-20,3rd - 4th,Tier 3,WellPlay Invitational #6,1 : 2,,https://liquipedia.net/dota2/WellPlay_Invitational/6,Dota 2,0.0,3673718.0
-80,2017-02-02,1st,Qualifier,StarLadder i-League StarSeries Season 3 European Qualifier,4/3/0,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3/Europe,Dota 2,0.0,3673718.0
-299,2017-02-02,1st,Qualifier,StarLadder i-League StarSeries Season 3 European Qualifier,4/3/0,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3/Europe,Dota 2,0.0,3673718.0
-81,2017-02-10,1st,Qualifier,Dota 2 Asia Championships 2017 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017/Europe_Qualifier,Dota 2,0.0,3673718.0
-300,2017-02-10,1st,Qualifier,Dota 2 Asia Championships 2017 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017/Europe_Qualifier,Dota 2,0.0,3673718.0
-82,2017-02-26,1st,Tier 1,StarLadder i-League StarSeries Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3,Dota 2,135000.0,3808718.0
-301,2017-02-26,1st,Tier 1,StarLadder i-League StarSeries Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3,Dota 2,135000.0,3943718.0
-83,2017-04-01,9th - 12th,Tier 1,Dota 2 Asia Championships 2017,0 : 1,9179.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017,Dota 2,9179.0,3952897.0
-302,2017-04-01,9th - 12th,Tier 1,Dota 2 Asia Championships 2017,0 : 1,9179.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017,Dota 2,9179.0,3962076.0
-84,2017-04-29,5th - 8th,Tier 1,The Kiev Major 2017,1 : 2,125000.0,https://liquipedia.net/dota2/Kiev_Major/2017,Dota 2,125000.0,4087076.0
-303,2017-04-29,5th - 8th,Tier 1,The Kiev Major 2017,1 : 2,125000.0,https://liquipedia.net/dota2/Kiev_Major/2017,Dota 2,125000.0,4212076.0
-85,2017-05-21,2nd,Tier 2,DreamLeague Season 7 EU Division,9/-/5,9000.0,https://liquipedia.net/dota2/DreamLeague/Season_7/EU_Division,Dota 2,9000.0,4221076.0
-86,2017-05-21,1st,Tier 1,StarLadder i-League Invitational Season 2,3 : 2,45000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/2,Dota 2,45000.0,4266076.0
-304,2017-05-21,2nd,Tier 2,DreamLeague Season 7 EU Division,9/-/5,9000.0,https://liquipedia.net/dota2/DreamLeague/Season_7/EU_Division,Dota 2,9000.0,4275076.0
-305,2017-05-21,1st,Tier 1,StarLadder i-League Invitational Season 2,3 : 2,45000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/2,Dota 2,45000.0,4320076.0
-87,2017-06-11,1st,Tier 1,EPICENTER 2017,3 : 1,250000.0,https://liquipedia.net/dota2/EPICENTER/2017,Dota 2,250000.0,4570076.0
-306,2017-06-11,1st,Tier 1,EPICENTER 2017,3 : 1,250000.0,https://liquipedia.net/dota2/EPICENTER/2017,Dota 2,250000.0,4820076.0
-88,2017-07-22,1st,Tier 2,DreamLeague Season 7,3 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/Season_7,Dota 2,80000.0,4900076.0
-307,2017-07-22,1st,Tier 2,DreamLeague Season 7,3 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/Season_7,Dota 2,80000.0,4980076.0
-89,2017-08-12,1st,Tier 1,The International 2017,3 : 0,10862683.0,https://liquipedia.net/dota2/The_International/2017,Dota 2,10862683.0,15842759.0
-90,2017-10-15,1st,Tier 2,StarLadder i-League Invitational Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/3,Dota 2,135000.0,15977759.0
-308,2017-10-15,1st,Tier 2,StarLadder i-League Invitational Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/3,Dota 2,135000.0,16112759.0
-91,2017-10-29,3rd - 4th,Tier 1,ESL One Hamburg 2017,1 : 2,90000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2017,Dota 2,90000.0,16202759.0
-309,2017-10-29,3rd - 4th,Tier 1,ESL One Hamburg 2017,1 : 2,90000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2017,Dota 2,90000.0,16292759.0
-92,2017-11-05,1st,Tier 2,AMD SAPPHIRE Dota PIT League,3 : 2,125000.0,https://liquipedia.net/dota2/Dota_Pit_League/Season_6,Dota 2,125000.0,16417759.0
-310,2017-11-05,1st,Tier 2,AMD SAPPHIRE Dota PIT League,3 : 2,125000.0,https://liquipedia.net/dota2/Dota_Pit_League/Season_6,Dota 2,125000.0,16542759.0
-93,2017-11-16,3rd,Qualifier,DreamLeague Season 8 Europe & CIS Qualifier,3/4/0,,https://liquipedia.net/dota2/DreamLeague/Season_8/Europe_CIS,Dota 2,0.0,16542759.0
-311,2017-11-16,3rd,Qualifier,DreamLeague Season 8 Europe & CIS Qualifier,3/4/0,,https://liquipedia.net/dota2/DreamLeague/Season_8/Europe_CIS,Dota 2,0.0,16542759.0
-94,2017-11-26,1st,Tier 2,Midas Mode - Europe,3 : 1,18000.0,https://liquipedia.net/dota2/Midas_Mode/1,Dota 2,18000.0,16560759.0
-312,2017-11-26,1st,Tier 2,Midas Mode - Europe,3 : 1,18000.0,https://liquipedia.net/dota2/Midas_Mode/1,Dota 2,18000.0,16578759.0
-95,2017-12-03,2nd,Tier 1,DreamLeague Season 8,0 : 3,200000.0,https://liquipedia.net/dota2/DreamLeague/Season_8,Dota 2,200000.0,16778759.0
-313,2017-12-03,2nd,Tier 1,DreamLeague Season 8,0 : 3,200000.0,https://liquipedia.net/dota2/DreamLeague/Season_8,Dota 2,200000.0,16978759.0
-96,2018-01-28,2nd,Tier 2,ESL One Genting 2018,2 : 3,80000.0,https://liquipedia.net/dota2/ESL_One/Genting/2018,Dota 2,80000.0,17058759.0
-314,2018-01-28,2nd,Tier 2,ESL One Genting 2018,2 : 3,80000.0,https://liquipedia.net/dota2/ESL_One/Genting/2018,Dota 2,80000.0,17138759.0
-97,2018-02-04,1st,Tier 2,StarLadder i-League Invitational Season 4,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/4,Dota 2,135000.0,17273759.0
-315,2018-02-04,1st,Tier 2,StarLadder i-League Invitational Season 4,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/4,Dota 2,135000.0,17408759.0
-98,2018-02-25,3rd - 4th,Tier 1,ESL One Katowice 2018,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Katowice/2018,Dota 2,120000.0,17528759.0
-316,2018-02-25,3rd - 4th,Tier 1,ESL One Katowice 2018,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Katowice/2018,Dota 2,120000.0,17648759.0
-99,2018-03-10,3rd - 4th,Tier 1,The Bucharest Major,1 : 2,90000.0,https://liquipedia.net/dota2/PGL/Bucharest_Major/2018,Dota 2,90000.0,17738759.0
-317,2018-03-10,3rd - 4th,Tier 1,The Bucharest Major,1 : 2,90000.0,https://liquipedia.net/dota2/PGL/Bucharest_Major/2018,Dota 2,90000.0,17828759.0
-100,2018-03-24,3rd,Tier 2,DreamLeague Season 9,0 : 2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_9,Dota 2,30000.0,17858759.0
-318,2018-03-24,3rd,Tier 2,DreamLeague Season 9,0 : 2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_9,Dota 2,30000.0,17888759.0
-101,2018-04-06,5th - 6th,Tier 1,Dota 2 Asia Championships 2018,0 : 1,67500.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2018,Dota 2,67500.0,17956259.0
-319,2018-04-06,5th - 6th,Tier 1,Dota 2 Asia Championships 2018,0 : 1,67500.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2018,Dota 2,67500.0,18023759.0
-102,2018-05-06,2nd,Tier 1,EPICENTER XL,1 : 3,200000.0,https://liquipedia.net/dota2/EPICENTER/2018,Dota 2,200000.0,18223759.0
-320,2018-05-06,2nd,Tier 1,EPICENTER XL,1 : 3,200000.0,https://liquipedia.net/dota2/EPICENTER/2018,Dota 2,200000.0,18423759.0
-103,2018-05-24,7th - 9th,Tier 1,ESL One Birmingham 2018,1 : 2,16000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2018,Dota 2,16000.0,18439759.0
-321,2018-05-24,7th - 9th,Tier 1,ESL One Birmingham 2018,1 : 2,16000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2018,Dota 2,16000.0,18455759.0
-104,2018-06-10,1st,Tier 1,China Dota2 Supermajor,3 : 2,555000.0,https://liquipedia.net/dota2/Supermajor/2018,Dota 2,555000.0,19010759.0
-322,2018-06-10,1st,Tier 1,China Dota2 Supermajor,3 : 2,555000.0,https://liquipedia.net/dota2/Supermajor/2018,Dota 2,555000.0,19565759.0
-105,2018-08-24,4th,Tier 1,The International 2018,0 : 2,1787252.0,https://liquipedia.net/dota2/The_International/2018,Dota 2,1787252.0,21353011.0
-106,2018-09-20,5th - 6th,Qualifier,The Kuala Lumpur Major Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/PGL/Kuala_Lumpur_Major/Europe,Dota 2,0.0,21353011.0
-323,2018-09-20,5th - 6th,Qualifier,The Kuala Lumpur Major Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/PGL/Kuala_Lumpur_Major/Europe,Dota 2,0.0,21353011.0
-107,2018-09-26,2nd,Qualifier,DreamLeague Season 10 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_10/Europe,Dota 2,0.0,21353011.0
-324,2018-09-26,2nd,Qualifier,DreamLeague Season 10 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_10/Europe,Dota 2,0.0,21353011.0
-108,2018-11-30,2nd,Qualifier,The Chongqing Major Europe Qualifier,2 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Europe,Dota 2,0.0,21353011.0
-325,2018-11-30,2nd,Qualifier,The Chongqing Major Europe Qualifier,2 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Europe,Dota 2,0.0,21353011.0
-109,2018-12-09,1st,Tier 2,MegaFon Winter Clash,3 : 0,150000.0,https://liquipedia.net/dota2/MegaFon_Winter_Clash,Dota 2,150000.0,21503011.0
-326,2018-12-09,1st,Tier 2,MegaFon Winter Clash,3 : 0,150000.0,https://liquipedia.net/dota2/MegaFon_Winter_Clash,Dota 2,150000.0,21653011.0
-110,2019-01-25,7th - 8th,Tier 1,The Chongqing Major,0 : 2,40000.0,https://liquipedia.net/dota2/Chongqing_Major/2019,Dota 2,40000.0,21693011.0
-327,2019-01-25,7th - 8th,Tier 1,The Chongqing Major,0 : 2,40000.0,https://liquipedia.net/dota2/Chongqing_Major/2019,Dota 2,40000.0,21733011.0
-111,2019-01-27,L,Showmatch,The Chongqing Major: Show Match,0 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Show_Match,Dota 2,0.0,21733011.0
-328,2019-01-27,L,Showmatch,The Chongqing Major: Show Match,0 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Show_Match,Dota 2,0.0,21733011.0
-112,2019-02-06,3rd,Qualifier,DreamLeague Season 11 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_11/Europe,Dota 2,0.0,21733011.0
-329,2019-02-06,3rd,Qualifier,DreamLeague Season 11 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_11/Europe,Dota 2,0.0,21733011.0
-113,2019-02-24,1st,Tier 2,MDL Macau 2019,3 : 1,135000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Macau/2019,Dota 2,135000.0,21868011.0
-330,2019-02-24,1st,Tier 2,MDL Macau 2019,3 : 1,135000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Macau/2019,Dota 2,135000.0,22003011.0
-114,2019-03-17,13th - 16th,Tier 1,DreamLeague Season 11,0 : 1,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_11,Dota 2,10000.0,22013011.0
-331,2019-03-17,13th - 16th,Tier 1,DreamLeague Season 11,0 : 1,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_11,Dota 2,10000.0,22023011.0
-115,2019-03-29,1st - 2nd,Qualifier,MDL Disneyland® Paris Major Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major/Europe,Dota 2,0.0,22023011.0
-332,2019-03-29,1st - 2nd,Qualifier,MDL Disneyland® Paris Major Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major/Europe,Dota 2,0.0,22023011.0
-116,2019-05-12,2nd,Tier 1,MDL Disneyland® Paris Major,1 : 3,170000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major,Dota 2,170000.0,22193011.0
-333,2019-05-12,2nd,Tier 1,MDL Disneyland® Paris Major,1 : 3,170000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major,Dota 2,170000.0,22363011.0
-117,2019-05-17,2nd,Qualifier,EPICENTER Major 2019 Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/EPICENTER/2019/Europe,Dota 2,0.0,22363011.0
-334,2019-05-17,2nd,Qualifier,EPICENTER Major 2019 Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/EPICENTER/2019/Europe,Dota 2,0.0,22363011.0
-118,2019-05-31,7th - 8th,Tier 2,ESL One Birmingham 2019,0 : 2,7500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2019,Dota 2,7500.0,22370511.0
-335,2019-05-31,7th - 8th,Tier 2,ESL One Birmingham 2019,0 : 2,7500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2019,Dota 2,7500.0,22378011.0
-119,2019-06-30,2nd,Tier 1,EPICENTER Major 2019,2 : 3,170000.0,https://liquipedia.net/dota2/EPICENTER/2019,Dota 2,170000.0,22548011.0
-336,2019-06-30,2nd,Tier 1,EPICENTER Major 2019,2 : 3,170000.0,https://liquipedia.net/dota2/EPICENTER/2019,Dota 2,170000.0,22718011.0
-120,2019-08-25,2nd,Tier 1,The International 2019,1 : 3,4462908.0,https://liquipedia.net/dota2/The_International/2019,Dota 2,4462908.0,27180919.0
-121,2019-10-08,2nd,Qualifier,MDL Chengdu Major Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019/Europe,Dota 2,0.0,27180919.0
-337,2019-10-08,2nd,Qualifier,MDL Chengdu Major Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019/Europe,Dota 2,0.0,27180919.0
-122,2019-10-19,4th,Tier 2,DreamLeague Season 12,0 : 2,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_12,Dota 2,25000.0,27205919.0
-338,2019-10-19,4th,Tier 2,DreamLeague Season 12,0 : 2,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_12,Dota 2,25000.0,27230919.0
-123,2019-10-24,11th - 12th,Tier 2,ESL One Hamburg 2019,1/1/3,3000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2019,Dota 2,3000.0,27233919.0
-339,2019-10-24,11th - 12th,Tier 2,ESL One Hamburg 2019,1/1/3,3000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2019,Dota 2,3000.0,27236919.0
-124,2019-11-22,5th - 6th,Tier 1,MDL Chengdu Major,0 : 2,60000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019,Dota 2,60000.0,27296919.0
-340,2019-11-22,5th - 6th,Tier 1,MDL Chengdu Major,0 : 2,60000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019,Dota 2,60000.0,27356919.0
-125,2019-12-03,1st - 2nd,Qualifier,DreamLeague Season 13 Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_13/Europe,Dota 2,0.0,27356919.0
-341,2019-12-03,1st - 2nd,Qualifier,DreamLeague Season 13 Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_13/Europe,Dota 2,0.0,27356919.0
-126,2019-12-18,11th - 12th,Tier 1,ONE Esports Invitational Singapore 2019,0/1/4,5000.0,https://liquipedia.net/dota2/ONE_Esports/World_Pro_Invitational/2019/Singapore,Dota 2,5000.0,27361919.0
-342,2019-12-18,11th - 12th,Tier 1,ONE Esports Invitational Singapore 2019,0/1/4,5000.0,https://liquipedia.net/dota2/ONE_Esports/World_Pro_Invitational/2019/Singapore,Dota 2,5000.0,27366919.0
-127,2020-01-25,5th - 6th,Tier 1,DreamLeague Season 13,1 : 2,60000.0,https://liquipedia.net/dota2/DreamLeague/Season_13,Dota 2,60000.0,27426919.0
-343,2020-01-25,5th - 6th,Tier 1,DreamLeague Season 13,1 : 2,60000.0,https://liquipedia.net/dota2/DreamLeague/Season_13,Dota 2,60000.0,27486919.0
-128,2020-02-10,5th - 6th,Qualifier,ESL One Los Angeles 2020 Europe Closed Qualifier,1/3/0,,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Europe,Dota 2,0.0,27486919.0
-344,2020-02-10,5th - 6th,Qualifier,ESL One Los Angeles 2020 Europe Closed Qualifier,1/3/0,,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Europe,Dota 2,0.0,27486919.0
-129,2020-02-14,3rd,Qualifier,StarLadder ImbaTV Dota 2 Minor Season 3 Europe Qualifier,0 : 2,,https://liquipedia.net/dota2/StarLadder_ImbaTV/Minor/3/Europe,Dota 2,0.0,27486919.0
-345,2020-02-14,3rd,Qualifier,StarLadder ImbaTV Dota 2 Minor Season 3 Europe Qualifier,0 : 2,,https://liquipedia.net/dota2/StarLadder_ImbaTV/Minor/3/Europe,Dota 2,0.0,27486919.0
-130,2020-03-13,4th,Tier 2,DOTA Summit 12,0 : 2,15500.0,https://liquipedia.net/dota2/The_Summit/12,Dota 2,15500.0,27502419.0
-346,2020-03-13,4th,Tier 2,DOTA Summit 12,0 : 2,15500.0,https://liquipedia.net/dota2/The_Summit/12,Dota 2,15500.0,27517919.0
-131,2020-03-25,3rd - 4th,Showmatch,WeSave! Charity Play - EU & CIS,1 : 3,,https://liquipedia.net/dota2/WePlay/WeSave_Charity_Play,Dota 2,0.0,27517919.0
-347,2020-03-25,3rd - 4th,Showmatch,WeSave! Charity Play - EU & CIS,1 : 3,,https://liquipedia.net/dota2/WePlay/WeSave_Charity_Play,Dota 2,0.0,27517919.0
-132,2020-04-16,11th - 12th,Tier 2,ESL One Los Angeles 2020 - Online: Europe & CIS,2/-/5,4000.0,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Online/Europe_CIS,Dota 2,4000.0,27521919.0
-348,2020-04-16,11th - 12th,Tier 2,ESL One Los Angeles 2020 - Online: Europe & CIS,2/-/5,4000.0,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Online/Europe_CIS,Dota 2,4000.0,27525919.0
-133,2020-05-17,5th - 8th,Showmatch,Gamers Without Borders 2020,0 : 2,,https://liquipedia.net/dota2/Gamers_Without_Borders/2020,Dota 2,0.0,27525919.0
-349,2020-05-17,5th - 8th,Showmatch,Gamers Without Borders 2020,0 : 2,,https://liquipedia.net/dota2/Gamers_Without_Borders/2020,Dota 2,0.0,27525919.0
-134,2020-06-04,5th - 6th,Tier 2,ESL One Birmingham 2020 - Online: Europe & CIS,0 : 2,10000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2020/Online/Europe_CIS,Dota 2,10000.0,27535919.0
-350,2020-06-04,5th - 6th,Tier 2,ESL One Birmingham 2020 - Online: Europe & CIS,0 : 2,10000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2020/Online/Europe_CIS,Dota 2,10000.0,27545919.0
-135,2020-06-12,4th,Tier 2,BLAST Bounty Hunt,1 : 2,8424.0,https://liquipedia.net/dota2/BLAST/Bounty_Hunt,Dota 2,8424.0,27554343.0
-351,2020-06-12,4th,Tier 2,BLAST Bounty Hunt,1 : 2,8424.0,https://liquipedia.net/dota2/BLAST/Bounty_Hunt,Dota 2,8424.0,27562767.0
-136,2020-06-28,3rd,Tier 2,BEYOND EPIC: Europe/CIS,0 : 2,25000.0,https://liquipedia.net/dota2/BEYOND_EPIC/1/Europe_CIS,Dota 2,25000.0,27587767.0
-352,2020-06-28,3rd,Tier 2,BEYOND EPIC: Europe/CIS,0 : 2,25000.0,https://liquipedia.net/dota2/BEYOND_EPIC/1/Europe_CIS,Dota 2,25000.0,27612767.0
-137,2020-09-04,5th - 6th,Tier 1,OMEGA League: Europe Immortal Division,0 : 2,20000.0,https://liquipedia.net/dota2/OMEGA_League/1/Europe/Immortal_Division,Dota 2,20000.0,27632767.0
-353,2020-09-04,5th - 6th,Tier 1,OMEGA League: Europe Immortal Division,0 : 2,20000.0,https://liquipedia.net/dota2/OMEGA_League/1/Europe/Immortal_Division,Dota 2,20000.0,27652767.0
-138,2020-09-25,5th - 6th,Tier 2,OGA Dota PIT Season 3: Europe/CIS,0 : 2,8500.0,https://liquipedia.net/dota2/Dota_PIT/3/Europe_CIS,Dota 2,8500.0,27661267.0
-354,2020-09-25,5th - 6th,Tier 2,OGA Dota PIT Season 3: Europe/CIS,0 : 2,8500.0,https://liquipedia.net/dota2/Dota_PIT/3/Europe_CIS,Dota 2,8500.0,27669767.0
-139,2020-11-01,1st,Tier 1,ESL One Germany 2020,3 : 1,150000.0,https://liquipedia.net/dota2/ESL_One/Germany/2020,Dota 2,150000.0,27819767.0
-355,2020-11-01,1st,Tier 1,ESL One Germany 2020,3 : 1,150000.0,https://liquipedia.net/dota2/ESL_One/Germany/2020,Dota 2,150000.0,27969767.0
-140,2020-11-08,2nd,Tier 2,DOTA Summit 13 Online: Europe & CIS,1 : 3,11000.0,https://liquipedia.net/dota2/The_Summit/13/Europe_CIS,Dota 2,11000.0,27980767.0
-356,2020-11-08,2nd,Tier 2,DOTA Summit 13 Online: Europe & CIS,1 : 3,11000.0,https://liquipedia.net/dota2/The_Summit/13/Europe_CIS,Dota 2,11000.0,27991767.0
-141,2020-12-06,6th,Qualifier,EPIC League Season 2 Division 1 Group Stage,5/-/4,,https://liquipedia.net/dota2/EPIC_League/2/Division_1/Group_Stage,Dota 2,0.0,27991767.0
-357,2020-12-06,6th,Qualifier,EPIC League Season 2 Division 1 Group Stage,5/-/4,,https://liquipedia.net/dota2/EPIC_League/2/Division_1/Group_Stage,Dota 2,0.0,27991767.0
-142,2020-12-07,1st - 4th,Qualifier,EPIC League Season 2 Play-in,2 : 0,,https://liquipedia.net/dota2/EPIC_League/2/Play-in,Dota 2,0.0,27991767.0
-358,2020-12-07,1st - 4th,Qualifier,EPIC League Season 2 Play-in,2 : 0,,https://liquipedia.net/dota2/EPIC_League/2/Play-in,Dota 2,0.0,27991767.0
-143,2020-12-11,4th,Tier 1,EPIC League Season 2 Division 1,1 : 2,40000.0,https://liquipedia.net/dota2/EPIC_League/2/Division_1,Dota 2,40000.0,28031767.0
-359,2020-12-11,4th,Tier 1,EPIC League Season 2 Division 1,1 : 2,40000.0,https://liquipedia.net/dota2/EPIC_League/2/Division_1,Dota 2,40000.0,28071767.0
-144,2021-02-28,4th,Tier 2,DPC EU 2021 Season 1: Upper Division,3/-/4,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/1/Europe/Upper_Division,Dota 2,26000.0,28097767.0
-360,2021-02-28,4th,Tier 2,DPC EU 2021 Season 1: Upper Division,3/-/4,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/1/Europe/Upper_Division,Dota 2,26000.0,28123767.0
-145,2021-04-01,9th - 12th,Tier 1,ONE Esports Singapore Major 2021,0 : 2,,https://liquipedia.net/dota2/ONE_Esports/Singapore_Major/2021,Dota 2,0.0,28123767.0
-361,2021-04-01,9th - 12th,Tier 1,ONE Esports Singapore Major 2021,0 : 2,,https://liquipedia.net/dota2/ONE_Esports/Singapore_Major/2021,Dota 2,0.0,28123767.0
-146,2021-05-22,2nd,Tier 2,DPC WEU 2021 Season 2: Upper Division,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/2/Europe/Upper_Division,Dota 2,28000.0,28151767.0
-362,2021-05-22,2nd,Tier 2,DPC WEU 2021 Season 2: Upper Division,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/2/Europe/Upper_Division,Dota 2,28000.0,28179767.0
-147,2021-06-07,13th - 14th,Tier 1,WePlay AniMajor,0/1/3,,https://liquipedia.net/dota2/WePlay/AniMajor/2021,Dota 2,0.0,28179767.0
-363,2021-06-07,13th - 14th,Tier 1,WePlay AniMajor,0/1/3,,https://liquipedia.net/dota2/WePlay/AniMajor/2021,Dota 2,0.0,28179767.0
-148,2021-06-17,9th - 12th,Tier 1,ESL One Summer 2021,0 : 2,5000.0,https://liquipedia.net/dota2/ESL_One/Summer/2021,Dota 2,5000.0,28184767.0
-364,2021-06-17,9th - 12th,Tier 1,ESL One Summer 2021,0 : 2,5000.0,https://liquipedia.net/dota2/ESL_One/Summer/2021,Dota 2,5000.0,28189767.0
-149,2021-07-09,4th,Qualifier,The International 2021: Western Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/The_International/2021/Western_Europe,Dota 2,0.0,28189767.0
-150,2021-08-24,9th - 10th,Tier 1,ESL One Fall 2021,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Fall/2021,Dota 2,5000.0,28194767.0
-365,2021-08-24,9th - 10th,Tier 1,ESL One Fall 2021,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Fall/2021,Dota 2,5000.0,28199767.0
-151,2021-12-17,5th - 6th,Tier 2,OGA Dota PIT Season 5: Europe/CIS,1 : 2,8800.0,https://liquipedia.net/dota2/Dota_PIT/5/Europe_CIS,Dota 2,8800.0,28208567.0
-366,2021-12-17,5th - 6th,Tier 2,OGA Dota PIT Season 5: Europe/CIS,1 : 2,8800.0,https://liquipedia.net/dota2/Dota_PIT/5/Europe_CIS,Dota 2,8800.0,28217367.0
-152,2022-01-21,1st,Tier 2,DPC WEU 2021/2022 Tour 1: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Division_I,Dota 2,30000.0,28247367.0
-367,2022-01-21,1st,Tier 2,DPC WEU 2021/2022 Tour 1: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Division_I,Dota 2,30000.0,28277367.0
-153,2022-02-13,2nd,Tier 2,DPC WEU 2021/2022 Tour 1: Regional Final,1 : 3,25000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Regional_Final,Dota 2,25000.0,28302367.0
-368,2022-02-13,2nd,Tier 2,DPC WEU 2021/2022 Tour 1: Regional Final,1 : 3,25000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Regional_Final,Dota 2,25000.0,28327367.0
-154,2022-04-21,3rd,Tier 2,DPC WEU 2021/2022 Tour 2: Division I,4/-/3,27000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/2/Western_Europe/Division_I,Dota 2,27000.0,28354367.0
-369,2022-04-21,3rd,Tier 2,DPC WEU 2021/2022 Tour 2: Division I,4/-/3,27000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/2/Western_Europe/Division_I,Dota 2,27000.0,28381367.0
-155,2022-05-08,1st,Showmatch,Gamers Without Borders 2022: Europe & CIS,2 : 1,,https://liquipedia.net/dota2/Gamers_Without_Borders/2022/Europe_CIS,Dota 2,0.0,28381367.0
-370,2022-05-08,1st,Showmatch,Gamers Without Borders 2022: Europe & CIS,2 : 1,,https://liquipedia.net/dota2/Gamers_Without_Borders/2022/Europe_CIS,Dota 2,0.0,28381367.0
-156,2022-05-17,9th - 12th,Tier 1,ESL One Stockholm Major 2022,1 : 2,,https://liquipedia.net/dota2/ESL_One/Stockholm/2022,Dota 2,0.0,28381367.0
-371,2022-05-17,9th - 12th,Tier 1,ESL One Stockholm Major 2022,1 : 2,,https://liquipedia.net/dota2/ESL_One/Stockholm/2022,Dota 2,0.0,28381367.0
-157,2022-07-14,2nd,Tier 2,DPC WEU 2021/2022 Tour 3: Division I,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/3/Western_Europe/Division_I,Dota 2,28000.0,28409367.0
-372,2022-07-14,2nd,Tier 2,DPC WEU 2021/2022 Tour 3: Division I,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/3/Western_Europe/Division_I,Dota 2,28000.0,28437367.0
-158,2022-07-22,9th - 10th,Tier 1,Riyadh Masters 2022,0/2/2,100000.0,https://liquipedia.net/dota2/Riyadh_Masters/2022,Dota 2,100000.0,28537367.0
-373,2022-07-22,9th - 10th,Tier 1,Riyadh Masters 2022,0/2/2,100000.0,https://liquipedia.net/dota2/Riyadh_Masters/2022,Dota 2,100000.0,28637367.0
-159,2022-08-10,9th - 12th,Tier 1,PGL Arlington Major 2022,1 : 2,,https://liquipedia.net/dota2/PGL/Arlington_Major/2022,Dota 2,0.0,28637367.0
-374,2022-08-10,9th - 12th,Tier 1,PGL Arlington Major 2022,1 : 2,,https://liquipedia.net/dota2/PGL/Arlington_Major/2022,Dota 2,0.0,28637367.0
-160,2022-08-25,11th - 12th,Tier 1,ESL One Malaysia 2022,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Malaysia/2022,Dota 2,5000.0,28642367.0
-375,2022-08-25,11th - 12th,Tier 1,ESL One Malaysia 2022,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Malaysia/2022,Dota 2,5000.0,28647367.0
-161,2022-09-17,3rd,Qualifier,The International 2022: Western Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/The_International/2022/Western_Europe,Dota 2,0.0,28647367.0
-162,2022-10-12,2nd,Qualifier,The International 2022: Last Chance Qualifier,2 : 0,,https://liquipedia.net/dota2/The_International/2022/Last_Chance_Qualifier,Dota 2,0.0,28647367.0
-163,2022-10-30,3rd,Tier 1,The International 2022,1 : 2,1703810.0,https://liquipedia.net/dota2/The_International/2022,Dota 2,1703810.0,30351177.0
-164,2023-01-31,1st,Tier 2,DPC WEU 2023 Tour 1: Division I,7/-/0,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/1/Western_Europe/Division_I,Dota 2,30000.0,30381177.0
-376,2023-01-31,1st,Tier 2,DPC WEU 2023 Tour 1: Division I,7/-/0,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/1/Western_Europe/Division_I,Dota 2,30000.0,30411177.0
-165,2023-03-05,2nd,Tier 1,The Lima Major 2023,0 : 3,100000.0,https://liquipedia.net/dota2/Lima_Major/2023,Dota 2,100000.0,30511177.0
-377,2023-03-05,2nd,Tier 1,The Lima Major 2023,0 : 3,100000.0,https://liquipedia.net/dota2/Lima_Major/2023,Dota 2,100000.0,30611177.0
-166,2023-04-03,1st,Tier 2,DPC WEU 2023 Tour 2: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/2/Western_Europe/Division_I,Dota 2,30000.0,30641177.0
-378,2023-04-03,1st,Tier 2,DPC WEU 2023 Tour 2: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/2/Western_Europe/Division_I,Dota 2,30000.0,30671177.0
-167,2023-04-23,2nd,Tier 1,DreamLeague Season 19,2 : 3,175000.0,https://liquipedia.net/dota2/DreamLeague/Season_19,Dota 2,175000.0,30846177.0
-379,2023-04-23,2nd,Tier 1,DreamLeague Season 19,2 : 3,175000.0,https://liquipedia.net/dota2/DreamLeague/Season_19,Dota 2,175000.0,31021177.0
-168,2023-05-07,2nd,Tier 1,ESL One Berlin Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/ESL_One/Berlin_Major/2023,Dota 2,100000.0,31121177.0
-380,2023-05-07,2nd,Tier 1,ESL One Berlin Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/ESL_One/Berlin_Major/2023,Dota 2,100000.0,31221177.0
-169,2023-06-05,4th,Tier 2,DPC WEU 2023 Tour 3: Division I,4/-/3,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/3/Western_Europe/Division_I,Dota 2,26000.0,31247177.0
-381,2023-06-05,4th,Tier 2,DPC WEU 2023 Tour 3: Division I,4/-/3,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/3/Western_Europe/Division_I,Dota 2,26000.0,31273177.0
-170,2023-06-14,15th - 16th,Tier 1,DreamLeague Season 20,1/3/3,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_20,Dota 2,10000.0,31283177.0
-382,2023-06-14,15th - 16th,Tier 1,DreamLeague Season 20,1/3/3,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_20,Dota 2,10000.0,31293177.0
-171,2023-07-09,2nd,Tier 1,The Bali Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/Bali_Major/2023,Dota 2,100000.0,31393177.0
-383,2023-07-09,2nd,Tier 1,The Bali Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/Bali_Major/2023,Dota 2,100000.0,31493177.0
-172,2023-07-30,2nd,Tier 1,Riyadh Masters 2023,1 : 3,2500000.0,https://liquipedia.net/dota2/Riyadh_Masters/2023,Dota 2,2500000.0,33993177.0
-384,2023-07-30,2nd,Tier 1,Riyadh Masters 2023,1 : 3,2500000.0,https://liquipedia.net/dota2/Riyadh_Masters/2023,Dota 2,2500000.0,36493177.0
-173,2023-09-20,9th - 10th,Tier 1,DreamLeague Season 21,0/2/3,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_21,Dota 2,30000.0,36523177.0
-385,2023-09-20,9th - 10th,Tier 1,DreamLeague Season 21,0/2/3,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_21,Dota 2,30000.0,36553177.0
-174,2023-10-28,5th - 6th,Tier 1,The International 2023,1 : 2,109925.0,https://liquipedia.net/dota2/The_International/2023,Dota 2,109925.0,36663102.0
-175,2023-11-17,1st,Qualifier,ESL One Kuala Lumpur 2023 Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023/Western_Europe/Closed_Qualifier,Dota 2,0.0,36663102.0
-386,2023-11-17,1st,Qualifier,ESL One Kuala Lumpur 2023 Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023/Western_Europe/Closed_Qualifier,Dota 2,0.0,36663102.0
-176,2023-12-17,3rd,Tier 1,ESL One Kuala Lumpur 2023,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023,Dota 2,120000.0,36783102.0
-387,2023-12-17,3rd,Tier 1,ESL One Kuala Lumpur 2023,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023,Dota 2,120000.0,36903102.0
-177,2024-02-16,2nd,Tier 1,BetBoom Dacha Dubai 2024,0 : 3,200000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Dubai/2024,Dota 2,200000.0,37103102.0
-388,2024-02-16,2nd,Tier 1,BetBoom Dacha Dubai 2024,0 : 3,200000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Dubai/2024,Dota 2,200000.0,37303102.0
-178,2024-02-28,13th - 14th,Tier 1,DreamLeague Season 22,0/4/3,15000.0,https://liquipedia.net/dota2/DreamLeague/Season_22,Dota 2,15000.0,37318102.0
-389,2024-02-28,13th - 14th,Tier 1,DreamLeague Season 22,0/4/3,15000.0,https://liquipedia.net/dota2/DreamLeague/Season_22,Dota 2,15000.0,37333102.0
-179,2024-03-19,3rd,Tier 2,1win Series Dota 2 Spring,2 : 1,15000.0,https://liquipedia.net/dota2/1win_Series/2024/Spring,Dota 2,15000.0,37348102.0
-390,2024-03-19,3rd,Tier 2,1win Series Dota 2 Spring,2 : 1,15000.0,https://liquipedia.net/dota2/1win_Series/2024/Spring,Dota 2,15000.0,37363102.0
-180,2024-03-23,1st,Qualifier,DreamLeague Season 23: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_23/Western_Europe,Dota 2,0.0,37363102.0
-391,2024-03-23,1st,Qualifier,DreamLeague Season 23: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_23/Western_Europe,Dota 2,0.0,37363102.0
-181,2024-04-13,4th,Tier 1,Elite League Season 1,1 : 2,50000.0,https://liquipedia.net/dota2/Elite_League/1,Dota 2,50000.0,37413102.0
-392,2024-04-13,4th,Tier 1,Elite League Season 1,1 : 2,50000.0,https://liquipedia.net/dota2/Elite_League/1,Dota 2,50000.0,37463102.0
-182,2024-04-26,5th - 6th,Tier 1,ESL One Birmingham 2024,1 : 2,57500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2024,Dota 2,57500.0,37520602.0
-393,2024-04-26,5th - 6th,Tier 1,ESL One Birmingham 2024,1 : 2,57500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2024,Dota 2,57500.0,37578102.0
-183,2024-05-18,5th - 6th,Tier 1,PGL Wallachia Season 1,0 : 2,60000.0,https://liquipedia.net/dota2/PGL/Wallachia/1,Dota 2,60000.0,37638102.0
-394,2024-05-18,5th - 6th,Tier 1,PGL Wallachia Season 1,0 : 2,60000.0,https://liquipedia.net/dota2/PGL/Wallachia/1,Dota 2,60000.0,37698102.0
-184,2024-05-22,9th - 10th,Tier 1,DreamLeague Season 23,1/2/2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_23,Dota 2,30000.0,37728102.0
-395,2024-05-22,9th - 10th,Tier 1,DreamLeague Season 23,1/2/2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_23,Dota 2,30000.0,37758102.0
-185,2024-07-21,2nd,Tier 1,Riyadh Masters 2024,0 : 3,800000.0,https://liquipedia.net/dota2/Riyadh_Masters/2024,Dota 2,800000.0,38558102.0
-396,2024-07-21,2nd,Tier 1,Riyadh Masters 2024,0 : 3,800000.0,https://liquipedia.net/dota2/Riyadh_Masters/2024,Dota 2,800000.0,39358102.0
-186,2024-08-04,1st,Tier 2,Elite League Season 2,3 : 2,240000.0,https://liquipedia.net/dota2/Elite_League/2,Dota 2,240000.0,39598102.0
-397,2024-08-04,1st,Tier 2,Elite League Season 2,3 : 2,240000.0,https://liquipedia.net/dota2/Elite_League/2,Dota 2,240000.0,39838102.0
-187,2024-09-15,1st,Tier 1,The International 2024,3 : 0,1249445.0,https://liquipedia.net/dota2/The_International/2024,Dota 2,1249445.0,41087547.0
-188,2024-10-24,7th - 8th,Tier 1,BetBoom Dacha Belgrade 2024,1 : 2,30000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Belgrade/2024,Dota 2,30000.0,41117547.0
-398,2024-10-24,7th - 8th,Tier 1,BetBoom Dacha Belgrade 2024,1 : 2,30000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Belgrade/2024,Dota 2,30000.0,41147547.0
-189,2024-11-07,6th,Tier 1,DreamLeague Season 24,3/4,47500.0,https://liquipedia.net/dota2/DreamLeague/Season_24,Dota 2,47500.0,41195047.0
-399,2024-11-07,6th,Tier 1,DreamLeague Season 24,3/4,47500.0,https://liquipedia.net/dota2/DreamLeague/Season_24,Dota 2,47500.0,41242547.0
-190,2024-11-16,1st,Qualifier,ESL One Bangkok 2024: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Bangkok/2024/Western_Europe,Dota 2,0.0,41242547.0
-400,2024-11-16,1st,Qualifier,ESL One Bangkok 2024: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Bangkok/2024/Western_Europe,Dota 2,0.0,41242547.0
-191,2024-11-22,1st,Tier 2,1win Series Dota 2 Fall,3 : 0,50000.0,https://liquipedia.net/dota2/1win_Series/2024/Fall,Dota 2,50000.0,41292547.0
-401,2024-11-22,1st,Tier 2,1win Series Dota 2 Fall,3 : 0,50000.0,https://liquipedia.net/dota2/1win_Series/2024/Fall,Dota 2,50000.0,41342547.0
-192,2024-11-29,5th - 6th,Tier 1,BLAST Slam I,0 : 2,50000.0,https://liquipedia.net/dota2/BLAST/Slam/1,Dota 2,50000.0,41392547.0
-402,2024-11-29,5th - 6th,Tier 1,BLAST Slam I,0 : 2,50000.0,https://liquipedia.net/dota2/BLAST/Slam/1,Dota 2,50000.0,41442547.0
-193,2024-12-15,2nd,Tier 1,ESL One Bangkok 2024,1 : 3,175000.0,https://liquipedia.net/dota2/ESL_One/Bangkok/2024,Dota 2,175000.0,41617547.0
-403,2024-12-15,2nd,Tier 1,ESL One Bangkok 2024,1 : 3,175000.0,https://liquipedia.net/dota2/ESL_One/Bangkok/2024,Dota 2,175000.0,41792547.0
-194,2025-01-31,7th - 8th,Tier 1,FISSURE PLAYGROUND 1,1 : 2,35000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/1,Dota 2,35000.0,41827547.0
-404,2025-01-31,7th - 8th,Tier 1,FISSURE PLAYGROUND 1,1 : 2,35000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/1,Dota 2,35000.0,41862547.0
-195,2025-02-06,7th - 8th,Tier 1,BLAST Slam II,1 : 2,30000.0,https://liquipedia.net/dota2/BLAST/Slam/2,Dota 2,30000.0,41892547.0
-405,2025-02-06,7th - 8th,Tier 1,BLAST Slam II,1 : 2,30000.0,https://liquipedia.net/dota2/BLAST/Slam/2,Dota 2,30000.0,41922547.0
-196,2025-02-27,7th,Tier 1,DreamLeague Season 25,1/6,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_25,Dota 2,30000.0,41952547.0
-406,2025-02-27,7th,Tier 1,DreamLeague Season 25,1/6,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_25,Dota 2,30000.0,41982547.0
-197,2025-03-16,1st,Tier 1,PGL Wallachia Season 3,3 : 1,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/3,Dota 2,300000.0,42282547.0
-407,2025-03-16,1st,Tier 1,PGL Wallachia Season 3,3 : 1,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/3,Dota 2,300000.0,42582547.0
-198,2025-03-28,7th - 8th,Tier 1,FISSURE Universe: Episode 4,0 : 2,10000.0,https://liquipedia.net/dota2/FISSURE/Universe/4,Dota 2,10000.0,42592547.0
-408,2025-03-28,7th - 8th,Tier 1,FISSURE Universe: Episode 4,0 : 2,10000.0,https://liquipedia.net/dota2/FISSURE/Universe/4,Dota 2,10000.0,42602547.0
-199,2025-04-11,5th - 6th,Tier 1,ESL One Raleigh 2025,1 : 2,40000.0,https://liquipedia.net/dota2/ESL_One/Raleigh/2025,Dota 2,40000.0,42642547.0
-409,2025-04-11,5th - 6th,Tier 1,ESL One Raleigh 2025,1 : 2,40000.0,https://liquipedia.net/dota2/ESL_One/Raleigh/2025,Dota 2,40000.0,42682547.0
-200,2025-04-27,1st,Tier 1,PGL Wallachia Season 4,3 : 2,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/4,Dota 2,300000.0,42982547.0
-410,2025-04-27,1st,Tier 1,PGL Wallachia Season 4,3 : 2,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/4,Dota 2,300000.0,43282547.0
-201,2025-05-07,9th - 10th,Tier 1,BLAST Slam III,1 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/3,Dota 2,25000.0,43307547.0
-411,2025-05-07,9th - 10th,Tier 1,BLAST Slam III,1 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/3,Dota 2,25000.0,43332547.0
-202,2025-05-29,8th,Tier 1,DreamLeague Season 26,1/6,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_26,Dota 2,25000.0,43357547.0
-412,2025-05-29,8th,Tier 1,DreamLeague Season 26,1/6,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_26,Dota 2,25000.0,43382547.0
-203,2025-06-29,3rd,Tier 1,PGL Wallachia Season 5,0 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/5,Dota 2,120000.0,43502547.0
-413,2025-06-29,3rd,Tier 1,PGL Wallachia Season 5,0 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/5,Dota 2,120000.0,43622547.0
-204,2025-07-04,1st,Tier 2,FISSURE Universe: Episode 5,3 : 0,125000.0,https://liquipedia.net/dota2/FISSURE/Universe/5,Dota 2,125000.0,43747547.0
-414,2025-07-04,1st,Tier 2,FISSURE Universe: Episode 5,3 : 0,125000.0,https://liquipedia.net/dota2/FISSURE/Universe/5,Dota 2,125000.0,43872547.0
-205,2025-07-17,5th - 8th,Tier 1,Esports World Cup 2025,0 : 2,125000.0,https://liquipedia.net/dota2/Esports_World_Cup/2025,Dota 2,125000.0,43997547.0
-415,2025-07-17,5th - 8th,Tier 1,Esports World Cup 2025,0 : 2,125000.0,https://liquipedia.net/dota2/Esports_World_Cup/2025,Dota 2,125000.0,44122547.0
-206,2025-08-24,3rd,Tier 1,FISSURE Universe: Episode 6,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/6,Dota 2,30000.0,44152547.0
-416,2025-08-24,3rd,Tier 1,FISSURE Universe: Episode 6,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/6,Dota 2,30000.0,44182547.0
-207,2025-09-07,9th - 13th,Tier 1,The International 2025,1 : 2,51817.0,https://liquipedia.net/dota2/The_International/2025,Dota 2,51817.0,44234364.0
-208,2025-10-12,3rd,Tier 2,FISSURE Universe: Episode 7,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/7,Dota 2,30000.0,44264364.0
-417,2025-10-12,3rd,Tier 2,FISSURE Universe: Episode 7,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/7,Dota 2,30000.0,44294364.0
-209,2025-10-19,9th - 10th,Tier 1,BLAST Slam IV,0 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/4,Dota 2,25000.0,44319364.0
-418,2025-10-19,9th - 10th,Tier 1,BLAST Slam IV,0 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/4,Dota 2,25000.0,44344364.0
-210,2025-11-01,4th,Tier 1,FISSURE PLAYGROUND 2,1 : 2,60000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/2,Dota 2,60000.0,44404364.0
-419,2025-11-01,4th,Tier 1,FISSURE PLAYGROUND 2,1 : 2,60000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/2,Dota 2,60000.0,44464364.0
-211,2025-11-23,3rd,Tier 1,PGL Wallachia Season 6,1 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/6,Dota 2,120000.0,44584364.0
-420,2025-11-23,3rd,Tier 1,PGL Wallachia Season 6,1 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/6,Dota 2,120000.0,44704364.0
-212,2025-12-15,9th - 16th,Tier 1,DreamLeague Season 27,2 : 0,10500.0,https://liquipedia.net/dota2/DreamLeague/27,Dota 2,10500.0,44714864.0
-421,2025-12-15,9th - 16th,Tier 1,DreamLeague Season 27,2 : 0,10500.0,https://liquipedia.net/dota2/DreamLeague/27,Dota 2,10500.0,44725364.0
-213,2026-01-10,1st - 2nd,Qualifier,DreamLeague Season 28: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/28/Western_Europe,Dota 2,0.0,44725364.0
-422,2026-01-10,1st - 2nd,Qualifier,DreamLeague Season 28: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/28/Western_Europe,Dota 2,0.0,44725364.0
-214,2026-01-20,5th - 6th,Qualifier,ESL One Birmingham 2026: Western Europe Closed Qualifier,1 : 2,,https://liquipedia.net/dota2/ESL_One/Birmingham/2026/Western_Europe,Dota 2,0.0,44725364.0
-423,2026-01-20,5th - 6th,Qualifier,ESL One Birmingham 2026: Western Europe Closed Qualifier,1 : 2,,https://liquipedia.net/dota2/ESL_One/Birmingham/2026/Western_Europe,Dota 2,0.0,44725364.0
-215,2026-01-31,4th,Tier 2,FISSURE Universe: Episode 8,0 : 2,15000.0,https://liquipedia.net/dota2/FISSURE/Universe/8,Dota 2,15000.0,44740364.0
-424,2026-01-31,4th,Tier 2,FISSURE Universe: Episode 8,0 : 2,15000.0,https://liquipedia.net/dota2/FISSURE/Universe/8,Dota 2,15000.0,44755364.0
-216,2026-02-15,1st,Tier 1,BLAST Slam VI,3 : 1,300000.0,https://liquipedia.net/dota2/BLAST/Slam/6,Dota 2,300000.0,45055364.0
-425,2026-02-15,1st,Tier 1,BLAST Slam VI,3 : 1,300000.0,https://liquipedia.net/dota2/BLAST/Slam/6,Dota 2,300000.0,45355364.0
-217,2026-03-01,3rd,Tier 1,DreamLeague Season 28,0 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/28,Dota 2,80000.0,45435364.0
-426,2026-03-01,3rd,Tier 1,DreamLeague Season 28,0 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/28,Dota 2,80000.0,45515364.0
-218,2026-03-15,2nd,Tier 1,PGL Wallachia Season 7,2 : 3,175000.0,https://liquipedia.net/dota2/PGL/Wallachia/7,Dota 2,175000.0,45690364.0
-427,2026-03-15,2nd,Tier 1,PGL Wallachia Season 7,2 : 3,175000.0,https://liquipedia.net/dota2/PGL/Wallachia/7,Dota 2,175000.0,45865364.0
-219,2026-04-10,5th - 6th,Tier 2,PREMIER SERIES,1 : 2,2500.0,https://liquipedia.net/dota2/NarodCast/PREMIER_SERIES/1,Dota 2,2500.0,45867864.0
-428,2026-04-10,5th - 6th,Tier 2,PREMIER SERIES,1 : 2,2500.0,https://liquipedia.net/dota2/NarodCast/PREMIER_SERIES/1,Dota 2,2500.0,45870364.0
-220,2026-04-14,3rd,Qualifier,DreamLeague Season 29: Western Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/DreamLeague/29/Western_Europe,Dota 2,0.0,45870364.0
-429,2026-04-14,3rd,Qualifier,DreamLeague Season 29: Western Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/DreamLeague/29/Western_Europe,Dota 2,0.0,45870364.0
-221,2026-04-25,4th,Tier 1,PGL Wallachia Season 8,1 : 2,80000.0,https://liquipedia.net/dota2/PGL/Wallachia/8,Dota 2,80000.0,45950364.0
-430,2026-04-25,4th,Tier 1,PGL Wallachia Season 8,1 : 2,80000.0,https://liquipedia.net/dota2/PGL/Wallachia/8,Dota 2,80000.0,46030364.0
-222,2026-05-20,9th - 12th,Tier 1,DreamLeague Season 29,1 : 2,20000.0,https://liquipedia.net/dota2/DreamLeague/29,Dota 2,20000.0,46050364.0
-431,2026-05-20,9th - 12th,Tier 1,DreamLeague Season 29,1 : 2,20000.0,https://liquipedia.net/dota2/DreamLeague/29,Dota 2,20000.0,46070364.0
+1,2013-02-24,1st,Monthly,Bigpoint Battle #1,2 : 0,1979.0,https://liquipedia.net/dota2/Bigpoint_Battle/1,Dota 2,1979.0,2479.0
+2,2013-02-28,3rd - 4th,Monthly,EIZO Cup #1,0 : 2,,https://liquipedia.net/dota2/EIZO_Cup/1,Dota 2,0.0,2479.0
+3,2013-03-03,3rd,Tier 3,DotaHut Invitational,0 : 2,300.0,https://liquipedia.net/dota2/DotaHut_Invitational,Dota 2,300.0,2779.0
+4,2013-03-11,4th,Tier 1,The Defense Season 3,0 : 2,1500.0,https://liquipedia.net/dota2/The_Defense/Season_3,Dota 2,1500.0,4279.0
+5,2013-03-15,2nd,Monthly,Bigpoint Battle #2,1 : 2,654.0,https://liquipedia.net/dota2/Bigpoint_Battle/2,Dota 2,654.0,4933.0
+6,2013-03-19,13th - 16th,Tier 1,EMS One Spring Season,0/-/3,2000.0,https://liquipedia.net/dota2/ESL_Major_Series_One/Spring/Main_Event,Dota 2,2000.0,6933.0
+7,2013-03-28,2nd,Monthly,EIZO Cup #2,0 : 2,642.0,https://liquipedia.net/dota2/EIZO_Cup/2,Dota 2,642.0,7575.0
+8,2013-03-31,4th,Tier 2,Ritmix Russian Dota 2 League,0 : 2,,https://liquipedia.net/dota2/Ritmix_Russian_DOTA_2_League,Dota 2,0.0,7575.0
+9,2013-04-10,1st,Tier 1,RaidCall Dota 2 League Season 2,3 : 1,5000.0,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_2,Dota 2,5000.0,12575.0
+10,2013-04-13,3rd - 4th,Tier 2,DreamHack Invitational 2013,0 : 2,1000.0,https://liquipedia.net/dota2/DreamHack/2013/Invitational,Dota 2,1000.0,13575.0
+11,2013-04-16,5th - 8th,Tier 3,joinDOTA Masters XIII,0 : 1,,https://liquipedia.net/dota2/JoinDOTA_Masters/XIII,Dota 2,0.0,13575.0
+12,2013-04-28,2nd,Tier 1,The Premier League Season 4,0 : 3,3000.0,https://liquipedia.net/dota2/The_Premier_League/Season_4,Dota 2,3000.0,16575.0
+13,2013-04-29,2nd,Qualifier,G-1 Champions League Season 5 Western Qualifier,2 : 0,,https://liquipedia.net/dota2/G-1_Champions_League_Season_5/Western_Qualifiers,Dota 2,0.0,16575.0
+14,2013-05-12,3rd - 4th,Monthly,Bigpoint Battle #4,1 : 2,,https://liquipedia.net/dota2/Bigpoint_Battle/4,Dota 2,0.0,16575.0
+15,2013-05-13,4th,Tier 2,WePlay Dota2 League Season 1,0 : 2,,https://liquipedia.net/dota2/WePlay_Dota2_League/1,Dota 2,0.0,16575.0
+16,2013-05-19,1st,Tier 2,Curse Dota 2 Invitational,3 : 0,5000.0,https://liquipedia.net/dota2/Curse_Dota_2_Invitational,Dota 2,5000.0,21575.0
+17,2013-05-25,5th - 6th,Tier 1,G-1 Champions League Season 5,1/-/4,1631.0,https://liquipedia.net/dota2/G-1_Champions_League_Season_5,Dota 2,1631.0,23206.0
+18,2013-06-16,5th - 8th,Tier 1,DreamHack Summer 2013,1 : 2,1547.0,https://liquipedia.net/dota2/DreamHack/2013/Summer,Dota 2,1547.0,24753.0
+19,2013-07-07,1st,Tier 2,American Dota League Season 1,3 : 0,5000.0,https://liquipedia.net/dota2/American_Dota_League/Season_1,Dota 2,5000.0,29753.0
+20,2013-07-11,5th - 6th,Tier 1,RaidCall Dota 2 League Season 3,0 : 2,,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_3,Dota 2,0.0,29753.0
+21,2013-07-22,4th,Tier 1,The Defense Season 4,0 : 2,2000.0,https://liquipedia.net/dota2/The_Defense/Season_4,Dota 2,2000.0,31753.0
+22,2013-08-09,7th - 8th,Tier 1,The International 2013,0 : 1,43116.0,https://liquipedia.net/dota2/The_International/2013,Dota 2,43116.0,74869.0
+23,2013-11-03,3rd,Tier 1,WePlay Dota2 League Season 2,1 : 3,4000.0,https://liquipedia.net/dota2/WePlay_Dota2_League/2,Dota 2,4000.0,78869.0
+24,2013-11-17,3rd,Qualifier,Dota 2 League Season 4 - Western Division,1 : 3,,https://liquipedia.net/dota2/Dota_2_League/Season_4/Western_Division,Dota 2,0.0,78869.0
+25,2013-11-23,5th - 9th,Tier 1,MLG Championship Columbus,3/-/5,2739.0,https://liquipedia.net/dota2/MLG/2013/Fall_Season/Championship,Dota 2,2739.0,81608.0
+26,2013-11-25,7th,Showmatch,Nexon Invitational Super Match,2/-/2,7000.0,https://liquipedia.net/dota2/Nexon_Invitational_Super_Match,Dota 2,7000.0,88608.0
+27,2013-11-29,4th,Tier 1,DreamLeague Kick-Off Season,0 : 3,2500.0,https://liquipedia.net/dota2/DreamLeague/Kick-Off_Season,Dota 2,2500.0,91108.0
+28,2013-12-16,4th,Tier 1,Dota 2 Champions League Season 1,1 : 3,3000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/1,Dota 2,3000.0,94108.0
+29,2013-12-22,5th - 8th,Monthly,Bigpoint Battle #11,0 : 1,,https://liquipedia.net/dota2/Bigpoint_Battle/11,Dota 2,0.0,94108.0
+30,2014-01-05,5th - 8th,Tier 2,Pinnacle Pro-Am,0 : 2,,https://liquipedia.net/dota2/Pinnacle_Pro-Am_Cup,Dota 2,0.0,94108.0
+31,2014-02-04,3rd,Tier 2,Electronic Sports Prime Shock Therapy Cup,0 : 2,1000.0,https://liquipedia.net/dota2/Electronic_Sports_Prime/Shock_Therapy_Cup,Dota 2,1000.0,95108.0
+32,2014-02-28,L,Showmatch,BountyHunter Series #2,0 : 3,,https://liquipedia.net/dota2/BountyHunter_Series/2,Dota 2,0.0,95108.0
+33,2014-03-05,7th - 10th,Tier 1,Dota 2 Champions League Season 2,5/-/5,,https://liquipedia.net/dota2/Dota_2_Champions_League/2,Dota 2,0.0,95108.0
+34,2014-03-09,3rd,Tier 2,Monster Energy Invitational,0 : 2,2000.0,https://liquipedia.net/dota2/Monster_Energy_Invitational,Dota 2,2000.0,97108.0
+35,2014-03-18,5th - 6th,Tier 2,XMG Captains Draft Invitational,0/-/5,,https://liquipedia.net/dota2/Captains_Draft/1,Dota 2,0.0,97108.0
+36,2014-04-02,2nd,Qualifier,StarLadder StarSeries Season 9: America,1 : 2,,https://liquipedia.net/dota2/StarLadder/StarSeries/Season_9/America,Dota 2,0.0,97108.0
+37,2014-04-05,2nd,Tier 2,MLG T.K.O. America,1 : 3,8500.0,https://liquipedia.net/dota2/MLG_T.K.O._Tournament/America,Dota 2,8500.0,105608.0
+38,2014-04-13,2nd,Tier 3,joinDOTA League Season 1 America,0 : 2,663.0,https://liquipedia.net/dota2/JoinDOTA_League/Season_1/America,Dota 2,663.0,106271.0
+39,2014-04-22,5th - 8th,Tier 2,Fragbite Masters 2014 Spring,1 : 2,,https://liquipedia.net/dota2/Fragbite_Masters_2014,Dota 2,0.0,106271.0
+40,2014-05-04,2nd,Qualifier,ESL One Frankfurt - American Qualifiers,1 : 3,,https://liquipedia.net/dota2/ESL_One/Frankfurt/2014/Qualifiers/America,Dota 2,0.0,106271.0
+41,2014-05-10,4th,Qualifier,The Summit 1 American Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/1/American_Qualifiers,Dota 2,0.0,106271.0
+42,2014-05-11,7th - 11th,Tier 1,DreamLeague Season 1,5/-/9,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_1,Dota 2,8000.0,114271.0
+43,2014-05-16,2nd,Qualifier,The International 2014: Americas Qualifiers,2 : 3,,https://liquipedia.net/dota2/The_International/2014/Americas_Qualifiers,Dota 2,0.0,114271.0
+44,2014-05-23,3rd - 4th,Monthly,GIGABYTE Challenge #4,0 : 1,,https://liquipedia.net/dota2/GIGABYTE_Challenge/4,Dota 2,0.0,114271.0
+45,2014-05-28,7th - 8th,Tier 1,HyperX D2L Western Challenge,1/-/6,,https://liquipedia.net/dota2/Dota_2_League/Western_Challenge,Dota 2,0.0,114271.0
+46,2014-06-03,2nd,Tier 2,American Dota League Season 2,1 : 3,2000.0,https://liquipedia.net/dota2/American_Dota_League/Season_2,Dota 2,2000.0,116271.0
+47,2014-07-13,9th - 10th,Tier 1,The International 2014,0 : 2,49158.0,https://liquipedia.net/dota2/The_International/2014,Dota 2,49158.0,165429.0
+48,2015-10-12,4th,Qualifier,The Frankfurt Major 2015 Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Frankfurt_Major/2015/Europe,Dota 2,0.0,165429.0
+49,2015-10-30,4th,Tier 1,Nanyang Dota 2 Championships,0 : 2,17615.0,https://liquipedia.net/dota2/Nanyang_Dota_2_Championships/Season_1,Dota 2,17615.0,183044.0
+50,2015-11-05,1st,Qualifier,The Summit 4 - European Qualifiers,3 : 1,,https://liquipedia.net/dota2/The_Summit/4/European_Qualifiers,Dota 2,0.0,183044.0
+51,2015-11-12,1st,Tier 2,Dota 2 Champions League Season 6,3 : 1,25000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/6,Dota 2,25000.0,208044.0
+52,2015-12-04,5th - 8th,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Qualifier,1/-/2,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS,Dota 2,0.0,208044.0
+53,2015-12-06,1st,Tier 1,The Defense Season 5,3 : 1,39293.0,https://liquipedia.net/dota2/The_Defense/Season_5,Dota 2,39293.0,247337.0
+54,2015-12-07,1st - 2nd,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Last Chance Qualifier,W : FF,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS/Last_Chance_Qualifier,Dota 2,0.0,247337.0
+55,2015-12-12,5th - 6th,Tier 1,The Summit 4,1 : 2,4020.0,https://liquipedia.net/dota2/The_Summit/4,Dota 2,4020.0,251357.0
+56,2015-12-20,3rd,Tier 1,World Cyber Arena 2015,3 : 0,77132.0,https://liquipedia.net/dota2/World_Cyber_Arena/2015,Dota 2,77132.0,328489.0
+57,2016-01-09,1st,Qualifier,The Shanghai Major 2016 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Shanghai_Major/2016/Europe,Dota 2,0.0,328489.0
+58,2016-01-16,3rd - 4th,Tier 1,StarLadder i-League StarSeries Season 1,0 : 2,30223.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1,Dota 2,30223.0,358712.0
+59,2016-02-14,5th - 6th,Tier 2,Captains Draft 3.0,0 : 2,6208.0,https://liquipedia.net/dota2/Captains_Draft/3,Dota 2,6208.0,364920.0
+60,2016-02-15,3rd - 12th,Qualifier,Dota Pit League Season 4 European Qualifier,1/4/0,,https://liquipedia.net/dota2/Dota_Pit_League/Season_4/Europe,Dota 2,0.0,364920.0
+61,2016-03-06,2nd,Tier 1,The Shanghai Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Shanghai_Major/2016,Dota 2,405000.0,769920.0
+62,2016-03-20,1st,Qualifier,WePlay Dota 2 League Season 3 EU West Division,13/-/1,,https://liquipedia.net/dota2/WePlay_Dota2_League/3/EU_West,Dota 2,0.0,769920.0
+63,2016-04-14,1st,Tier 3,BTS Europe #3,3 : 1,5000.0,https://liquipedia.net/dota2/BTS_Series/Europe/3,Dota 2,5000.0,774920.0
+64,2016-04-24,2nd,Tier 1,ESL One Manila 2016,0 : 3,50000.0,https://liquipedia.net/dota2/ESL_One/Manila/2016,Dota 2,50000.0,824920.0
+65,2016-05-15,1st,Tier 1,EPICENTER 2016,3 : 2,250000.0,https://liquipedia.net/dota2/EPICENTER/2016,Dota 2,250000.0,1074920.0
+66,2016-06-12,2nd,Tier 1,The Manila Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Manila_Major/2016,Dota 2,405000.0,1479920.0
+67,2016-06-19,3rd - 4th,Tier 1,ESL One Frankfurt 2016,1 : 2,28309.0,https://liquipedia.net/dota2/ESL_One/Frankfurt/2016,Dota 2,28309.0,1508229.0
+68,2016-07-17,3rd,Tier 1,The Summit 5,1 : 2,13136.0,https://liquipedia.net/dota2/The_Summit/5,Dota 2,13136.0,1521365.0
+69,2016-07-19,7th - 8th,Tier 2,Global Grand Masters,FF : W,,https://liquipedia.net/dota2/Global_Grand_Masters,Dota 2,0.0,1521365.0
+70,2016-08-11,7th - 8th,Tier 1,The International 2016,0 : 2,519262.0,https://liquipedia.net/dota2/The_International/2016,Dota 2,519262.0,2040627.0
+71,2016-10-18,3rd - 4th,Tier 2,FACEIT Invitational,0 : 1,4000.0,https://liquipedia.net/dota2/FACEIT/Invitational/1,Dota 2,4000.0,2044627.0
+72,2016-10-18,3rd,Qualifier,The Summit 6 - European Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/6/European_Qualifiers,Dota 2,0.0,2044627.0
+73,2016-10-22,3rd,Qualifier,Dota Pit League Season 5 European Qualifier #2,1 : 2,,https://liquipedia.net/dota2/Dota_Pit_League/Season_5/European_Qualifier/2,Dota 2,0.0,2044627.0
+74,2016-10-30,3rd,Qualifier,The Boston Major 2016: Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Boston_Major/2016/Europe,Dota 2,0.0,2044627.0
+75,2016-11-05,5th - 8th,Qualifier,ESL One Genting 2017 European Qualifier,0 : 2,,https://liquipedia.net/dota2/ESL_One/Genting/2017/Europe,Dota 2,0.0,2044627.0
+76,2016-11-05,5th - 6th,Tier 3,Elimination Mode 2.0,0 : 2,,https://liquipedia.net/dota2/Elimination_Mode/2,Dota 2,0.0,2044627.0
+77,2016-11-08,4th,Tier 2,DreamLeague Season 6 League Play,8/-/6,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_6/League_Play,Dota 2,8000.0,2052627.0
+78,2016-11-26,1st,Tier 2,DreamLeague Season 6,3 : 0,90000.0,https://liquipedia.net/dota2/DreamLeague/Season_6,Dota 2,90000.0,2142627.0
+79,2016-12-20,3rd - 4th,Tier 3,WellPlay Invitational #6,1 : 2,,https://liquipedia.net/dota2/WellPlay_Invitational/6,Dota 2,0.0,2142627.0
+80,2017-02-02,1st,Qualifier,StarLadder i-League StarSeries Season 3 European Qualifier,4/3/0,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3/Europe,Dota 2,0.0,2142627.0
+81,2017-02-10,1st,Qualifier,Dota 2 Asia Championships 2017 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017/Europe_Qualifier,Dota 2,0.0,2142627.0
+82,2017-02-26,1st,Tier 1,StarLadder i-League StarSeries Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3,Dota 2,135000.0,2277627.0
+83,2017-04-01,9th - 12th,Tier 1,Dota 2 Asia Championships 2017,0 : 1,9179.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017,Dota 2,9179.0,2286806.0
+84,2017-04-29,5th - 8th,Tier 1,The Kiev Major 2017,1 : 2,125000.0,https://liquipedia.net/dota2/Kiev_Major/2017,Dota 2,125000.0,2411806.0
+85,2017-05-21,2nd,Tier 2,DreamLeague Season 7 EU Division,9/-/5,9000.0,https://liquipedia.net/dota2/DreamLeague/Season_7/EU_Division,Dota 2,9000.0,2420806.0
+86,2017-05-21,1st,Tier 1,StarLadder i-League Invitational Season 2,3 : 2,45000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/2,Dota 2,45000.0,2465806.0
+87,2017-06-11,1st,Tier 1,EPICENTER 2017,3 : 1,250000.0,https://liquipedia.net/dota2/EPICENTER/2017,Dota 2,250000.0,2715806.0
+88,2017-07-22,1st,Tier 2,DreamLeague Season 7,3 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/Season_7,Dota 2,80000.0,2795806.0
+89,2017-08-12,1st,Tier 1,The International 2017,3 : 0,10862683.0,https://liquipedia.net/dota2/The_International/2017,Dota 2,10862683.0,13658489.0
+90,2017-10-15,1st,Tier 2,StarLadder i-League Invitational Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/3,Dota 2,135000.0,13793489.0
+91,2017-10-29,3rd - 4th,Tier 1,ESL One Hamburg 2017,1 : 2,90000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2017,Dota 2,90000.0,13883489.0
+92,2017-11-05,1st,Tier 2,AMD SAPPHIRE Dota PIT League,3 : 2,125000.0,https://liquipedia.net/dota2/Dota_Pit_League/Season_6,Dota 2,125000.0,14008489.0
+93,2017-11-16,3rd,Qualifier,DreamLeague Season 8 Europe & CIS Qualifier,3/4/0,,https://liquipedia.net/dota2/DreamLeague/Season_8/Europe_CIS,Dota 2,0.0,14008489.0
+94,2017-11-26,1st,Tier 2,Midas Mode - Europe,3 : 1,18000.0,https://liquipedia.net/dota2/Midas_Mode/1,Dota 2,18000.0,14026489.0
+95,2017-12-03,2nd,Tier 1,DreamLeague Season 8,0 : 3,200000.0,https://liquipedia.net/dota2/DreamLeague/Season_8,Dota 2,200000.0,14226489.0
+96,2018-01-28,2nd,Tier 2,ESL One Genting 2018,2 : 3,80000.0,https://liquipedia.net/dota2/ESL_One/Genting/2018,Dota 2,80000.0,14306489.0
+97,2018-02-04,1st,Tier 2,StarLadder i-League Invitational Season 4,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/4,Dota 2,135000.0,14441489.0
+98,2018-02-25,3rd - 4th,Tier 1,ESL One Katowice 2018,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Katowice/2018,Dota 2,120000.0,14561489.0
+99,2018-03-10,3rd - 4th,Tier 1,The Bucharest Major,1 : 2,90000.0,https://liquipedia.net/dota2/PGL/Bucharest_Major/2018,Dota 2,90000.0,14651489.0
+100,2018-03-24,3rd,Tier 2,DreamLeague Season 9,0 : 2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_9,Dota 2,30000.0,14681489.0
+101,2018-04-06,5th - 6th,Tier 1,Dota 2 Asia Championships 2018,0 : 1,67500.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2018,Dota 2,67500.0,14748989.0
+102,2018-05-06,2nd,Tier 1,EPICENTER XL,1 : 3,200000.0,https://liquipedia.net/dota2/EPICENTER/2018,Dota 2,200000.0,14948989.0
+103,2018-05-24,7th - 9th,Tier 1,ESL One Birmingham 2018,1 : 2,16000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2018,Dota 2,16000.0,14964989.0
+104,2018-06-10,1st,Tier 1,China Dota2 Supermajor,3 : 2,555000.0,https://liquipedia.net/dota2/Supermajor/2018,Dota 2,555000.0,15519989.0
+105,2018-08-24,4th,Tier 1,The International 2018,0 : 2,1787252.0,https://liquipedia.net/dota2/The_International/2018,Dota 2,1787252.0,17307241.0
+106,2018-09-20,5th - 6th,Qualifier,The Kuala Lumpur Major Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/PGL/Kuala_Lumpur_Major/Europe,Dota 2,0.0,17307241.0
+107,2018-09-26,2nd,Qualifier,DreamLeague Season 10 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_10/Europe,Dota 2,0.0,17307241.0
+108,2018-11-30,2nd,Qualifier,The Chongqing Major Europe Qualifier,2 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Europe,Dota 2,0.0,17307241.0
+109,2018-12-09,1st,Tier 2,MegaFon Winter Clash,3 : 0,150000.0,https://liquipedia.net/dota2/MegaFon_Winter_Clash,Dota 2,150000.0,17457241.0
+110,2019-01-25,7th - 8th,Tier 1,The Chongqing Major,0 : 2,40000.0,https://liquipedia.net/dota2/Chongqing_Major/2019,Dota 2,40000.0,17497241.0
+111,2019-01-27,L,Showmatch,The Chongqing Major: Show Match,0 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Show_Match,Dota 2,0.0,17497241.0
+112,2019-02-06,3rd,Qualifier,DreamLeague Season 11 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_11/Europe,Dota 2,0.0,17497241.0
+113,2019-02-24,1st,Tier 2,MDL Macau 2019,3 : 1,135000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Macau/2019,Dota 2,135000.0,17632241.0
+114,2019-03-17,13th - 16th,Tier 1,DreamLeague Season 11,0 : 1,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_11,Dota 2,10000.0,17642241.0
+115,2019-03-29,1st - 2nd,Qualifier,MDL Disneyland® Paris Major Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major/Europe,Dota 2,0.0,17642241.0
+116,2019-05-12,2nd,Tier 1,MDL Disneyland® Paris Major,1 : 3,170000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major,Dota 2,170000.0,17812241.0
+117,2019-05-17,2nd,Qualifier,EPICENTER Major 2019 Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/EPICENTER/2019/Europe,Dota 2,0.0,17812241.0
+118,2019-05-31,7th - 8th,Tier 2,ESL One Birmingham 2019,0 : 2,7500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2019,Dota 2,7500.0,17819741.0
+119,2019-06-30,2nd,Tier 1,EPICENTER Major 2019,2 : 3,170000.0,https://liquipedia.net/dota2/EPICENTER/2019,Dota 2,170000.0,17989741.0
+120,2019-08-25,2nd,Tier 1,The International 2019,1 : 3,4462908.0,https://liquipedia.net/dota2/The_International/2019,Dota 2,4462908.0,22452649.0
+121,2019-10-08,2nd,Qualifier,MDL Chengdu Major Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019/Europe,Dota 2,0.0,22452649.0
+122,2019-10-19,4th,Tier 2,DreamLeague Season 12,0 : 2,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_12,Dota 2,25000.0,22477649.0
+123,2019-10-24,11th - 12th,Tier 2,ESL One Hamburg 2019,1/1/3,3000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2019,Dota 2,3000.0,22480649.0
+124,2019-11-22,5th - 6th,Tier 1,MDL Chengdu Major,0 : 2,60000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019,Dota 2,60000.0,22540649.0
+125,2019-12-03,1st - 2nd,Qualifier,DreamLeague Season 13 Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_13/Europe,Dota 2,0.0,22540649.0
+126,2019-12-18,11th - 12th,Tier 1,ONE Esports Invitational Singapore 2019,0/1/4,5000.0,https://liquipedia.net/dota2/ONE_Esports/World_Pro_Invitational/2019/Singapore,Dota 2,5000.0,22545649.0
+127,2020-01-25,5th - 6th,Tier 1,DreamLeague Season 13,1 : 2,60000.0,https://liquipedia.net/dota2/DreamLeague/Season_13,Dota 2,60000.0,22605649.0
+128,2020-02-10,5th - 6th,Qualifier,ESL One Los Angeles 2020 Europe Closed Qualifier,1/3/0,,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Europe,Dota 2,0.0,22605649.0
+129,2020-02-14,3rd,Qualifier,StarLadder ImbaTV Dota 2 Minor Season 3 Europe Qualifier,0 : 2,,https://liquipedia.net/dota2/StarLadder_ImbaTV/Minor/3/Europe,Dota 2,0.0,22605649.0
+130,2020-03-13,4th,Tier 2,DOTA Summit 12,0 : 2,15500.0,https://liquipedia.net/dota2/The_Summit/12,Dota 2,15500.0,22621149.0
+131,2020-03-25,3rd - 4th,Showmatch,WeSave! Charity Play - EU & CIS,1 : 3,,https://liquipedia.net/dota2/WePlay/WeSave_Charity_Play,Dota 2,0.0,22621149.0
+132,2020-04-16,11th - 12th,Tier 2,ESL One Los Angeles 2020 - Online: Europe & CIS,2/-/5,4000.0,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Online/Europe_CIS,Dota 2,4000.0,22625149.0
+133,2020-05-17,5th - 8th,Showmatch,Gamers Without Borders 2020,0 : 2,,https://liquipedia.net/dota2/Gamers_Without_Borders/2020,Dota 2,0.0,22625149.0
+134,2020-06-04,5th - 6th,Tier 2,ESL One Birmingham 2020 - Online: Europe & CIS,0 : 2,10000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2020/Online/Europe_CIS,Dota 2,10000.0,22635149.0
+135,2020-06-12,4th,Tier 2,BLAST Bounty Hunt,1 : 2,8424.0,https://liquipedia.net/dota2/BLAST/Bounty_Hunt,Dota 2,8424.0,22643573.0
+136,2020-06-28,3rd,Tier 2,BEYOND EPIC: Europe/CIS,0 : 2,25000.0,https://liquipedia.net/dota2/BEYOND_EPIC/1/Europe_CIS,Dota 2,25000.0,22668573.0
+137,2020-09-04,5th - 6th,Tier 1,OMEGA League: Europe Immortal Division,0 : 2,20000.0,https://liquipedia.net/dota2/OMEGA_League/1/Europe/Immortal_Division,Dota 2,20000.0,22688573.0
+138,2020-09-25,5th - 6th,Tier 2,OGA Dota PIT Season 3: Europe/CIS,0 : 2,8500.0,https://liquipedia.net/dota2/Dota_PIT/3/Europe_CIS,Dota 2,8500.0,22697073.0
+139,2020-11-01,1st,Tier 1,ESL One Germany 2020,3 : 1,150000.0,https://liquipedia.net/dota2/ESL_One/Germany/2020,Dota 2,150000.0,22847073.0
+140,2020-11-08,2nd,Tier 2,DOTA Summit 13 Online: Europe & CIS,1 : 3,11000.0,https://liquipedia.net/dota2/The_Summit/13/Europe_CIS,Dota 2,11000.0,22858073.0
+141,2020-12-06,6th,Qualifier,EPIC League Season 2 Division 1 Group Stage,5/-/4,,https://liquipedia.net/dota2/EPIC_League/2/Division_1/Group_Stage,Dota 2,0.0,22858073.0
+142,2020-12-07,1st - 4th,Qualifier,EPIC League Season 2 Play-in,2 : 0,,https://liquipedia.net/dota2/EPIC_League/2/Play-in,Dota 2,0.0,22858073.0
+143,2020-12-11,4th,Tier 1,EPIC League Season 2 Division 1,1 : 2,40000.0,https://liquipedia.net/dota2/EPIC_League/2/Division_1,Dota 2,40000.0,22898073.0
+144,2021-02-28,4th,Tier 2,DPC EU 2021 Season 1: Upper Division,3/-/4,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/1/Europe/Upper_Division,Dota 2,26000.0,22924073.0
+145,2021-04-01,9th - 12th,Tier 1,ONE Esports Singapore Major 2021,0 : 2,,https://liquipedia.net/dota2/ONE_Esports/Singapore_Major/2021,Dota 2,0.0,22924073.0
+146,2021-05-22,2nd,Tier 2,DPC WEU 2021 Season 2: Upper Division,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/2/Europe/Upper_Division,Dota 2,28000.0,22952073.0
+147,2021-06-07,13th - 14th,Tier 1,WePlay AniMajor,0/1/3,,https://liquipedia.net/dota2/WePlay/AniMajor/2021,Dota 2,0.0,22952073.0
+148,2021-06-17,9th - 12th,Tier 1,ESL One Summer 2021,0 : 2,5000.0,https://liquipedia.net/dota2/ESL_One/Summer/2021,Dota 2,5000.0,22957073.0
+149,2021-07-09,4th,Qualifier,The International 2021: Western Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/The_International/2021/Western_Europe,Dota 2,0.0,22957073.0
+150,2021-08-24,9th - 10th,Tier 1,ESL One Fall 2021,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Fall/2021,Dota 2,5000.0,22962073.0
+151,2021-12-17,5th - 6th,Tier 2,OGA Dota PIT Season 5: Europe/CIS,1 : 2,8800.0,https://liquipedia.net/dota2/Dota_PIT/5/Europe_CIS,Dota 2,8800.0,22970873.0
+152,2022-01-21,1st,Tier 2,DPC WEU 2021/2022 Tour 1: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Division_I,Dota 2,30000.0,23000873.0
+153,2022-02-13,2nd,Tier 2,DPC WEU 2021/2022 Tour 1: Regional Final,1 : 3,25000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Regional_Final,Dota 2,25000.0,23025873.0
+154,2022-04-21,3rd,Tier 2,DPC WEU 2021/2022 Tour 2: Division I,4/-/3,27000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/2/Western_Europe/Division_I,Dota 2,27000.0,23052873.0
+155,2022-05-08,1st,Showmatch,Gamers Without Borders 2022: Europe & CIS,2 : 1,,https://liquipedia.net/dota2/Gamers_Without_Borders/2022/Europe_CIS,Dota 2,0.0,23052873.0
+156,2022-05-17,9th - 12th,Tier 1,ESL One Stockholm Major 2022,1 : 2,,https://liquipedia.net/dota2/ESL_One/Stockholm/2022,Dota 2,0.0,23052873.0
+157,2022-07-14,2nd,Tier 2,DPC WEU 2021/2022 Tour 3: Division I,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/3/Western_Europe/Division_I,Dota 2,28000.0,23080873.0
+158,2022-07-22,9th - 10th,Tier 1,Riyadh Masters 2022,0/2/2,100000.0,https://liquipedia.net/dota2/Riyadh_Masters/2022,Dota 2,100000.0,23180873.0
+159,2022-08-10,9th - 12th,Tier 1,PGL Arlington Major 2022,1 : 2,,https://liquipedia.net/dota2/PGL/Arlington_Major/2022,Dota 2,0.0,23180873.0
+160,2022-08-25,11th - 12th,Tier 1,ESL One Malaysia 2022,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Malaysia/2022,Dota 2,5000.0,23185873.0
+161,2022-09-17,3rd,Qualifier,The International 2022: Western Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/The_International/2022/Western_Europe,Dota 2,0.0,23185873.0
+162,2022-10-12,2nd,Qualifier,The International 2022: Last Chance Qualifier,2 : 0,,https://liquipedia.net/dota2/The_International/2022/Last_Chance_Qualifier,Dota 2,0.0,23185873.0
+163,2022-10-30,3rd,Tier 1,The International 2022,1 : 2,1703810.0,https://liquipedia.net/dota2/The_International/2022,Dota 2,1703810.0,24889683.0
+164,2023-01-31,1st,Tier 2,DPC WEU 2023 Tour 1: Division I,7/-/0,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/1/Western_Europe/Division_I,Dota 2,30000.0,24919683.0
+165,2023-03-05,2nd,Tier 1,The Lima Major 2023,0 : 3,100000.0,https://liquipedia.net/dota2/Lima_Major/2023,Dota 2,100000.0,25019683.0
+166,2023-04-03,1st,Tier 2,DPC WEU 2023 Tour 2: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/2/Western_Europe/Division_I,Dota 2,30000.0,25049683.0
+167,2023-04-23,2nd,Tier 1,DreamLeague Season 19,2 : 3,175000.0,https://liquipedia.net/dota2/DreamLeague/Season_19,Dota 2,175000.0,25224683.0
+168,2023-05-07,2nd,Tier 1,ESL One Berlin Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/ESL_One/Berlin_Major/2023,Dota 2,100000.0,25324683.0
+169,2023-06-05,4th,Tier 2,DPC WEU 2023 Tour 3: Division I,4/-/3,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/3/Western_Europe/Division_I,Dota 2,26000.0,25350683.0
+170,2023-06-14,15th - 16th,Tier 1,DreamLeague Season 20,1/3/3,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_20,Dota 2,10000.0,25360683.0
+171,2023-07-09,2nd,Tier 1,The Bali Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/Bali_Major/2023,Dota 2,100000.0,25460683.0
+172,2023-07-30,2nd,Tier 1,Riyadh Masters 2023,1 : 3,2500000.0,https://liquipedia.net/dota2/Riyadh_Masters/2023,Dota 2,2500000.0,27960683.0
+173,2023-09-20,9th - 10th,Tier 1,DreamLeague Season 21,0/2/3,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_21,Dota 2,30000.0,27990683.0
+174,2023-10-28,5th - 6th,Tier 1,The International 2023,1 : 2,109925.0,https://liquipedia.net/dota2/The_International/2023,Dota 2,109925.0,28100608.0
+175,2023-11-17,1st,Qualifier,ESL One Kuala Lumpur 2023 Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023/Western_Europe/Closed_Qualifier,Dota 2,0.0,28100608.0
+176,2023-12-17,3rd,Tier 1,ESL One Kuala Lumpur 2023,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023,Dota 2,120000.0,28220608.0
+177,2024-02-16,2nd,Tier 1,BetBoom Dacha Dubai 2024,0 : 3,200000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Dubai/2024,Dota 2,200000.0,28420608.0
+178,2024-02-28,13th - 14th,Tier 1,DreamLeague Season 22,0/4/3,15000.0,https://liquipedia.net/dota2/DreamLeague/Season_22,Dota 2,15000.0,28435608.0
+179,2024-03-19,3rd,Tier 2,1win Series Dota 2 Spring,2 : 1,15000.0,https://liquipedia.net/dota2/1win_Series/2024/Spring,Dota 2,15000.0,28450608.0
+180,2024-03-23,1st,Qualifier,DreamLeague Season 23: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_23/Western_Europe,Dota 2,0.0,28450608.0
+181,2024-04-13,4th,Tier 1,Elite League Season 1,1 : 2,50000.0,https://liquipedia.net/dota2/Elite_League/1,Dota 2,50000.0,28500608.0
+182,2024-04-26,5th - 6th,Tier 1,ESL One Birmingham 2024,1 : 2,57500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2024,Dota 2,57500.0,28558108.0
+183,2024-05-18,5th - 6th,Tier 1,PGL Wallachia Season 1,0 : 2,60000.0,https://liquipedia.net/dota2/PGL/Wallachia/1,Dota 2,60000.0,28618108.0
+184,2024-05-22,9th - 10th,Tier 1,DreamLeague Season 23,1/2/2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_23,Dota 2,30000.0,28648108.0
+185,2024-07-21,2nd,Tier 1,Riyadh Masters 2024,0 : 3,800000.0,https://liquipedia.net/dota2/Riyadh_Masters/2024,Dota 2,800000.0,29448108.0
+186,2024-08-04,1st,Tier 2,Elite League Season 2,3 : 2,240000.0,https://liquipedia.net/dota2/Elite_League/2,Dota 2,240000.0,29688108.0
+187,2024-09-15,1st,Tier 1,The International 2024,3 : 0,1249445.0,https://liquipedia.net/dota2/The_International/2024,Dota 2,1249445.0,30937553.0
+188,2024-10-24,7th - 8th,Tier 1,BetBoom Dacha Belgrade 2024,1 : 2,30000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Belgrade/2024,Dota 2,30000.0,30967553.0
+189,2024-11-07,6th,Tier 1,DreamLeague Season 24,3/4,47500.0,https://liquipedia.net/dota2/DreamLeague/Season_24,Dota 2,47500.0,31015053.0
+190,2024-11-16,1st,Qualifier,ESL One Bangkok 2024: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Bangkok/2024/Western_Europe,Dota 2,0.0,31015053.0
+191,2024-11-22,1st,Tier 2,1win Series Dota 2 Fall,3 : 0,50000.0,https://liquipedia.net/dota2/1win_Series/2024/Fall,Dota 2,50000.0,31065053.0
+192,2024-11-29,5th - 6th,Tier 1,BLAST Slam I,0 : 2,50000.0,https://liquipedia.net/dota2/BLAST/Slam/1,Dota 2,50000.0,31115053.0
+193,2024-12-15,2nd,Tier 1,ESL One Bangkok 2024,1 : 3,175000.0,https://liquipedia.net/dota2/ESL_One/Bangkok/2024,Dota 2,175000.0,31290053.0
+194,2025-01-31,7th - 8th,Tier 1,FISSURE PLAYGROUND 1,1 : 2,35000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/1,Dota 2,35000.0,31325053.0
+195,2025-02-06,7th - 8th,Tier 1,BLAST Slam II,1 : 2,30000.0,https://liquipedia.net/dota2/BLAST/Slam/2,Dota 2,30000.0,31355053.0
+196,2025-02-27,7th,Tier 1,DreamLeague Season 25,1/6,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_25,Dota 2,30000.0,31385053.0
+197,2025-03-16,1st,Tier 1,PGL Wallachia Season 3,3 : 1,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/3,Dota 2,300000.0,31685053.0
+198,2025-03-28,7th - 8th,Tier 1,FISSURE Universe: Episode 4,0 : 2,10000.0,https://liquipedia.net/dota2/FISSURE/Universe/4,Dota 2,10000.0,31695053.0
+199,2025-04-11,5th - 6th,Tier 1,ESL One Raleigh 2025,1 : 2,40000.0,https://liquipedia.net/dota2/ESL_One/Raleigh/2025,Dota 2,40000.0,31735053.0
+200,2025-04-27,1st,Tier 1,PGL Wallachia Season 4,3 : 2,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/4,Dota 2,300000.0,32035053.0
+201,2025-05-07,9th - 10th,Tier 1,BLAST Slam III,1 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/3,Dota 2,25000.0,32060053.0
+202,2025-05-29,8th,Tier 1,DreamLeague Season 26,1/6,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_26,Dota 2,25000.0,32085053.0
+203,2025-06-29,3rd,Tier 1,PGL Wallachia Season 5,0 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/5,Dota 2,120000.0,32205053.0
+204,2025-07-04,1st,Tier 2,FISSURE Universe: Episode 5,3 : 0,125000.0,https://liquipedia.net/dota2/FISSURE/Universe/5,Dota 2,125000.0,32330053.0
+205,2025-07-17,5th - 8th,Tier 1,Esports World Cup 2025,0 : 2,125000.0,https://liquipedia.net/dota2/Esports_World_Cup/2025,Dota 2,125000.0,32455053.0
+206,2025-08-24,3rd,Tier 1,FISSURE Universe: Episode 6,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/6,Dota 2,30000.0,32485053.0
+207,2025-09-07,9th - 13th,Tier 1,The International 2025,1 : 2,51817.0,https://liquipedia.net/dota2/The_International/2025,Dota 2,51817.0,32536870.0
+208,2025-10-12,3rd,Tier 2,FISSURE Universe: Episode 7,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/7,Dota 2,30000.0,32566870.0
+209,2025-10-19,9th - 10th,Tier 1,BLAST Slam IV,0 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/4,Dota 2,25000.0,32591870.0
+210,2025-11-01,4th,Tier 1,FISSURE PLAYGROUND 2,1 : 2,60000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/2,Dota 2,60000.0,32651870.0
+211,2025-11-23,3rd,Tier 1,PGL Wallachia Season 6,1 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/6,Dota 2,120000.0,32771870.0
+212,2025-12-15,9th - 16th,Tier 1,DreamLeague Season 27,2 : 0,10500.0,https://liquipedia.net/dota2/DreamLeague/27,Dota 2,10500.0,32782370.0
+213,2026-01-10,1st - 2nd,Qualifier,DreamLeague Season 28: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/28/Western_Europe,Dota 2,0.0,32782370.0
+214,2026-01-20,5th - 6th,Qualifier,ESL One Birmingham 2026: Western Europe Closed Qualifier,1 : 2,,https://liquipedia.net/dota2/ESL_One/Birmingham/2026/Western_Europe,Dota 2,0.0,32782370.0
+215,2026-01-31,4th,Tier 2,FISSURE Universe: Episode 8,0 : 2,15000.0,https://liquipedia.net/dota2/FISSURE/Universe/8,Dota 2,15000.0,32797370.0
+216,2026-02-15,1st,Tier 1,BLAST Slam VI,3 : 1,300000.0,https://liquipedia.net/dota2/BLAST/Slam/6,Dota 2,300000.0,33097370.0
+217,2026-03-01,3rd,Tier 1,DreamLeague Season 28,0 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/28,Dota 2,80000.0,33177370.0
+218,2026-03-15,2nd,Tier 1,PGL Wallachia Season 7,2 : 3,175000.0,https://liquipedia.net/dota2/PGL/Wallachia/7,Dota 2,175000.0,33352370.0
+219,2026-04-10,5th - 6th,Tier 2,PREMIER SERIES,1 : 2,2500.0,https://liquipedia.net/dota2/NarodCast/PREMIER_SERIES/1,Dota 2,2500.0,33354870.0
+220,2026-04-14,3rd,Qualifier,DreamLeague Season 29: Western Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/DreamLeague/29/Western_Europe,Dota 2,0.0,33354870.0
+221,2026-04-25,4th,Tier 1,PGL Wallachia Season 8,1 : 2,80000.0,https://liquipedia.net/dota2/PGL/Wallachia/8,Dota 2,80000.0,33434870.0
+222,2026-05-20,9th - 12th,Tier 1,DreamLeague Season 29,1 : 2,20000.0,https://liquipedia.net/dota2/DreamLeague/29,Dota 2,20000.0,33454870.0
+223,2013-02-10,1st,Tier 3,BeyondTheSummit Weekend Cup,2 : 1,500.0,https://liquipedia.net/dota2/BeyondTheSummit_Weekend_Cup,Dota 2 Sem The International,500.0,500.0
+224,2013-02-24,1st,Monthly,Bigpoint Battle #1,2 : 0,1979.0,https://liquipedia.net/dota2/Bigpoint_Battle/1,Dota 2 Sem The International,1979.0,2479.0
+225,2013-02-28,3rd - 4th,Monthly,EIZO Cup #1,0 : 2,,https://liquipedia.net/dota2/EIZO_Cup/1,Dota 2 Sem The International,0.0,2479.0
+226,2013-03-03,3rd,Tier 3,DotaHut Invitational,0 : 2,300.0,https://liquipedia.net/dota2/DotaHut_Invitational,Dota 2 Sem The International,300.0,2779.0
+227,2013-03-11,4th,Tier 1,The Defense Season 3,0 : 2,1500.0,https://liquipedia.net/dota2/The_Defense/Season_3,Dota 2 Sem The International,1500.0,4279.0
+228,2013-03-15,2nd,Monthly,Bigpoint Battle #2,1 : 2,654.0,https://liquipedia.net/dota2/Bigpoint_Battle/2,Dota 2 Sem The International,654.0,4933.0
+229,2013-03-19,13th - 16th,Tier 1,EMS One Spring Season,0/-/3,2000.0,https://liquipedia.net/dota2/ESL_Major_Series_One/Spring/Main_Event,Dota 2 Sem The International,2000.0,6933.0
+230,2013-03-28,2nd,Monthly,EIZO Cup #2,0 : 2,642.0,https://liquipedia.net/dota2/EIZO_Cup/2,Dota 2 Sem The International,642.0,7575.0
+231,2013-03-31,4th,Tier 2,Ritmix Russian Dota 2 League,0 : 2,,https://liquipedia.net/dota2/Ritmix_Russian_DOTA_2_League,Dota 2 Sem The International,0.0,7575.0
+232,2013-04-10,1st,Tier 1,RaidCall Dota 2 League Season 2,3 : 1,5000.0,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_2,Dota 2 Sem The International,5000.0,12575.0
+233,2013-04-13,3rd - 4th,Tier 2,DreamHack Invitational 2013,0 : 2,1000.0,https://liquipedia.net/dota2/DreamHack/2013/Invitational,Dota 2 Sem The International,1000.0,13575.0
+234,2013-04-16,5th - 8th,Tier 3,joinDOTA Masters XIII,0 : 1,,https://liquipedia.net/dota2/JoinDOTA_Masters/XIII,Dota 2 Sem The International,0.0,13575.0
+235,2013-04-28,2nd,Tier 1,The Premier League Season 4,0 : 3,3000.0,https://liquipedia.net/dota2/The_Premier_League/Season_4,Dota 2 Sem The International,3000.0,16575.0
+236,2013-04-29,2nd,Qualifier,G-1 Champions League Season 5 Western Qualifier,2 : 0,,https://liquipedia.net/dota2/G-1_Champions_League_Season_5/Western_Qualifiers,Dota 2 Sem The International,0.0,16575.0
+237,2013-05-12,3rd - 4th,Monthly,Bigpoint Battle #4,1 : 2,,https://liquipedia.net/dota2/Bigpoint_Battle/4,Dota 2 Sem The International,0.0,16575.0
+238,2013-05-13,4th,Tier 2,WePlay Dota2 League Season 1,0 : 2,,https://liquipedia.net/dota2/WePlay_Dota2_League/1,Dota 2 Sem The International,0.0,16575.0
+239,2013-05-19,1st,Tier 2,Curse Dota 2 Invitational,3 : 0,5000.0,https://liquipedia.net/dota2/Curse_Dota_2_Invitational,Dota 2 Sem The International,5000.0,21575.0
+240,2013-05-25,5th - 6th,Tier 1,G-1 Champions League Season 5,1/-/4,1631.0,https://liquipedia.net/dota2/G-1_Champions_League_Season_5,Dota 2 Sem The International,1631.0,23206.0
+241,2013-06-16,5th - 8th,Tier 1,DreamHack Summer 2013,1 : 2,1547.0,https://liquipedia.net/dota2/DreamHack/2013/Summer,Dota 2 Sem The International,1547.0,24753.0
+242,2013-07-07,1st,Tier 2,American Dota League Season 1,3 : 0,5000.0,https://liquipedia.net/dota2/American_Dota_League/Season_1,Dota 2 Sem The International,5000.0,29753.0
+243,2013-07-11,5th - 6th,Tier 1,RaidCall Dota 2 League Season 3,0 : 2,,https://liquipedia.net/dota2/RaidCall_Dota_2_League_Season_3,Dota 2 Sem The International,0.0,29753.0
+244,2013-07-22,4th,Tier 1,The Defense Season 4,0 : 2,2000.0,https://liquipedia.net/dota2/The_Defense/Season_4,Dota 2 Sem The International,2000.0,31753.0
+245,2013-11-03,3rd,Tier 1,WePlay Dota2 League Season 2,1 : 3,4000.0,https://liquipedia.net/dota2/WePlay_Dota2_League/2,Dota 2 Sem The International,4000.0,35753.0
+246,2013-11-17,3rd,Qualifier,Dota 2 League Season 4 - Western Division,1 : 3,,https://liquipedia.net/dota2/Dota_2_League/Season_4/Western_Division,Dota 2 Sem The International,0.0,35753.0
+247,2013-11-23,5th - 9th,Tier 1,MLG Championship Columbus,3/-/5,2739.0,https://liquipedia.net/dota2/MLG/2013/Fall_Season/Championship,Dota 2 Sem The International,2739.0,38492.0
+248,2013-11-25,7th,Showmatch,Nexon Invitational Super Match,2/-/2,7000.0,https://liquipedia.net/dota2/Nexon_Invitational_Super_Match,Dota 2 Sem The International,7000.0,45492.0
+249,2013-11-29,4th,Tier 1,DreamLeague Kick-Off Season,0 : 3,2500.0,https://liquipedia.net/dota2/DreamLeague/Kick-Off_Season,Dota 2 Sem The International,2500.0,47992.0
+250,2013-12-16,4th,Tier 1,Dota 2 Champions League Season 1,1 : 3,3000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/1,Dota 2 Sem The International,3000.0,50992.0
+251,2013-12-22,5th - 8th,Monthly,Bigpoint Battle #11,0 : 1,,https://liquipedia.net/dota2/Bigpoint_Battle/11,Dota 2 Sem The International,0.0,50992.0
+252,2014-01-05,5th - 8th,Tier 2,Pinnacle Pro-Am,0 : 2,,https://liquipedia.net/dota2/Pinnacle_Pro-Am_Cup,Dota 2 Sem The International,0.0,50992.0
+253,2014-02-04,3rd,Tier 2,Electronic Sports Prime Shock Therapy Cup,0 : 2,1000.0,https://liquipedia.net/dota2/Electronic_Sports_Prime/Shock_Therapy_Cup,Dota 2 Sem The International,1000.0,51992.0
+254,2014-02-28,L,Showmatch,BountyHunter Series #2,0 : 3,,https://liquipedia.net/dota2/BountyHunter_Series/2,Dota 2 Sem The International,0.0,51992.0
+255,2014-03-05,7th - 10th,Tier 1,Dota 2 Champions League Season 2,5/-/5,,https://liquipedia.net/dota2/Dota_2_Champions_League/2,Dota 2 Sem The International,0.0,51992.0
+256,2014-03-09,3rd,Tier 2,Monster Energy Invitational,0 : 2,2000.0,https://liquipedia.net/dota2/Monster_Energy_Invitational,Dota 2 Sem The International,2000.0,53992.0
+257,2014-03-18,5th - 6th,Tier 2,XMG Captains Draft Invitational,0/-/5,,https://liquipedia.net/dota2/Captains_Draft/1,Dota 2 Sem The International,0.0,53992.0
+258,2014-04-02,2nd,Qualifier,StarLadder StarSeries Season 9: America,1 : 2,,https://liquipedia.net/dota2/StarLadder/StarSeries/Season_9/America,Dota 2 Sem The International,0.0,53992.0
+259,2014-04-05,2nd,Tier 2,MLG T.K.O. America,1 : 3,8500.0,https://liquipedia.net/dota2/MLG_T.K.O._Tournament/America,Dota 2 Sem The International,8500.0,62492.0
+260,2014-04-13,2nd,Tier 3,joinDOTA League Season 1 America,0 : 2,663.0,https://liquipedia.net/dota2/JoinDOTA_League/Season_1/America,Dota 2 Sem The International,663.0,63155.0
+261,2014-04-22,5th - 8th,Tier 2,Fragbite Masters 2014 Spring,1 : 2,,https://liquipedia.net/dota2/Fragbite_Masters_2014,Dota 2 Sem The International,0.0,63155.0
+262,2014-05-04,2nd,Qualifier,ESL One Frankfurt - American Qualifiers,1 : 3,,https://liquipedia.net/dota2/ESL_One/Frankfurt/2014/Qualifiers/America,Dota 2 Sem The International,0.0,63155.0
+263,2014-05-10,4th,Qualifier,The Summit 1 American Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/1/American_Qualifiers,Dota 2 Sem The International,0.0,63155.0
+264,2014-05-11,7th - 11th,Tier 1,DreamLeague Season 1,5/-/9,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_1,Dota 2 Sem The International,8000.0,71155.0
+265,2014-05-23,3rd - 4th,Monthly,GIGABYTE Challenge #4,0 : 1,,https://liquipedia.net/dota2/GIGABYTE_Challenge/4,Dota 2 Sem The International,0.0,71155.0
+266,2014-05-28,7th - 8th,Tier 1,HyperX D2L Western Challenge,1/-/6,,https://liquipedia.net/dota2/Dota_2_League/Western_Challenge,Dota 2 Sem The International,0.0,71155.0
+267,2014-06-03,2nd,Tier 2,American Dota League Season 2,1 : 3,2000.0,https://liquipedia.net/dota2/American_Dota_League/Season_2,Dota 2 Sem The International,2000.0,73155.0
+268,2015-10-12,4th,Qualifier,The Frankfurt Major 2015 Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Frankfurt_Major/2015/Europe,Dota 2 Sem The International,0.0,73155.0
+269,2015-10-30,4th,Tier 1,Nanyang Dota 2 Championships,0 : 2,17615.0,https://liquipedia.net/dota2/Nanyang_Dota_2_Championships/Season_1,Dota 2 Sem The International,17615.0,90770.0
+270,2015-11-05,1st,Qualifier,The Summit 4 - European Qualifiers,3 : 1,,https://liquipedia.net/dota2/The_Summit/4/European_Qualifiers,Dota 2 Sem The International,0.0,90770.0
+271,2015-11-12,1st,Tier 2,Dota 2 Champions League Season 6,3 : 1,25000.0,https://liquipedia.net/dota2/Dota_2_Champions_League/6,Dota 2 Sem The International,25000.0,115770.0
+272,2015-12-04,5th - 8th,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Qualifier,1/-/2,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS,Dota 2 Sem The International,0.0,115770.0
+273,2015-12-06,1st,Tier 1,The Defense Season 5,3 : 1,39293.0,https://liquipedia.net/dota2/The_Defense/Season_5,Dota 2 Sem The International,39293.0,155063.0
+274,2015-12-07,1st - 2nd,Qualifier,StarLadder i-League StarSeries Season 1: Europe and CIS Last Chance Qualifier,W : FF,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1/Europe_and_CIS/Last_Chance_Qualifier,Dota 2 Sem The International,0.0,155063.0
+275,2015-12-12,5th - 6th,Tier 1,The Summit 4,1 : 2,4020.0,https://liquipedia.net/dota2/The_Summit/4,Dota 2 Sem The International,4020.0,159083.0
+276,2015-12-20,3rd,Tier 1,World Cyber Arena 2015,3 : 0,77132.0,https://liquipedia.net/dota2/World_Cyber_Arena/2015,Dota 2 Sem The International,77132.0,236215.0
+277,2016-01-09,1st,Qualifier,The Shanghai Major 2016 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Shanghai_Major/2016/Europe,Dota 2 Sem The International,0.0,236215.0
+278,2016-01-16,3rd - 4th,Tier 1,StarLadder i-League StarSeries Season 1,0 : 2,30223.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/1,Dota 2 Sem The International,30223.0,266438.0
+279,2016-02-14,5th - 6th,Tier 2,Captains Draft 3.0,0 : 2,6208.0,https://liquipedia.net/dota2/Captains_Draft/3,Dota 2 Sem The International,6208.0,272646.0
+280,2016-02-15,3rd - 12th,Qualifier,Dota Pit League Season 4 European Qualifier,1/4/0,,https://liquipedia.net/dota2/Dota_Pit_League/Season_4/Europe,Dota 2 Sem The International,0.0,272646.0
+281,2016-03-06,2nd,Tier 1,The Shanghai Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Shanghai_Major/2016,Dota 2 Sem The International,405000.0,677646.0
+282,2016-03-20,1st,Qualifier,WePlay Dota 2 League Season 3 EU West Division,13/-/1,,https://liquipedia.net/dota2/WePlay_Dota2_League/3/EU_West,Dota 2 Sem The International,0.0,677646.0
+283,2016-04-14,1st,Tier 3,BTS Europe #3,3 : 1,5000.0,https://liquipedia.net/dota2/BTS_Series/Europe/3,Dota 2 Sem The International,5000.0,682646.0
+284,2016-04-24,2nd,Tier 1,ESL One Manila 2016,0 : 3,50000.0,https://liquipedia.net/dota2/ESL_One/Manila/2016,Dota 2 Sem The International,50000.0,732646.0
+285,2016-05-15,1st,Tier 1,EPICENTER 2016,3 : 2,250000.0,https://liquipedia.net/dota2/EPICENTER/2016,Dota 2 Sem The International,250000.0,982646.0
+286,2016-06-12,2nd,Tier 1,The Manila Major 2016,1 : 3,405000.0,https://liquipedia.net/dota2/Manila_Major/2016,Dota 2 Sem The International,405000.0,1387646.0
+287,2016-06-19,3rd - 4th,Tier 1,ESL One Frankfurt 2016,1 : 2,28309.0,https://liquipedia.net/dota2/ESL_One/Frankfurt/2016,Dota 2 Sem The International,28309.0,1415955.0
+288,2016-07-17,3rd,Tier 1,The Summit 5,1 : 2,13136.0,https://liquipedia.net/dota2/The_Summit/5,Dota 2 Sem The International,13136.0,1429091.0
+289,2016-07-19,7th - 8th,Tier 2,Global Grand Masters,FF : W,,https://liquipedia.net/dota2/Global_Grand_Masters,Dota 2 Sem The International,0.0,1429091.0
+290,2016-10-18,3rd - 4th,Tier 2,FACEIT Invitational,0 : 1,4000.0,https://liquipedia.net/dota2/FACEIT/Invitational/1,Dota 2 Sem The International,4000.0,1433091.0
+291,2016-10-18,3rd,Qualifier,The Summit 6 - European Qualifiers,0 : 2,,https://liquipedia.net/dota2/The_Summit/6/European_Qualifiers,Dota 2 Sem The International,0.0,1433091.0
+292,2016-10-22,3rd,Qualifier,Dota Pit League Season 5 European Qualifier #2,1 : 2,,https://liquipedia.net/dota2/Dota_Pit_League/Season_5/European_Qualifier/2,Dota 2 Sem The International,0.0,1433091.0
+293,2016-10-30,3rd,Qualifier,The Boston Major 2016: Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/Boston_Major/2016/Europe,Dota 2 Sem The International,0.0,1433091.0
+294,2016-11-05,5th - 8th,Qualifier,ESL One Genting 2017 European Qualifier,0 : 2,,https://liquipedia.net/dota2/ESL_One/Genting/2017/Europe,Dota 2 Sem The International,0.0,1433091.0
+295,2016-11-05,5th - 6th,Tier 3,Elimination Mode 2.0,0 : 2,,https://liquipedia.net/dota2/Elimination_Mode/2,Dota 2 Sem The International,0.0,1433091.0
+296,2016-11-08,4th,Tier 2,DreamLeague Season 6 League Play,8/-/6,8000.0,https://liquipedia.net/dota2/DreamLeague/Season_6/League_Play,Dota 2 Sem The International,8000.0,1441091.0
+297,2016-11-26,1st,Tier 2,DreamLeague Season 6,3 : 0,90000.0,https://liquipedia.net/dota2/DreamLeague/Season_6,Dota 2 Sem The International,90000.0,1531091.0
+298,2016-12-20,3rd - 4th,Tier 3,WellPlay Invitational #6,1 : 2,,https://liquipedia.net/dota2/WellPlay_Invitational/6,Dota 2 Sem The International,0.0,1531091.0
+299,2017-02-02,1st,Qualifier,StarLadder i-League StarSeries Season 3 European Qualifier,4/3/0,,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3/Europe,Dota 2 Sem The International,0.0,1531091.0
+300,2017-02-10,1st,Qualifier,Dota 2 Asia Championships 2017 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017/Europe_Qualifier,Dota 2 Sem The International,0.0,1531091.0
+301,2017-02-26,1st,Tier 1,StarLadder i-League StarSeries Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_StarSeries/3,Dota 2 Sem The International,135000.0,1666091.0
+302,2017-04-01,9th - 12th,Tier 1,Dota 2 Asia Championships 2017,0 : 1,9179.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2017,Dota 2 Sem The International,9179.0,1675270.0
+303,2017-04-29,5th - 8th,Tier 1,The Kiev Major 2017,1 : 2,125000.0,https://liquipedia.net/dota2/Kiev_Major/2017,Dota 2 Sem The International,125000.0,1800270.0
+304,2017-05-21,2nd,Tier 2,DreamLeague Season 7 EU Division,9/-/5,9000.0,https://liquipedia.net/dota2/DreamLeague/Season_7/EU_Division,Dota 2 Sem The International,9000.0,1809270.0
+305,2017-05-21,1st,Tier 1,StarLadder i-League Invitational Season 2,3 : 2,45000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/2,Dota 2 Sem The International,45000.0,1854270.0
+306,2017-06-11,1st,Tier 1,EPICENTER 2017,3 : 1,250000.0,https://liquipedia.net/dota2/EPICENTER/2017,Dota 2 Sem The International,250000.0,2104270.0
+307,2017-07-22,1st,Tier 2,DreamLeague Season 7,3 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/Season_7,Dota 2 Sem The International,80000.0,2184270.0
+308,2017-10-15,1st,Tier 2,StarLadder i-League Invitational Season 3,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/3,Dota 2 Sem The International,135000.0,2319270.0
+309,2017-10-29,3rd - 4th,Tier 1,ESL One Hamburg 2017,1 : 2,90000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2017,Dota 2 Sem The International,90000.0,2409270.0
+310,2017-11-05,1st,Tier 2,AMD SAPPHIRE Dota PIT League,3 : 2,125000.0,https://liquipedia.net/dota2/Dota_Pit_League/Season_6,Dota 2 Sem The International,125000.0,2534270.0
+311,2017-11-16,3rd,Qualifier,DreamLeague Season 8 Europe & CIS Qualifier,3/4/0,,https://liquipedia.net/dota2/DreamLeague/Season_8/Europe_CIS,Dota 2 Sem The International,0.0,2534270.0
+312,2017-11-26,1st,Tier 2,Midas Mode - Europe,3 : 1,18000.0,https://liquipedia.net/dota2/Midas_Mode/1,Dota 2 Sem The International,18000.0,2552270.0
+313,2017-12-03,2nd,Tier 1,DreamLeague Season 8,0 : 3,200000.0,https://liquipedia.net/dota2/DreamLeague/Season_8,Dota 2 Sem The International,200000.0,2752270.0
+314,2018-01-28,2nd,Tier 2,ESL One Genting 2018,2 : 3,80000.0,https://liquipedia.net/dota2/ESL_One/Genting/2018,Dota 2 Sem The International,80000.0,2832270.0
+315,2018-02-04,1st,Tier 2,StarLadder i-League Invitational Season 4,3 : 1,135000.0,https://liquipedia.net/dota2/StarLadder/i-League_Invitational/4,Dota 2 Sem The International,135000.0,2967270.0
+316,2018-02-25,3rd - 4th,Tier 1,ESL One Katowice 2018,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Katowice/2018,Dota 2 Sem The International,120000.0,3087270.0
+317,2018-03-10,3rd - 4th,Tier 1,The Bucharest Major,1 : 2,90000.0,https://liquipedia.net/dota2/PGL/Bucharest_Major/2018,Dota 2 Sem The International,90000.0,3177270.0
+318,2018-03-24,3rd,Tier 2,DreamLeague Season 9,0 : 2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_9,Dota 2 Sem The International,30000.0,3207270.0
+319,2018-04-06,5th - 6th,Tier 1,Dota 2 Asia Championships 2018,0 : 1,67500.0,https://liquipedia.net/dota2/Dota_2_Asia_Championships/2018,Dota 2 Sem The International,67500.0,3274770.0
+320,2018-05-06,2nd,Tier 1,EPICENTER XL,1 : 3,200000.0,https://liquipedia.net/dota2/EPICENTER/2018,Dota 2 Sem The International,200000.0,3474770.0
+321,2018-05-24,7th - 9th,Tier 1,ESL One Birmingham 2018,1 : 2,16000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2018,Dota 2 Sem The International,16000.0,3490770.0
+322,2018-06-10,1st,Tier 1,China Dota2 Supermajor,3 : 2,555000.0,https://liquipedia.net/dota2/Supermajor/2018,Dota 2 Sem The International,555000.0,4045770.0
+323,2018-09-20,5th - 6th,Qualifier,The Kuala Lumpur Major Europe Qualifier,1 : 2,,https://liquipedia.net/dota2/PGL/Kuala_Lumpur_Major/Europe,Dota 2 Sem The International,0.0,4045770.0
+324,2018-09-26,2nd,Qualifier,DreamLeague Season 10 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_10/Europe,Dota 2 Sem The International,0.0,4045770.0
+325,2018-11-30,2nd,Qualifier,The Chongqing Major Europe Qualifier,2 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Europe,Dota 2 Sem The International,0.0,4045770.0
+326,2018-12-09,1st,Tier 2,MegaFon Winter Clash,3 : 0,150000.0,https://liquipedia.net/dota2/MegaFon_Winter_Clash,Dota 2 Sem The International,150000.0,4195770.0
+327,2019-01-25,7th - 8th,Tier 1,The Chongqing Major,0 : 2,40000.0,https://liquipedia.net/dota2/Chongqing_Major/2019,Dota 2 Sem The International,40000.0,4235770.0
+328,2019-01-27,L,Showmatch,The Chongqing Major: Show Match,0 : 1,,https://liquipedia.net/dota2/Chongqing_Major/2019/Show_Match,Dota 2 Sem The International,0.0,4235770.0
+329,2019-02-06,3rd,Qualifier,DreamLeague Season 11 Europe Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_11/Europe,Dota 2 Sem The International,0.0,4235770.0
+330,2019-02-24,1st,Tier 2,MDL Macau 2019,3 : 1,135000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Macau/2019,Dota 2 Sem The International,135000.0,4370770.0
+331,2019-03-17,13th - 16th,Tier 1,DreamLeague Season 11,0 : 1,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_11,Dota 2 Sem The International,10000.0,4380770.0
+332,2019-03-29,1st - 2nd,Qualifier,MDL Disneyland® Paris Major Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major/Europe,Dota 2 Sem The International,0.0,4380770.0
+333,2019-05-12,2nd,Tier 1,MDL Disneyland® Paris Major,1 : 3,170000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Disneyland_Paris_Major,Dota 2 Sem The International,170000.0,4550770.0
+334,2019-05-17,2nd,Qualifier,EPICENTER Major 2019 Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/EPICENTER/2019/Europe,Dota 2 Sem The International,0.0,4550770.0
+335,2019-05-31,7th - 8th,Tier 2,ESL One Birmingham 2019,0 : 2,7500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2019,Dota 2 Sem The International,7500.0,4558270.0
+336,2019-06-30,2nd,Tier 1,EPICENTER Major 2019,2 : 3,170000.0,https://liquipedia.net/dota2/EPICENTER/2019,Dota 2 Sem The International,170000.0,4728270.0
+337,2019-10-08,2nd,Qualifier,MDL Chengdu Major Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019/Europe,Dota 2 Sem The International,0.0,4728270.0
+338,2019-10-19,4th,Tier 2,DreamLeague Season 12,0 : 2,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_12,Dota 2 Sem The International,25000.0,4753270.0
+339,2019-10-24,11th - 12th,Tier 2,ESL One Hamburg 2019,1/1/3,3000.0,https://liquipedia.net/dota2/ESL_One/Hamburg/2019,Dota 2 Sem The International,3000.0,4756270.0
+340,2019-11-22,5th - 6th,Tier 1,MDL Chengdu Major,0 : 2,60000.0,https://liquipedia.net/dota2/Mars_Dota_2_League/Chengdu_Major/2019,Dota 2 Sem The International,60000.0,4816270.0
+341,2019-12-03,1st - 2nd,Qualifier,DreamLeague Season 13 Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_13/Europe,Dota 2 Sem The International,0.0,4816270.0
+342,2019-12-18,11th - 12th,Tier 1,ONE Esports Invitational Singapore 2019,0/1/4,5000.0,https://liquipedia.net/dota2/ONE_Esports/World_Pro_Invitational/2019/Singapore,Dota 2 Sem The International,5000.0,4821270.0
+343,2020-01-25,5th - 6th,Tier 1,DreamLeague Season 13,1 : 2,60000.0,https://liquipedia.net/dota2/DreamLeague/Season_13,Dota 2 Sem The International,60000.0,4881270.0
+344,2020-02-10,5th - 6th,Qualifier,ESL One Los Angeles 2020 Europe Closed Qualifier,1/3/0,,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Europe,Dota 2 Sem The International,0.0,4881270.0
+345,2020-02-14,3rd,Qualifier,StarLadder ImbaTV Dota 2 Minor Season 3 Europe Qualifier,0 : 2,,https://liquipedia.net/dota2/StarLadder_ImbaTV/Minor/3/Europe,Dota 2 Sem The International,0.0,4881270.0
+346,2020-03-13,4th,Tier 2,DOTA Summit 12,0 : 2,15500.0,https://liquipedia.net/dota2/The_Summit/12,Dota 2 Sem The International,15500.0,4896770.0
+347,2020-03-25,3rd - 4th,Showmatch,WeSave! Charity Play - EU & CIS,1 : 3,,https://liquipedia.net/dota2/WePlay/WeSave_Charity_Play,Dota 2 Sem The International,0.0,4896770.0
+348,2020-04-16,11th - 12th,Tier 2,ESL One Los Angeles 2020 - Online: Europe & CIS,2/-/5,4000.0,https://liquipedia.net/dota2/ESL_One/Los_Angeles/2020/Online/Europe_CIS,Dota 2 Sem The International,4000.0,4900770.0
+349,2020-05-17,5th - 8th,Showmatch,Gamers Without Borders 2020,0 : 2,,https://liquipedia.net/dota2/Gamers_Without_Borders/2020,Dota 2 Sem The International,0.0,4900770.0
+350,2020-06-04,5th - 6th,Tier 2,ESL One Birmingham 2020 - Online: Europe & CIS,0 : 2,10000.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2020/Online/Europe_CIS,Dota 2 Sem The International,10000.0,4910770.0
+351,2020-06-12,4th,Tier 2,BLAST Bounty Hunt,1 : 2,8424.0,https://liquipedia.net/dota2/BLAST/Bounty_Hunt,Dota 2 Sem The International,8424.0,4919194.0
+352,2020-06-28,3rd,Tier 2,BEYOND EPIC: Europe/CIS,0 : 2,25000.0,https://liquipedia.net/dota2/BEYOND_EPIC/1/Europe_CIS,Dota 2 Sem The International,25000.0,4944194.0
+353,2020-09-04,5th - 6th,Tier 1,OMEGA League: Europe Immortal Division,0 : 2,20000.0,https://liquipedia.net/dota2/OMEGA_League/1/Europe/Immortal_Division,Dota 2 Sem The International,20000.0,4964194.0
+354,2020-09-25,5th - 6th,Tier 2,OGA Dota PIT Season 3: Europe/CIS,0 : 2,8500.0,https://liquipedia.net/dota2/Dota_PIT/3/Europe_CIS,Dota 2 Sem The International,8500.0,4972694.0
+355,2020-11-01,1st,Tier 1,ESL One Germany 2020,3 : 1,150000.0,https://liquipedia.net/dota2/ESL_One/Germany/2020,Dota 2 Sem The International,150000.0,5122694.0
+356,2020-11-08,2nd,Tier 2,DOTA Summit 13 Online: Europe & CIS,1 : 3,11000.0,https://liquipedia.net/dota2/The_Summit/13/Europe_CIS,Dota 2 Sem The International,11000.0,5133694.0
+357,2020-12-06,6th,Qualifier,EPIC League Season 2 Division 1 Group Stage,5/-/4,,https://liquipedia.net/dota2/EPIC_League/2/Division_1/Group_Stage,Dota 2 Sem The International,0.0,5133694.0
+358,2020-12-07,1st - 4th,Qualifier,EPIC League Season 2 Play-in,2 : 0,,https://liquipedia.net/dota2/EPIC_League/2/Play-in,Dota 2 Sem The International,0.0,5133694.0
+359,2020-12-11,4th,Tier 1,EPIC League Season 2 Division 1,1 : 2,40000.0,https://liquipedia.net/dota2/EPIC_League/2/Division_1,Dota 2 Sem The International,40000.0,5173694.0
+360,2021-02-28,4th,Tier 2,DPC EU 2021 Season 1: Upper Division,3/-/4,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/1/Europe/Upper_Division,Dota 2 Sem The International,26000.0,5199694.0
+361,2021-04-01,9th - 12th,Tier 1,ONE Esports Singapore Major 2021,0 : 2,,https://liquipedia.net/dota2/ONE_Esports/Singapore_Major/2021,Dota 2 Sem The International,0.0,5199694.0
+362,2021-05-22,2nd,Tier 2,DPC WEU 2021 Season 2: Upper Division,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021/2/Europe/Upper_Division,Dota 2 Sem The International,28000.0,5227694.0
+363,2021-06-07,13th - 14th,Tier 1,WePlay AniMajor,0/1/3,,https://liquipedia.net/dota2/WePlay/AniMajor/2021,Dota 2 Sem The International,0.0,5227694.0
+364,2021-06-17,9th - 12th,Tier 1,ESL One Summer 2021,0 : 2,5000.0,https://liquipedia.net/dota2/ESL_One/Summer/2021,Dota 2 Sem The International,5000.0,5232694.0
+365,2021-08-24,9th - 10th,Tier 1,ESL One Fall 2021,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Fall/2021,Dota 2 Sem The International,5000.0,5237694.0
+366,2021-12-17,5th - 6th,Tier 2,OGA Dota PIT Season 5: Europe/CIS,1 : 2,8800.0,https://liquipedia.net/dota2/Dota_PIT/5/Europe_CIS,Dota 2 Sem The International,8800.0,5246494.0
+367,2022-01-21,1st,Tier 2,DPC WEU 2021/2022 Tour 1: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Division_I,Dota 2 Sem The International,30000.0,5276494.0
+368,2022-02-13,2nd,Tier 2,DPC WEU 2021/2022 Tour 1: Regional Final,1 : 3,25000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/1/Western_Europe/Regional_Final,Dota 2 Sem The International,25000.0,5301494.0
+369,2022-04-21,3rd,Tier 2,DPC WEU 2021/2022 Tour 2: Division I,4/-/3,27000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/2/Western_Europe/Division_I,Dota 2 Sem The International,27000.0,5328494.0
+370,2022-05-08,1st,Showmatch,Gamers Without Borders 2022: Europe & CIS,2 : 1,,https://liquipedia.net/dota2/Gamers_Without_Borders/2022/Europe_CIS,Dota 2 Sem The International,0.0,5328494.0
+371,2022-05-17,9th - 12th,Tier 1,ESL One Stockholm Major 2022,1 : 2,,https://liquipedia.net/dota2/ESL_One/Stockholm/2022,Dota 2 Sem The International,0.0,5328494.0
+372,2022-07-14,2nd,Tier 2,DPC WEU 2021/2022 Tour 3: Division I,5/-/2,28000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2021-22/3/Western_Europe/Division_I,Dota 2 Sem The International,28000.0,5356494.0
+373,2022-07-22,9th - 10th,Tier 1,Riyadh Masters 2022,0/2/2,100000.0,https://liquipedia.net/dota2/Riyadh_Masters/2022,Dota 2 Sem The International,100000.0,5456494.0
+374,2022-08-10,9th - 12th,Tier 1,PGL Arlington Major 2022,1 : 2,,https://liquipedia.net/dota2/PGL/Arlington_Major/2022,Dota 2 Sem The International,0.0,5456494.0
+375,2022-08-25,11th - 12th,Tier 1,ESL One Malaysia 2022,0/4/1,5000.0,https://liquipedia.net/dota2/ESL_One/Malaysia/2022,Dota 2 Sem The International,5000.0,5461494.0
+376,2023-01-31,1st,Tier 2,DPC WEU 2023 Tour 1: Division I,7/-/0,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/1/Western_Europe/Division_I,Dota 2 Sem The International,30000.0,5491494.0
+377,2023-03-05,2nd,Tier 1,The Lima Major 2023,0 : 3,100000.0,https://liquipedia.net/dota2/Lima_Major/2023,Dota 2 Sem The International,100000.0,5591494.0
+378,2023-04-03,1st,Tier 2,DPC WEU 2023 Tour 2: Division I,6/-/1,30000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/2/Western_Europe/Division_I,Dota 2 Sem The International,30000.0,5621494.0
+379,2023-04-23,2nd,Tier 1,DreamLeague Season 19,2 : 3,175000.0,https://liquipedia.net/dota2/DreamLeague/Season_19,Dota 2 Sem The International,175000.0,5796494.0
+380,2023-05-07,2nd,Tier 1,ESL One Berlin Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/ESL_One/Berlin_Major/2023,Dota 2 Sem The International,100000.0,5896494.0
+381,2023-06-05,4th,Tier 2,DPC WEU 2023 Tour 3: Division I,4/-/3,26000.0,https://liquipedia.net/dota2/Dota_Pro_Circuit/2023/3/Western_Europe/Division_I,Dota 2 Sem The International,26000.0,5922494.0
+382,2023-06-14,15th - 16th,Tier 1,DreamLeague Season 20,1/3/3,10000.0,https://liquipedia.net/dota2/DreamLeague/Season_20,Dota 2 Sem The International,10000.0,5932494.0
+383,2023-07-09,2nd,Tier 1,The Bali Major 2023,1 : 3,100000.0,https://liquipedia.net/dota2/Bali_Major/2023,Dota 2 Sem The International,100000.0,6032494.0
+384,2023-07-30,2nd,Tier 1,Riyadh Masters 2023,1 : 3,2500000.0,https://liquipedia.net/dota2/Riyadh_Masters/2023,Dota 2 Sem The International,2500000.0,8532494.0
+385,2023-09-20,9th - 10th,Tier 1,DreamLeague Season 21,0/2/3,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_21,Dota 2 Sem The International,30000.0,8562494.0
+386,2023-11-17,1st,Qualifier,ESL One Kuala Lumpur 2023 Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023/Western_Europe/Closed_Qualifier,Dota 2 Sem The International,0.0,8562494.0
+387,2023-12-17,3rd,Tier 1,ESL One Kuala Lumpur 2023,1 : 2,120000.0,https://liquipedia.net/dota2/ESL_One/Kuala_Lumpur/2023,Dota 2 Sem The International,120000.0,8682494.0
+388,2024-02-16,2nd,Tier 1,BetBoom Dacha Dubai 2024,0 : 3,200000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Dubai/2024,Dota 2 Sem The International,200000.0,8882494.0
+389,2024-02-28,13th - 14th,Tier 1,DreamLeague Season 22,0/4/3,15000.0,https://liquipedia.net/dota2/DreamLeague/Season_22,Dota 2 Sem The International,15000.0,8897494.0
+390,2024-03-19,3rd,Tier 2,1win Series Dota 2 Spring,2 : 1,15000.0,https://liquipedia.net/dota2/1win_Series/2024/Spring,Dota 2 Sem The International,15000.0,8912494.0
+391,2024-03-23,1st,Qualifier,DreamLeague Season 23: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/Season_23/Western_Europe,Dota 2 Sem The International,0.0,8912494.0
+392,2024-04-13,4th,Tier 1,Elite League Season 1,1 : 2,50000.0,https://liquipedia.net/dota2/Elite_League/1,Dota 2 Sem The International,50000.0,8962494.0
+393,2024-04-26,5th - 6th,Tier 1,ESL One Birmingham 2024,1 : 2,57500.0,https://liquipedia.net/dota2/ESL_One/Birmingham/2024,Dota 2 Sem The International,57500.0,9019994.0
+394,2024-05-18,5th - 6th,Tier 1,PGL Wallachia Season 1,0 : 2,60000.0,https://liquipedia.net/dota2/PGL/Wallachia/1,Dota 2 Sem The International,60000.0,9079994.0
+395,2024-05-22,9th - 10th,Tier 1,DreamLeague Season 23,1/2/2,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_23,Dota 2 Sem The International,30000.0,9109994.0
+396,2024-07-21,2nd,Tier 1,Riyadh Masters 2024,0 : 3,800000.0,https://liquipedia.net/dota2/Riyadh_Masters/2024,Dota 2 Sem The International,800000.0,9909994.0
+397,2024-08-04,1st,Tier 2,Elite League Season 2,3 : 2,240000.0,https://liquipedia.net/dota2/Elite_League/2,Dota 2 Sem The International,240000.0,10149994.0
+398,2024-10-24,7th - 8th,Tier 1,BetBoom Dacha Belgrade 2024,1 : 2,30000.0,https://liquipedia.net/dota2/BetBoom_Dacha/Belgrade/2024,Dota 2 Sem The International,30000.0,10179994.0
+399,2024-11-07,6th,Tier 1,DreamLeague Season 24,3/4,47500.0,https://liquipedia.net/dota2/DreamLeague/Season_24,Dota 2 Sem The International,47500.0,10227494.0
+400,2024-11-16,1st,Qualifier,ESL One Bangkok 2024: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/ESL_One/Bangkok/2024/Western_Europe,Dota 2 Sem The International,0.0,10227494.0
+401,2024-11-22,1st,Tier 2,1win Series Dota 2 Fall,3 : 0,50000.0,https://liquipedia.net/dota2/1win_Series/2024/Fall,Dota 2 Sem The International,50000.0,10277494.0
+402,2024-11-29,5th - 6th,Tier 1,BLAST Slam I,0 : 2,50000.0,https://liquipedia.net/dota2/BLAST/Slam/1,Dota 2 Sem The International,50000.0,10327494.0
+403,2024-12-15,2nd,Tier 1,ESL One Bangkok 2024,1 : 3,175000.0,https://liquipedia.net/dota2/ESL_One/Bangkok/2024,Dota 2 Sem The International,175000.0,10502494.0
+404,2025-01-31,7th - 8th,Tier 1,FISSURE PLAYGROUND 1,1 : 2,35000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/1,Dota 2 Sem The International,35000.0,10537494.0
+405,2025-02-06,7th - 8th,Tier 1,BLAST Slam II,1 : 2,30000.0,https://liquipedia.net/dota2/BLAST/Slam/2,Dota 2 Sem The International,30000.0,10567494.0
+406,2025-02-27,7th,Tier 1,DreamLeague Season 25,1/6,30000.0,https://liquipedia.net/dota2/DreamLeague/Season_25,Dota 2 Sem The International,30000.0,10597494.0
+407,2025-03-16,1st,Tier 1,PGL Wallachia Season 3,3 : 1,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/3,Dota 2 Sem The International,300000.0,10897494.0
+408,2025-03-28,7th - 8th,Tier 1,FISSURE Universe: Episode 4,0 : 2,10000.0,https://liquipedia.net/dota2/FISSURE/Universe/4,Dota 2 Sem The International,10000.0,10907494.0
+409,2025-04-11,5th - 6th,Tier 1,ESL One Raleigh 2025,1 : 2,40000.0,https://liquipedia.net/dota2/ESL_One/Raleigh/2025,Dota 2 Sem The International,40000.0,10947494.0
+410,2025-04-27,1st,Tier 1,PGL Wallachia Season 4,3 : 2,300000.0,https://liquipedia.net/dota2/PGL/Wallachia/4,Dota 2 Sem The International,300000.0,11247494.0
+411,2025-05-07,9th - 10th,Tier 1,BLAST Slam III,1 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/3,Dota 2 Sem The International,25000.0,11272494.0
+412,2025-05-29,8th,Tier 1,DreamLeague Season 26,1/6,25000.0,https://liquipedia.net/dota2/DreamLeague/Season_26,Dota 2 Sem The International,25000.0,11297494.0
+413,2025-06-29,3rd,Tier 1,PGL Wallachia Season 5,0 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/5,Dota 2 Sem The International,120000.0,11417494.0
+414,2025-07-04,1st,Tier 2,FISSURE Universe: Episode 5,3 : 0,125000.0,https://liquipedia.net/dota2/FISSURE/Universe/5,Dota 2 Sem The International,125000.0,11542494.0
+415,2025-07-17,5th - 8th,Tier 1,Esports World Cup 2025,0 : 2,125000.0,https://liquipedia.net/dota2/Esports_World_Cup/2025,Dota 2 Sem The International,125000.0,11667494.0
+416,2025-08-24,3rd,Tier 1,FISSURE Universe: Episode 6,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/6,Dota 2 Sem The International,30000.0,11697494.0
+417,2025-10-12,3rd,Tier 2,FISSURE Universe: Episode 7,0 : 2,30000.0,https://liquipedia.net/dota2/FISSURE/Universe/7,Dota 2 Sem The International,30000.0,11727494.0
+418,2025-10-19,9th - 10th,Tier 1,BLAST Slam IV,0 : 2,25000.0,https://liquipedia.net/dota2/BLAST/Slam/4,Dota 2 Sem The International,25000.0,11752494.0
+419,2025-11-01,4th,Tier 1,FISSURE PLAYGROUND 2,1 : 2,60000.0,https://liquipedia.net/dota2/FISSURE/PLAYGROUND/2,Dota 2 Sem The International,60000.0,11812494.0
+420,2025-11-23,3rd,Tier 1,PGL Wallachia Season 6,1 : 2,120000.0,https://liquipedia.net/dota2/PGL/Wallachia/6,Dota 2 Sem The International,120000.0,11932494.0
+421,2025-12-15,9th - 16th,Tier 1,DreamLeague Season 27,2 : 0,10500.0,https://liquipedia.net/dota2/DreamLeague/27,Dota 2 Sem The International,10500.0,11942994.0
+422,2026-01-10,1st - 2nd,Qualifier,DreamLeague Season 28: Western Europe Closed Qualifier,2 : 0,,https://liquipedia.net/dota2/DreamLeague/28/Western_Europe,Dota 2 Sem The International,0.0,11942994.0
+423,2026-01-20,5th - 6th,Qualifier,ESL One Birmingham 2026: Western Europe Closed Qualifier,1 : 2,,https://liquipedia.net/dota2/ESL_One/Birmingham/2026/Western_Europe,Dota 2 Sem The International,0.0,11942994.0
+424,2026-01-31,4th,Tier 2,FISSURE Universe: Episode 8,0 : 2,15000.0,https://liquipedia.net/dota2/FISSURE/Universe/8,Dota 2 Sem The International,15000.0,11957994.0
+425,2026-02-15,1st,Tier 1,BLAST Slam VI,3 : 1,300000.0,https://liquipedia.net/dota2/BLAST/Slam/6,Dota 2 Sem The International,300000.0,12257994.0
+426,2026-03-01,3rd,Tier 1,DreamLeague Season 28,0 : 2,80000.0,https://liquipedia.net/dota2/DreamLeague/28,Dota 2 Sem The International,80000.0,12337994.0
+427,2026-03-15,2nd,Tier 1,PGL Wallachia Season 7,2 : 3,175000.0,https://liquipedia.net/dota2/PGL/Wallachia/7,Dota 2 Sem The International,175000.0,12512994.0
+428,2026-04-10,5th - 6th,Tier 2,PREMIER SERIES,1 : 2,2500.0,https://liquipedia.net/dota2/NarodCast/PREMIER_SERIES/1,Dota 2 Sem The International,2500.0,12515494.0
+429,2026-04-14,3rd,Qualifier,DreamLeague Season 29: Western Europe Closed Qualifier,2 : 1,,https://liquipedia.net/dota2/DreamLeague/29/Western_Europe,Dota 2 Sem The International,0.0,12515494.0
+430,2026-04-25,4th,Tier 1,PGL Wallachia Season 8,1 : 2,80000.0,https://liquipedia.net/dota2/PGL/Wallachia/8,Dota 2 Sem The International,80000.0,12595494.0
+431,2026-05-20,9th - 12th,Tier 1,DreamLeague Season 29,1 : 2,20000.0,https://liquipedia.net/dota2/DreamLeague/29,Dota 2 Sem The International,20000.0,12615494.0
 432,2015-04-18,3rd,S-Tier,NA LCS 2015 Spring,3 : 2,15000.0,https://liquipedia.net/leagueoflegends/LCS/North_America/2015/Spring,League of Legends,15000.0,15000.0
 433,2015-08-22,3rd,S-Tier,NA LCS 2015 Summer,3 : 1,15000.0,https://liquipedia.net/leagueoflegends/LCS/North_America/2015/Summer,League of Legends,15000.0,30000.0
 434,2015-08-31,2nd,A-Tier,NA LCS 2015 Regional Finals,1 : 3,,https://liquipedia.net/leagueoflegends/LCS/North_America/2015/Regional_Finals,League of Legends,0.0,30000.0
