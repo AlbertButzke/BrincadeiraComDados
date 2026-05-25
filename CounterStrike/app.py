@@ -127,7 +127,7 @@ with st.container():
         # Criamos uma cópia e ordenamos por data
         df_grafico = df_filtrado.sort_values(by="Date").copy()
 
-        df_grafico['Prize_Clean'] = pd.to_numeric(df_grafico['Prize_Clean'], errors='coerce').fillna(0)
+        # df_grafico['Prize_Clean'] = pd.to_numeric(df_grafico['Prize_Clean'], errors='coerce').fillna(0)
         
         df_grafico['Cumulative_Prize'] = df_grafico.groupby('Game')['Prize_Clean'].cumsum()
 
@@ -181,7 +181,7 @@ with st.container():
         grafico_acumulativos.update_yaxes(showgrid=True, gridcolor='lightgray', showline=True, linewidth=1.5, linecolor='black')
 
         # Captura os cliques nos pontos do gráfico
-        click_select = plotly_events(grafico_acumulativos, click_event=True, select_event=False, override_height=450)
+        click_select = plotly_events(grafico_acumulativos, click_event=True, select_event=False)
 
         # 🌟 MONITORAMENTO INTELIGENTE DE CLIQUE COMPATÍVEL
         # Se o usuário clicar, guardamos as informações em um container de destaque
