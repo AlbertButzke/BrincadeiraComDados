@@ -354,6 +354,16 @@ else:
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
 
+df_filtrado_render = df_filtrado.copy()
+
+df_filtrado_render['Torneio_Formatado'] = df_filtrado_render.apply(
+    lambda row: f'<a href="{row["Tournament_Link"]}" target="_blank">{row["Tournament"]}</a>' 
+    if pd.notna(row['Tournament_Link']) and str(row['Tournament_Link']).strip() != '' 
+    else row['Tournament'], 
+    axis=1
+)
+
+
 
 configuracao_colunas = {
     "Game": st.column_config.TextColumn("💻 Jogo", alignment="center"),
@@ -361,20 +371,18 @@ configuracao_colunas = {
     "Place": st.column_config.TextColumn("🏅 Colocação", alignment="center"),
     "Date": st.column_config.DateColumn("📅 Data", format="DD/MM/YYYY", alignment="center"),
     "Prize_Clean": st.column_config.NumberColumn("💰 Premiação (US$)", format="%,.0f", alignment="center"),
-    "Result": st.column_config.TextColumn("📊 Resultado Final", alignment="center"),
-    "Tournament_Link": st.column_config.LinkColumn(
-        "🏆 Torneio",
-        display_text=df_filtrado['Tournament']
-    )
+    "Result": st.column_config.TextColumn("⚔️ Placar Final", alignment="center"),
+    "Torneio_Formatado": st.column_config.TextColumn("🏆 Torneio", alignment="left")
 }
 
 
 st.dataframe(
-    df_filtrado,
+    df_filtrado_render,
     hide_index=True,
+    use_container_width=True,
     
     # Define a ordem visual exata simplesmente listando as colunas aqui!
-    column_order=['Date', 'Game', 'Tournament_Link', 'Place_Int', 'Place', 'Prize_Clean', 'Result'],
+    column_order=['Date', 'Game', 'Torneio_Formatado', 'Place_Int', 'Place', 'Prize_Clean', 'Result'],
     
     # Customiza o cabeçalho e formato de cada coluna
     column_config=configuracao_colunas
