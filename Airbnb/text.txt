@@ -1,0 +1,19 @@
+# Coordenadas do Rio de Janeiro
+rio_lat, rio_lon = -22.9068, -43.1729
+
+# Cria o mapa centralizado no Rio
+mapa_rio = folium.Map(location=[rio_lat, rio_lon], zoom_start=12)
+
+for _, row in df.iterrows():
+    marker_color = get_marker_color(row['room_type'])
+    folium.CircleMarker(
+        location=[row['latitude'], row['longitude']], # Cristo Redentor
+        radius = 2,
+        color=marker_color,
+        fill=True,
+        fill_color=marker_color,
+        fill_opacity=0.7,
+        popup=folium.Popup(f"Preço: {row['price_cleaned']} <br>")
+    ).add_to(mapa_rio)
+
+# mapa_rio
