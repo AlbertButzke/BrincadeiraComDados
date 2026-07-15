@@ -120,126 +120,8 @@ st.markdown("---")
 
 # --- Análises Visuais com Plotly ---
 st.subheader("Gráficos")
+
 df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)].copy()
-with st.container():
-    if not df_filtrado.empty:
-        df_filtrado = df_filtrado.sort_values(by="Date")
-        grafico_acumulativos = px.line(
-            df_filtrado,
-            x='Date',
-            y='Cumulative_Prize',
-            color='Game',
-            markers=True,
-            title="Evolução dos Ganhos Acumulados por Jogo",
-            hover_data={
-                'Tournament': True, 
-                'Game': True,
-                'Date': '|%d/%m/%Y', 
-                'Cumulative_Prize': ':$,.2f'},
-            labels={'Cumulative_Prize': 'Premiação Acumulada ($)', 'Date': 'Data'}
-        )
-        grafico_acumulativos.update_traces(
-            mode="markers+lines",
-            hovertemplate=(
-                "<b>Jogo:</b> %{customdata[1]}<br>"
-                "<b>Torneio:</b> %{customdata[0]}<br>"
-                "<b>Data:</b> %{x|%d/%m/%Y}<br>"
-                "<b>Total Acumulado:</b> %{y:$,.2f}<extra></extra>" 
-            )
-        )
-        ano_min = min(anos_selecionados)
-        ano_max = max(anos_selecionados)
-        grafico_acumulativos.update_xaxes(
-            type='date',
-            range=[f"{ano_min}-01-01", f"{ano_max}-12-31"],
-            
-            # Força o intervalo dos ticks a ser a cada 12 meses (M12)
-            dtick="M12",
-            
-            # Mostra apenas o Ano (Ex: 2018) em vez de "Jan 2018"
-            tickformat="%Y",
-            
-            showgrid=False,
-            showline=True,
-            linewidth=1.5,
-            linecolor='black',
-            tickangle=0
-        )
-        grafico_acumulativos.update_layout(
-            plot_bgcolor='rgba(0,0,0,0)',
-            paper_bgcolor='rgba(0,0,0,0)',
-            margin=dict(l=40, r=20, t=50, b=40),
-            xaxis_title="",
-            yaxis_title="",
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5, title_text="")
-        )
-        grafico_acumulativos.update_yaxes(showgrid=True, gridcolor='lightgray', showline=True, linewidth=1.5, linecolor='black')
-
-        st.plotly_chart(grafico_acumulativos, use_container_width=True)
-    else:
-        st.warning("Nenhum dado para exibir no gráfico de ganhos acomulativos.")
-
-col_graf1, col_graf2 = st.columns(2)
-
-with col_graf1:
-    if not df_filtrado.empty:
-        top_premiacoes = df_filtrado.nlargest(10,'Prize_Clean').sort_values('Prize_Clean', ascending=True).reset_index()
-        grafico_premiacoes = px.bar(
-            top_premiacoes,
-            x='Prize_Clean',
-            y='Tournament',
-            orientation='h',
-            title="Top 10 premiações",
-            labels={'Prize_Clean': 'Valor da premiação (USD)', 'Tournament': 'Torneio'}
-        )
-        grafico_premiacoes.update_layout(title_x=0.5, yaxis={'categoryorder':'total ascending'})
-        st.plotly_chart(grafico_premiacoes, use_container_width=True)
-    else:
-        st.warning("Nenhum dado para exibir no gráfico de cargos.")
-
-with col_graf2:
-    if not df_filtrado.empty:
-        grafico_hist = px.histogram(
-            df_filtrado,
-            x='Prize_Clean',
-            nbins=75,
-            color = 'Game',
-            title="Distribuição de premiações de todos os jogos",
-            labels={'Prize_Clean': 'Valor da premiação(USD)', 'Game': 'Jogo', 'count' : 'Quantidade'},
-            range_x=[0, df_filtrado['Prize_Clean'].max()]
-        )
-        grafico_hist.update_yaxes(title_text="Quantidade")
-        grafico_hist.update_layout(title_x=0.1)
-        grafico_hist.update_traces(
-            hovertemplate="Faixa de Valor: %{x}<br>Quantidade: %{y}"
-        )
-        st.plotly_chart(grafico_hist, use_container_width=True)
-    else:
-        st.warning("Nenhum dado para exibir no gráfico de distribuição.")
-
-col_graf3 = st.columns(1)
-
-with col_graf3[0]:
-    if not df_filtrado.empty:
-        jogo_ganho_max = df_filtrado.groupby('Game')['Cumulative_Prize'].max().reset_index()
-        jogo_ganho_max = jogo_ganho_max.sort_values(by='Cumulative_Prize', ascending=False)
-        grafico_remoto = px.pie(
-            jogo_ganho_max,
-            names='Game',
-            values='Cumulative_Prize',
-            title='Proporção dos ganhos totais',
-            hole=0.5,
-            labels={
-                'Game': 'Jogo', 
-                'Cumulative_Prize': 'Premiação Máxima Acumulada'
-            }
-        )
-        grafico_remoto.update_traces(textinfo='percent+label', pull=[0.05, 0, 0, 0])
-        grafico_remoto.update_layout(title_x=0.4)
-        st.plotly_chart(grafico_remoto, use_container_width=True)
-    else:
-        st.warning("Nenhum dado para exibir no gráfico dos tipos de trabalho.")
-
 
 st.title("🏅 Pódios da Team Liquid no CS, DotA, LoL e R6")
 df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)].copy()
@@ -335,6 +217,128 @@ if not df_filtrado.empty:
 
 else:
     st.warning("O DataFrame filtrado está vazio.")
+
+col_graf1, col_graf2 = st.columns(2)
+
+with col_graf1:
+    if not df_filtrado.empty:
+        top_premiacoes = df_filtrado.nlargest(10,'Prize_Clean').sort_values('Prize_Clean', ascending=True).reset_index()
+        grafico_premiacoes = px.bar(
+            top_premiacoes,
+            x='Prize_Clean',
+            y='Tournament',
+            orientation='h',
+            color = 'Game',
+            title="Top 10 premiações",
+            labels={'Prize_Clean': 'Valor da premiação (USD)', 'Tournament': 'Torneio'}
+        )
+        grafico_premiacoes.update_layout(title_x=0.5, yaxis={'categoryorder':'total ascending'})
+        st.plotly_chart(grafico_premiacoes, use_container_width=True)
+    else:
+        st.warning("Nenhum dado para exibir no gráfico de cargos.")
+with col_graf2:
+    if not df_filtrado.empty:
+        jogo_ganho_max = df_filtrado.groupby('Game')['Cumulative_Prize'].max().reset_index()
+        jogo_ganho_max = jogo_ganho_max.sort_values(by='Cumulative_Prize', ascending=False)
+        grafico_remoto = px.pie(
+            jogo_ganho_max,
+            names='Game',
+            values='Cumulative_Prize',
+            title='Proporção dos ganhos totais',
+            hole=0.5,
+            labels={
+                'Game': 'Jogo', 
+                'Cumulative_Prize': 'Premiação Máxima Acumulada'
+            }
+        )
+        grafico_remoto.update_traces(textinfo='percent+label', pull=[0.05, 0, 0, 0])
+        grafico_remoto.update_layout(title_x=0.4)
+        st.plotly_chart(grafico_remoto, use_container_width=True)
+    else:
+        st.warning("Nenhum dado para exibir no gráfico dos tipos de trabalho.")
+
+
+
+col_graf3 = st.columns(1)
+with col_graf3[0]:
+    if not df_filtrado.empty:
+        grafico_hist = px.histogram(
+            df_filtrado,
+            x='Prize_Clean',
+            nbins=75,
+            color = 'Game',
+            title="Distribuição de premiações de todos os jogos",
+            labels={'Prize_Clean': 'Valor da premiação(USD)', 'Game': 'Jogo', 'count' : 'Quantidade'},
+            range_x=[0, df_filtrado['Prize_Clean'].max()]
+        )
+        grafico_hist.update_yaxes(title_text="Quantidade")
+        grafico_hist.update_layout(title_x=0.1)
+        grafico_hist.update_traces(
+            hovertemplate="Faixa de Valor: %{x}<br>Quantidade: %{y}"
+        )
+        st.plotly_chart(grafico_hist, use_container_width=True)
+    else:
+        st.warning("Nenhum dado para exibir no gráfico de distribuição.")
+
+with st.container():
+    if not df_filtrado.empty:
+        df_filtrado = df_filtrado.sort_values(by="Date")
+        grafico_acumulativos = px.line(
+            df_filtrado,
+            x='Date',
+            y='Cumulative_Prize',
+            color='Game',
+            markers=True,
+            title="Evolução dos Ganhos Acumulados por Jogo",
+            hover_data={
+                'Tournament': True, 
+                'Game': True,
+                'Date': '|%d/%m/%Y', 
+                'Cumulative_Prize': ':$,.2f'},
+            labels={'Cumulative_Prize': 'Premiação Acumulada ($)', 'Date': 'Data'}
+        )
+        grafico_acumulativos.update_traces(
+            mode="markers+lines",
+            hovertemplate=(
+                "<b>Jogo:</b> %{customdata[1]}<br>"
+                "<b>Torneio:</b> %{customdata[0]}<br>"
+                "<b>Data:</b> %{x|%d/%m/%Y}<br>"
+                "<b>Total Acumulado:</b> %{y:$,.2f}<extra></extra>" 
+            )
+        )
+        ano_min = min(anos_selecionados)
+        ano_max = max(anos_selecionados)
+        grafico_acumulativos.update_xaxes(
+            type='date',
+            range=[f"{ano_min}-01-01", f"{ano_max}-12-31"],
+            
+            # Força o intervalo dos ticks a ser a cada 12 meses (M12)
+            dtick="M12",
+            
+            # Mostra apenas o Ano (Ex: 2018) em vez de "Jan 2018"
+            tickformat="%Y",
+            
+            showgrid=False,
+            showline=True,
+            linewidth=1.5,
+            linecolor='black',
+            tickangle=0
+        )
+        grafico_acumulativos.update_layout(
+            plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='rgba(0,0,0,0)',
+            margin=dict(l=40, r=20, t=50, b=40),
+            xaxis_title="",
+            yaxis_title="",
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5, title_text="")
+        )
+        grafico_acumulativos.update_yaxes(showgrid=True, gridcolor='lightgray', showline=True, linewidth=1.5, linecolor='black')
+
+        st.plotly_chart(grafico_acumulativos, use_container_width=True)
+    else:
+        st.warning("Nenhum dado para exibir no gráfico de ganhos acomulativos.")
+
+
      
 # with col_graf4:
 #     if not df_filtrado.empty:
