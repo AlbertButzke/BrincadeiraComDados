@@ -120,9 +120,6 @@ st.markdown("---")
 
 # --- Análises Visuais com Plotly ---
 st.subheader("Gráficos")
-
-df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)].copy()
-
 st.title("🏅 Pódios da Team Liquid no CS, DotA, LoL e R6")
 df_filtrado = df_filtrado[df_filtrado['Date'].dt.year.isin(anos_selecionados)].copy()
 if not df_filtrado.empty:
