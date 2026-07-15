@@ -12,17 +12,17 @@ st.set_page_config(
 
 # --- Carregamento dos dados ---
 url = "https://raw.githubusercontent.com/AlbertButzke/BrincadeiraComDados/main/CounterStrike/liquid_data.csv"
-df = pd.read_csv(url, index_col=0)
+df = pd.read_csv(url)
 
-df.to_csv("liquid_data.csv", index=False)  # Salva uma cópia local dos dados
+# df.to_csv("liquid_data.csv", index=False)  # Salva uma cópia local dos dados
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
 
 # Filtro de Ano
 df['Date'] = pd.to_datetime(df['Date'])
-anos_disponiveis = sorted(df['Date'].dt.year.unique()) #sorted para organizar os anos em ordem crescente
-anos_selecionados = st.sidebar.pills("Ano", anos_disponiveis, default=anos_disponiveis, selection_mode="multi") #multiselect permite selecionar múltiplas opções
+anos_disponiveis = sorted(df['Date'].dt.year.unique())
+anos_selecionados = st.sidebar.pills("Ano", anos_disponiveis, default=anos_disponiveis, selection_mode="multi")
 
 # Filtro de Jogo
 jogos_disponiveis = sorted(df['Game'].unique())
