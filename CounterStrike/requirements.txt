@@ -1,4 +1,17 @@
+# Dashboard e Visualização Interativa
 streamlit>=1.35.0
-pandas>=2.0.0
 plotly>=5.18.0
 streamlit-plotly-events==0.0.6
+
+# Análise de Dados e Estatística
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+seaborn>=0.13.0
+matplotlib>=3.8.0
+
+# Coleta de Dados e Integração com API
+requests>=2.31.0
+python-dotenv>=1.0.0
+lxml>=5.0.0
+html5lib>=1.1

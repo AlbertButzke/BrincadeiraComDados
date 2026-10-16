@@ -1,4 +1,5 @@
 **Linguagem e Bibliotecas**
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -76,7 +77,7 @@ A base consolidada (`liquid_data.csv`) contém as seguintes variáveis processad
 
 Para contornar as disparidades financeiras entre ecossistemas de jogos distintos, foi implementada uma normalização de performance competitiva focada apenas em colocações de elite (**1º, 2º e 3º lugares**) via Regex com *lookbehind* negativo:
 
-$$\text{Padrão Regex} = \text{r'(?<!\d)(1st|2nd|3rd)'}$$
+$\text{Padrão Regex} = \text{r'(?<!\d)(1st|2nd|3rd)'}$
 
 <p align="center">
   <img src="imagens/podios_por_jogo.png" alt="Histórico de Pódios da Team Liquid por Jogo" width="750"/>
