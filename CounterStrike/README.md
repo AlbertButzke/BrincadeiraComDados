@@ -13,7 +13,7 @@
   <img src="imagens/dashboard_streamlit.png" alt="Demonstração do Dashboard" width="850"/>
 </p>
 
-*Dashboard interativo consumindo dados limpos da MediaWiki API oficial da Liquipedia.*
+*Dashboard interativo consumindo dados da Liquipedia.*
 
 </div>
 
