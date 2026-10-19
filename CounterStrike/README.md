@@ -1,14 +1,21 @@
-**Linguagem e Bibliotecas**
+<div align="center">
+
+# Análise de Performance e Ganhos em E-sports: Team Liquid
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=Plotly&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)
 
-# Análise de Performance e Ganhos em E-sports: Team Liquid
+### 🚀 [Acesse a Aplicação Online no Streamlit](https://seu-link-aqui.streamlit.app/)
 
-Projeto de Engenharia e Análise Exploratória de Dados (EDA) focado na ingestão via API oficial, tratamento de inconsistências, avaliação financeira e consistência competitiva da organização **Team Liquid** em múltiplos títulos de esportes eletrônicos.
+<p align="center">
+  <img src="imagens/dashboard_streamlit.png" alt="Demonstração do Dashboard" width="850"/>
+</p>
+
+*Dashboard interativo consumindo dados limpos da MediaWiki API oficial da Liquipedia.*
+
+</div>
 
 ---
 
