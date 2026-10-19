@@ -7,7 +7,7 @@
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=Plotly&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)
 
-### 🚀 [Acesse a Aplicação Online no Streamlit](https://seu-link-aqui.streamlit.app/)
+### [Acesse a Aplicação Online no Streamlit](https://seu-link-aqui.streamlit.app/)
 
 <p align="center">
   <img src="imagens/dashboard_streamlit.png" alt="Demonstração do Dashboard" width="850"/>
